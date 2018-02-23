@@ -1,0 +1,71 @@
+#instant-products {
+}
+
+#instant-products .item {
+	display:none;
+}
+.instant-tabs {
+	display:block;
+	height:50px;
+	margin-bottom:30px;
+}
+.instant-tabs > ul {	
+	border:0px;
+	float:left;
+}
+.instantshop-filters {
+	float:right;
+	width:auto!important;
+}
+
+.instantshop-filters a {
+	text-transform:uppercase;	
+}
+.instantshop-filters a i {
+	margin-left:10px;
+}
+.instantshop-filters .dropdown-menu {
+	min-width:400px;
+	left:auto!important;
+	right:0px;
+	transform: none!important;
+	-moz-transform: none!important;
+	-webkit-transform: none!important;
+	-o-transform: none!important;
+}
+.instantshop-filters.btn-group.open .dropdown-menu::before {
+	right:20px;
+}
+.instantshop-filters .filter {
+	display:inline-block;
+}
+.instantshop-filters .filter label {
+	font-weight:bold;
+}
+.instantshop-filters .filter li {
+    display: list-item;
+    list-style: none;
+	line-height:25px;
+	cursor:pointer;
+}
+.instantshop-filters .filter li.active {
+	opacity:0.5;
+}
+.instantshop-loadmore {
+	text-align:center;
+}
+.instantshop-loadmore .load-btn {
+	padding:5px 20px;
+}
+.instantshop-loading {
+	width: 40px;
+	height: 40px;	
+	display: block;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin-left:-20px;
+	margin-top:-20px;
+	display:none;
+	background:url(../img/loader.gif) no-repeat center center;
+}

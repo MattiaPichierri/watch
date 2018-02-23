@@ -1,0 +1,108 @@
+.headertop_right .addon-box{
+	float:left;
+}
+.headertop_right .addon-box:first-child {
+    margin-left: 0;
+    margin-right: 23px;
+}
+.top_menu_second {
+    float: left;
+    height: 100%;
+    margin-left: 0;
+    opacity: 1;
+    position: fixed;
+    top: 0;
+    transform: translateX(-370px);
+	left:0;
+	right:auto !important;
+}
+#ajax_search {
+    right: 0 !important;
+}
+#search_result{
+	right: 15px !important;
+}
+.dropdown-menu.mega-dropdown-menu {
+    left: 100% !important;
+    right: auto !important;
+}
+.jms-megamenu .menu-align-center > .dropdown-menu {
+     right: auto !important;
+    left: 100% !important;
+}
+.wrapper-banner .box-content {
+    padding-left: 0;
+    padding-right: 62px;
+}
+.wrapper-banner .box-content a {
+    left: 50px;
+    right: auto;
+}
+.testimonial-carousel.owl-theme .owl-controls div.owl-next {
+    left: auto;
+    right: 85px !important;
+}
+.footer_bottom .news_content {
+    float: left;
+}
+.footer_bottom .newsletter-btn.buttonh2 {
+    left: 32px;
+    right: auto;
+    transform: rotate(180deg);
+}
+.foooter_left ul li {
+    margin-left: 30px;
+    margin-right: 0;
+}
+#cart_block .shoppingcart-box {
+    left: 0;
+    right: auto;
+}
+.btn-group.open .dropdown-menu::before {
+    left: 10px;
+    right: auto;
+}
+@media (max-width: 1199px){
+	.foooter_left ul li {
+		margin-left: 17px;
+	}
+}
+@media (max-width: 991px){
+	.footer_bottom .news_content{
+		float:none;
+	}
+	.footer_bottom .newsletter-btn.buttonh2{
+		left:34%;
+	}
+	#open-button::before {
+		left: 10px;
+		position: absolute;
+		right: auto;
+		top: 41px;
+	}
+	.headertop_right .addon-box {
+		margin-right:23px;
+		margin-left:71px;
+	}
+	.menu-wrap {		
+		left: -300px !important;
+		transition: left 0.4s cubic-bezier(0.7, 0, 0.3, 1) 0s !important;
+		right:auto ;
+	}
+	.show-menu .menu-wrap {
+		left: 0 !important;
+		transition: left 0.4s cubic-bezier(0.7, 0, 0.3, 1) 0s !important;
+	    right:auto !important ;
+	}
+}
+@media (max-width: 767px){
+	.testimonial-carousel.owl-theme .owl-controls div.owl-next {
+		left: auto;
+		right: 0px !important;
+	}
+}
+@media (max-width: 481px){
+	.footer_bottom .newsletter-btn.buttonh2{
+		left:17%;
+	}
+}

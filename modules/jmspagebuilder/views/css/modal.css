@@ -1,0 +1,270 @@
+.jms-modal-open {
+  overflow: hidden;
+}
+.jms-modal {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 1050;
+  display: none;
+  overflow: auto;
+  overflow-y: scroll;
+  -webkit-overflow-scrolling: touch;
+  outline: 0;
+}
+.jms-modal.fade .jms-modal-dialog {
+  -webkit-transition: -webkit-transform .3s ease-out;
+     -moz-transition:    -moz-transform .3s ease-out;
+       -o-transition:      -o-transform .3s ease-out;
+          transition:         transform .3s ease-out;
+  -webkit-transform: translate(0, -25%);
+      -ms-transform: translate(0, -25%);
+          transform: translate(0, -25%);
+}
+.jms-modal.in .jms-modal-dialog {
+  -webkit-transform: translate(0, 0);
+      -ms-transform: translate(0, 0);
+          transform: translate(0, 0);
+}
+.jms-modal-dialog {
+  position: relative;
+  width: auto;
+  margin: 10px;
+}
+.jms-modal-content {
+  position: relative;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid #999;
+  border: 1px solid rgba(0, 0, 0, .2);
+  border-radius: 6px;
+  outline: none;
+  -webkit-box-shadow: 0 3px 9px rgba(0, 0, 0, .5);
+          box-shadow: 0 3px 9px rgba(0, 0, 0, .5);
+}
+.jms-modal-backdrop {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 1040;
+  background-color: rgba(0,0,0,.6);
+}
+.jms-modal-backdrop.fade {
+  filter: alpha(opacity=0);
+  opacity: 0;
+}
+.jms-modal-backdrop.fade.in {
+  filter: alpha(opacity=50);
+  opacity: .5;
+}
+.jms-modal-header {
+  min-height: 16.42857143px;
+  padding: 15px;
+  border-bottom: 1px solid #e5e5e5;
+}
+.jms-modal-header .close {
+  margin-top: -2px;
+  font-size:25px;
+}
+.jms-modal-title {
+  margin: 0!important;
+  line-height: 1.42857143;
+  font-size:20px!important;
+  font-weight:bold!important;
+  border:0px!important;
+}
+.jms-modal-body {
+  position: relative;
+  padding: 20px;
+}
+.jms-modal-footer {
+  padding: 19px 20px 20px;
+  margin-top: 15px;
+  text-align: right;
+  border-top: 1px solid #e5e5e5;
+}
+.jms-modal-footer .sppb-btn + .sppb-btn {
+  margin-bottom: 0;
+  margin-left: 5px;
+}
+.jms-modal-footer .btn-group .btn + .btn {
+  margin-left: -1px;
+}
+.jms-modal-footer .btn-block + .btn-block {
+  margin-left: 0;
+}
+@media (min-width: 768px) {
+  .jms-modal-dialog {
+    width: 600px;
+    margin: 30px auto;
+  }
+  .jms-modal-content {
+    -webkit-box-shadow: 0 5px 15px rgba(0, 0, 0, .5);
+            box-shadow: 0 5px 15px rgba(0, 0, 0, .5);
+  }
+  .jms-modal-sm {
+    width: 300px;
+  }
+}
+@media (min-width: 992px) {
+  .jms-modal-lg {
+    width: 900px;
+  }
+
+  .jms-modal-xlg {
+    width: 1270px;
+  }
+}
+
+.jms-modal-footer:before,
+.jms-modal-footer:after {
+  display: table;
+  content: " ";
+}
+
+/* Form */
+.form-group {
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+  margin-left: -20px;
+  margin-right: -20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-bottom: 1px solid #e5e5e5;
+}
+
+*>.form-group:last-child {
+  padding-bottom: 0;
+  margin-bottom: 0;
+  border-bottom: 0;
+}
+
+.form-group label{
+  display: block;
+  margin-bottom: 10px;
+  font-weight: 800;
+  color: #000;
+}
+
+.form-group .form-control {
+  display: block;
+  width: 100%;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -o-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+}
+
+.form-group input.form-control{
+  min-height: 30px;
+}
+
+.form-group .help-block {
+  display: inline-block;
+  margin-top: 10px;
+  color: #999;
+  width:100%;
+}
+
+.jms-modal .radio,
+.jms-modal .checkbox {
+  display: block;
+  min-height: 20px;
+  padding-left: 20px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.jms-modal .radio label,
+.jms-modal .checkbox label {
+  display: inline;
+  font-weight: normal;
+  cursor: pointer;
+}
+.jms-modal .radio input[type="radio"],
+.jms-modal .radio-inline input[type="radio"],
+.jms-modal .checkbox input[type="checkbox"],
+.jms-modal .checkbox-inline input[type="checkbox"] {
+  float: left;
+  margin-left: -20px;
+}
+.jms-modal .radio + .radio,
+.jms-modal .checkbox + .checkbox {
+  margin-top: -5px;
+}
+.jms-modal .radio-inline,
+.jms-modal .checkbox-inline {
+  display: inline-block;
+  padding-left: 20px;
+  margin-bottom: 0;
+  font-weight: normal;
+  vertical-align: middle;
+  cursor: pointer;
+}
+.jms-modal .radio-inline + .radio-inline,
+.jms-modal .checkbox-inline + .checkbox-inline {
+  margin-top: 0;
+  margin-left: 10px;
+}
+.jms-modal input[type="radio"][disabled],
+.jms-modal input[type="checkbox"][disabled],
+.jms-modal .radio[disabled],
+.jms-modal .radio-inline[disabled],
+.jms-modal .checkbox[disabled],
+.jms-modal .checkbox-inline[disabled],
+.jms-modal fieldset[disabled] input[type="radio"],
+.jms-modal fieldset[disabled] input[type="checkbox"],
+.jms-modal fieldset[disabled] .radio,
+.jms-modal fieldset[disabled] .radio-inline,
+.jms-modal fieldset[disabled] .checkbox,
+.jms-modal fieldset[disabled] .checkbox-inline {
+  cursor: not-allowed;
+}
+
+.jms-modal .input-append .btn{
+  padding: 8px 12px;
+}
+
+.jms-modal textarea{
+  height: 120px;
+}
+.jms-modal-footer .btn {
+	margin-right:10px;
+}
+
+#modal-addons .jms-modal-content {
+	background:#f5f5f5;
+}
+.form-group > .translatable-field {
+	display:inline-block;
+}
+.jms-modal .addon-box {
+	border:0px;
+}
+#addon-modal .chosen-container {
+	width:100%!important;
+}
+#addon-modal .addon-icon {
+	display:none;
+}
+#addon-modal .tree {
+	display:block!important;
+}
+#addon-modal .tree .tree-item-name label, 
+#addon-modal .tree .tree-folder-name label {
+	display:inline-block;
+}
+#addon-modal .tree-panel-heading-controls {
+	display:none;
+}
+.jms-modal .media-preview {
+	display:block;
+	margin-bottom:20px;
+}
+.jms-modal .remove-media {
+	margin-left:10px;
+}

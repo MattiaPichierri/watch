@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+  <file original="D:\wamp\www\prestashop17\jms_fluent3\themes\jms_fluent\modules\jmsblog\views\templates\front\archive.tpl" source-language="it-IT" target-language="it-IT" datatype="plaintext">
+    <body>
+      <trans-unit id="e727b00944f81e1d0a95c12886ac4641">
+        <source>Archive</source>
+        <target>Archive</target>
+        <note>Context:
+File: D:\wamp\www\prestashop17\jms_fluent3\themes\jms_fluent\modules\jmsblog\views\templates\front\archive.tpl:28</note>
+      </trans-unit>
+      <trans-unit id="efeb369cccbd560588a756610865664c">
+        <source>In</source>
+        <target>In</target>
+        <note>Context:
+File: D:\wamp\www\prestashop17\jms_fluent3\themes\jms_fluent\modules\jmsblog\views\templates\front\archive.tpl:48</note>
+      </trans-unit>
+      <trans-unit id="0eceeb45861f9585dd7a97a3e36f85c6">
+        <source>Created</source>
+        <target>Created</target>
+        <note>Context:
+File: D:\wamp\www\prestashop17\jms_fluent3\themes\jms_fluent\modules\jmsblog\views\templates\front\archive.tpl:50</note>
+      </trans-unit>
+      <trans-unit id="ed4832a84ee072b00a6740f657183598">
+        <source>Views</source>
+        <target>Views</target>
+        <note>Context:
+File: D:\wamp\www\prestashop17\jms_fluent3\themes\jms_fluent\modules\jmsblog\views\templates\front\archive.tpl:52</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="D:\wamp\www\prestashop17\jms_fluent3\themes\jms_fluent\modules\jmsblog\views\templates\front\comment_default.tpl" source-language="it-IT" target-language="it-IT" datatype="plaintext">
+    <body>
+      <trans-unit id="8413c683b4b27cc3f4dbd4c90329d8ba">
+        <source>Comments</source>
+        <target>Comments</target>
+        <note>Context:
+File: D:\wamp\www\prestashop17\jms_fluent3\themes\jms_fluent\modules\jmsblog\views\templates\front\comment_default.tpl:36</note>
+      </trans-unit>
+      <trans-unit id="1768a313b237a2edc2c4c0fbee60edcb">
+        <source>Your comment submited</source>
+        <target>Your comment submited</target>
+        <note>Context:
+File: D:\wamp\www\prestashop17\jms_fluent3\themes\jms_fluent\modules\jmsblog\views\templates\front\comment_default.tpl:25</note>
+      </trans-unit>
+      <trans-unit id="9031a28ed1c50f2485bb0fa4b299ffab">
+        <source>Please waiting approve from Admin</source>
+        <target>Please waiting approve from Admin</target>
+        <note>Context:
+File: D:\wamp\www\prestashop17\jms_fluent3\themes\jms_fluent\modules\jmsblog\views\templates\front\comment_default.tpl:25</note>
+      </trans-unit>
+      <trans-unit id="b41b1fd32fe378e592693128eed809c2">
+        <source>Your email address will not be published</source>
+        <target>Your email address will not be published</target>
+        <note>Context:
+File: D:\wamp\www\prestashop17\jms_fluent3\themes\jms_fluent\modules\jmsblog\views\templates\front\comment_default.tpl:61</note>
+      </trans-unit>
+      <trans-unit id="614cffa523202658a898e34a5d94d05e">
+        <source>Your Name</source>
+        <target>Your Name</target>
+        <note>Context:
+File: D:\wamp\www\prestashop17\jms_fluent3\themes\jms_fluent\modules\jmsblog\views\templates\front\comment_default.tpl:67</note>
+      </trans-unit>
+      <trans-unit id="01557660faa28f8ec65992d1ddbb7b79">
+        <source>Your Email</source>
+        <target>Your Email</target>
+        <note>Context:
+File: D:\wamp\www\prestashop17\jms_fluent3\themes\jms_fluent\modules\jmsblog\views\templates\front\comment_default.tpl:73</note>
+      </trans-unit>
+      <trans-unit id="76f62afe72f88cdeb5b4a0291501da15">
+        <source>Your Website</source>
+        <target>Your Website</target>
+        <note>Context:
+File: D:\wamp\www\prestashop17\jms_fluent3\themes\jms_fluent\modules\jmsblog\views\templates\front\comment_default.tpl:79</note>
+      </trans-unit>
+      <trans-unit id="e868dd111353d296c2a78c9808c21337">
+        <source>Your Comment</source>
+        <target>Your Comment</target>
+        <note>Context:
+File: D:\wamp\www\prestashop17\jms_fluent3\themes\jms_fluent\modules\jmsblog\views\templates\front\comment_default.tpl:83</note>
+      </trans-unit>
+      <trans-unit id="7a8dbd683001159655afc3f4935b3fd4">
+        <source>Submit Comment</source>
+        <target>Submit Comment</target>
+        <note>Context:
+File: D:\wamp\www\prestashop17\jms_fluent3\themes\jms_fluent\modules\jmsblog\views\templates\front\comment_default.tpl:90</note>
+      </trans-unit>
+      <trans-unit id="5f632aa17759e66788e5eddffc496db7">
+        <source>Please Login to comment</source>
+        <target>Please Login to comment</target>
+        <note>Context:
+File: D:\wamp\www\prestashop17\jms_fluent3\themes\jms_fluent\modules\jmsblog\views\templates\front\comment_default.tpl:108</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="D:\wamp\www\prestashop17\jms_fluent3\themes\jms_fluent\modules\jmsblog\views\templates\front\tag.tpl" source-language="it-IT" target-language="it-IT" datatype="plaintext">
+    <body>
+      <trans-unit id="43340e6cc4e88197d57f8d6d5ea50a46">
+        <source>Read more</source>
+        <target>Read more</target>
+        <note>Context:
+File: D:\wamp\www\prestashop17\jms_fluent3\themes\jms_fluent\modules\jmsblog\views\templates\front\tag.tpl:78</note>
+      </trans-unit>
+      <trans-unit id="a6fd78860d26b06c8964eb268f219dfe">
+        <source>In:</source>
+        <target>In:</target>
+        <note>Context:
+File: D:\wamp\www\prestashop17\jms_fluent3\themes\jms_fluent\modules\jmsblog\views\templates\front\tag.tpl:54</note>
+      </trans-unit>
+      <trans-unit id="4bee2b3831647c993520646d713e9b85">
+        <source>Posted: </source>
+        <target>Posted: </target>
+        <note>Context:
+File: D:\wamp\www\prestashop17\jms_fluent3\themes\jms_fluent\modules\jmsblog\views\templates\front\tag.tpl:62</note>
+      </trans-unit>
+      <trans-unit id="a1c24538800bb7d6fb1c489b2aaeb82a">
+        <source>View(s): </source>
+        <target>View(s): </target>
+        <note>Context:
+File: D:\wamp\www\prestashop17\jms_fluent3\themes\jms_fluent\modules\jmsblog\views\templates\front\tag.tpl:71</note>
+      </trans-unit>
+      <trans-unit id="c101058e7ea21bbbf2a5ac893088e90b">
+        <source>Tag</source>
+        <target>Tag</target>
+        <note>Context:
+File: D:\wamp\www\prestashop17\jms_fluent3\themes\jms_fluent\modules\jmsblog\views\templates\front\tag.tpl:28</note>
+      </trans-unit>
+      <trans-unit id="726bdbbff8343d15cdc8dae8a2856364">
+        <source>Comments: </source>
+        <target>Comments: </target>
+        <note>Context:
+File: D:\wamp\www\prestashop17\jms_fluent3\themes\jms_fluent\modules\jmsblog\views\templates\front\tag.tpl:66</note>
+      </trans-unit>
+      <trans-unit id="970650dd625bb891d7209fbcfce254cf">
+        <source>Sorry, dont have any post in this tag</source>
+        <target>Sorry, dont have any post in this tag</target>
+        <note>Context:
+File: D:\wamp\www\prestashop17\jms_fluent3\themes\jms_fluent\modules\jmsblog\views\templates\front\tag.tpl:85</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="D:\wamp\www\prestashop17\jms_fluent3\themes\jms_fluent\modules\jmsblog\views\templates\front\category-layout-default.tpl" source-language="it-IT" target-language="it-IT" datatype="plaintext">
+    <body>
+      <trans-unit id="12d0a49580e2aae93bf1e3c50ac75dda">
+        <source>Sorry, dont have any post in this category</source>
+        <target>Sorry, dont have any post in this category</target>
+        <note>Context:
+File: D:\wamp\www\prestashop17\jms_fluent3\themes\jms_fluent\modules\jmsblog\views\templates\front\category-layout-default.tpl:84</note>
+      </trans-unit>
+      <trans-unit id="1b32dbc17528e74a357035f2efe71662">
+        <source>Blog Images</source>
+        <target>Blog Images</target>
+        <note>Context:
+File: D:\wamp\www\prestashop17\jms_fluent3\themes\jms_fluent\modules\jmsblog\views\templates\front\category-layout-default.tpl:51</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="D:\wamp\www\prestashop17\jms_fluent3\themes\jms_fluent\modules\jmsblog\views\templates\front\categories-layout-default.tpl" source-language="it-IT" target-language="it-IT" datatype="plaintext">
+    <body>
+      <trans-unit id="1bd6219fd227e3d67f6d07d06c11b5ac">
+        <source>Sorry, dont have any category in this section</source>
+        <target>Sorry, dont have any category in this section</target>
+        <note>Context:
+File: D:\wamp\www\prestashop17\jms_fluent3\themes\jms_fluent\modules\jmsblog\views\templates\front\categories-layout-default.tpl:55</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="D:\wamp\www\prestashop17\jms_fluent3\themes\jms_fluent\modules\jmsblog\views\templates\front\post-layout-default.tpl" source-language="it-IT" target-language="it-IT" datatype="plaintext">
+    <body>
+      <trans-unit id="e1cbdfece10fcbff6510aaa59f2647a0">
+        <source>Image Blog</source>
+        <target>Image Blog</target>
+        <note>Context:
+File: D:\wamp\www\prestashop17\jms_fluent3\themes\jms_fluent\modules\jmsblog\views\templates\front\post-layout-default.tpl:45</note>
+      </trans-unit>
+      <trans-unit id="772c4866b3314d4aa505759251cb9ed1">
+        <source> comments</source>
+        <target> comments</target>
+        <note>Context:
+File: D:\wamp\www\prestashop17\jms_fluent3\themes\jms_fluent\modules\jmsblog\views\templates\front\post-layout-default.tpl:65</note>
+      </trans-unit>
+      <trans-unit id="4993157f98dbc7b35bd826822908b58a">
+        <source>view(s)</source>
+        <target>view(s)</target>
+        <note>Context:
+File: D:\wamp\www\prestashop17\jms_fluent3\themes\jms_fluent\modules\jmsblog\views\templates\front\post-layout-default.tpl:70</note>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

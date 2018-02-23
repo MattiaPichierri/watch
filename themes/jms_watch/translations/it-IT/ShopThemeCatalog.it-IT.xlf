@@ -1,0 +1,333 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+  <file original="D:\wamp\www\prestashop17\jms_fluent3\themes\jms_fluent\modules\ps_categoryproducts\views\templates\hook\ps_categoryproducts.tpl" source-language="it-IT" target-language="it-IT" datatype="plaintext">
+    <body>
+      <trans-unit id="f55e0a28b86c2ab66ac632ab9ddf1833">
+        <source>%s other product in the same category:</source>
+        <target>%s altri prodotti della stessa categoria:</target>
+        <note>Context:
+File: D:\wamp\www\prestashop17\jms_fluent3\themes\jms_fluent\modules\ps_categoryproducts\views\templates\hook\ps_categoryproducts.tpl:28</note>
+      </trans-unit>
+      <trans-unit id="bebb44f38b03407098d48198c1d0aaa5">
+        <source>%s other products in the same category:</source>
+        <target>%s altri prodotti della stessa categoria:</target>
+        <note>Context:
+File: D:\wamp\www\prestashop17\jms_fluent3\themes\jms_fluent\modules\ps_categoryproducts\views\templates\hook\ps_categoryproducts.tpl:30</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="D:\wamp\www\prestashop17\jms_fluent3\themes\jms_fluent\modules\ps_featuredproducts\views\templates\hook\ps_featuredproducts.tpl" source-language="it-IT" target-language="it-IT" datatype="plaintext">
+    <body>
+      <trans-unit id="f473acb18ebcd825235ca5624203f31a">
+        <source>Popular Products</source>
+        <target>Prodotti Popolari</target>
+        <note>Context:
+File: D:\wamp\www\prestashop17\jms_fluent3\themes\jms_fluent\modules\ps_featuredproducts\views\templates\hook\ps_featuredproducts.tpl:4</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="D:\wamp\www\prestashop17\jms_fluent3\themes\jms_fluent\modules\ps_searchbar\ps_searchbar.tpl" source-language="it-IT" target-language="it-IT" datatype="plaintext">
+    <body>
+      <trans-unit id="5bdba1fc0fba1010d61ce253c2e57da8">
+        <source>Search our catalog</source>
+        <target>Cerca nel catalogo</target>
+        <note>Context:
+File: D:\wamp\www\prestashop17\jms_fluent3\themes\jms_fluent\modules\ps_searchbar\ps_searchbar.tpl:29</note>
+      </trans-unit>
+      <trans-unit id="13348442cc6a27032d2b4aa28b75a5d3">
+        <source>Search</source>
+        <target>Cerca</target>
+        <note>Context:
+File: D:\wamp\www\prestashop17\jms_fluent3\themes\jms_fluent\modules\ps_searchbar\ps_searchbar.tpl:31</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="D:\wamp\www\prestashop17\jms_fluent3\themes\jms_fluent\templates\catalog\listing\manufacturer.tpl" source-language="it-IT" target-language="it-IT" datatype="plaintext">
+    <body>
+      <trans-unit id="241cfa06413caa8aecd12ed99744bdc7">
+        <source>List of products by brand %s</source>
+        <target>List of products by brand %s</target>
+        <note>Context:
+File: D:\wamp\www\prestashop17\jms_fluent3\themes\jms_fluent\templates\catalog\listing\manufacturer.tpl:28</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="D:\wamp\www\prestashop17\jms_fluent3\themes\jms_fluent\templates\catalog\listing\supplier.tpl" source-language="it-IT" target-language="it-IT" datatype="plaintext">
+    <body>
+      <trans-unit id="4c5c40c99a89125e22218cb62335c60a">
+        <source>List of products by supplier %s</source>
+        <target>Elenco dei prodotti per fornitore %s</target>
+        <note>Context:
+File: D:\wamp\www\prestashop17\jms_fluent3\themes\jms_fluent\templates\catalog\listing\supplier.tpl:28</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="D:\wamp\www\prestashop17\jms_fluent3\themes\jms_fluent\templates\catalog\_partials\quickview.tpl" source-language="it-IT" target-language="it-IT" datatype="plaintext">
+    <body>
+      <trans-unit id="b2dc3c8f71278ea45867c11867529d31">
+        <source>Product Code:</source>
+        <target>Product Code:</target>
+        <note>Context:
+File: D:\wamp\www\prestashop17\jms_fluent3\themes\jms_fluent\templates\catalog\_partials\quickview.tpl:53</note>
+      </trans-unit>
+      <trans-unit id="3d0d1f906e27800531e054a3b6787b7c">
+        <source>Quantity:</source>
+        <target>Quantity:</target>
+        <note>Context:
+File: D:\wamp\www\prestashop17\jms_fluent3\themes\jms_fluent\templates\catalog\_partials\quickview.tpl:58</note>
+      </trans-unit>
+      <trans-unit id="7d74f3b92b19da5e606d737d339a9679">
+        <source>Item</source>
+        <target>Articolo</target>
+        <note>Context:
+File: D:\wamp\www\prestashop17\jms_fluent3\themes\jms_fluent\templates\catalog\_partials\quickview.tpl:60</note>
+      </trans-unit>
+      <trans-unit id="9dea4016dbcc290b773ab2fae678aaa8">
+        <source>Items</source>
+        <target>Articoli</target>
+        <note>Context:
+File: D:\wamp\www\prestashop17\jms_fluent3\themes\jms_fluent\templates\catalog\_partials\quickview.tpl:61</note>
+      </trans-unit>
+      <trans-unit id="8c751c4aab0db0b811cdfbddf0b4ea56">
+        <source>Availability:</source>
+        <target>Availability:</target>
+        <note>Context:
+File: D:\wamp\www\prestashop17\jms_fluent3\themes\jms_fluent\templates\catalog\_partials\quickview.tpl:66</note>
+      </trans-unit>
+      <trans-unit id="fd24b639c2ae3236e67880ce4b6b8af3">
+        <source>Out stock</source>
+        <target>Out stock</target>
+        <note>Context:
+File: D:\wamp\www\prestashop17\jms_fluent3\themes\jms_fluent\templates\catalog\_partials\quickview.tpl:70</note>
+      </trans-unit>
+      <trans-unit id="fcebe56087b9373f15514831184fa572">
+        <source>In stock</source>
+        <target>In magazzino</target>
+        <note>Context:
+File: D:\wamp\www\prestashop17\jms_fluent3\themes\jms_fluent\templates\catalog\_partials\quickview.tpl:72</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="D:\wamp\www\prestashop17\jms_fluent3\themes\jms_fluent\templates\catalog\product-layout-default.tpl" source-language="it-IT" target-language="it-IT" datatype="plaintext">
+    <body>
+      <trans-unit id="56e11b516943cb38a57c9a53219a8370">
+        <source>This pack contains</source>
+        <target>Questo pacco contiene</target>
+        <note>Context:
+File: D:\wamp\www\prestashop17\jms_fluent3\themes\jms_fluent\templates\catalog\product-layout-default.tpl:148</note>
+      </trans-unit>
+      <trans-unit id="b5a7adde1af5c87d7fd797b6245c2a39">
+        <source>Description</source>
+        <target>Descrizione</target>
+        <note>Context:
+File: D:\wamp\www\prestashop17\jms_fluent3\themes\jms_fluent\templates\catalog\product-layout-default.tpl:194</note>
+      </trans-unit>
+      <trans-unit id="b8900d8adf598b6653bb8c071bc49a1d">
+        <source>Product Details</source>
+        <target>Dettagli del prodotto</target>
+        <note>Context:
+File: D:\wamp\www\prestashop17\jms_fluent3\themes\jms_fluent\templates\catalog\product-layout-default.tpl:204</note>
+      </trans-unit>
+      <trans-unit id="7e2708aeb65763c54052f57ed1a1ec1d">
+        <source>Attachments</source>
+        <target>Documenti Allegati</target>
+        <note>Context:
+File: D:\wamp\www\prestashop17\jms_fluent3\themes\jms_fluent\templates\catalog\product-layout-default.tpl:213</note>
+      </trans-unit>
+      <trans-unit id="98edb85b00d9527ad5acebe451b3fae6">
+        <source>Accessories</source>
+        <target>Accessori</target>
+        <note>Context:
+File: D:\wamp\www\prestashop17\jms_fluent3\themes\jms_fluent\templates\catalog\product-layout-default.tpl:271</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="D:\wamp\www\prestashop17\jms_fluent3\themes\jms_fluent\templates\catalog\suppliers.tpl" source-language="it-IT" target-language="it-IT" datatype="plaintext">
+    <body>
+      <trans-unit id="1814d65a76028fdfbadab64a5a8076df">
+        <source>Suppliers</source>
+        <target>Fornitori</target>
+        <note>Context:
+File: D:\wamp\www\prestashop17\jms_fluent3\themes\jms_fluent\templates\catalog\suppliers.tpl:28</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="D:\wamp\www\prestashop17\jms_fluent3\themes\jms_fluent\templates\catalog\_partials\active_filters.tpl" source-language="it-IT" target-language="it-IT" datatype="plaintext">
+    <body>
+      <trans-unit id="cfff8593a3adedd98a18631f85152d23">
+        <source>%1$s: </source>
+        <target>%1$s: </target>
+        <note>Context:
+File: D:\wamp\www\prestashop17\jms_fluent3\themes\jms_fluent\templates\catalog\_partials\active_filters.tpl:35</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="D:\wamp\www\prestashop17\jms_fluent3\themes\jms_fluent\templates\customer\_partials\order-detail-return.tpl" source-language="it-IT" target-language="it-IT" datatype="plaintext">
+    <body>
+      <trans-unit id="54c02ba7929b1fda4847991a45b58a48">
+        <source>Product customization</source>
+        <target>Personalizzazione del prodotto</target>
+        <note>Context:
+File: D:\wamp\www\prestashop17\jms_fluent3\themes\jms_fluent\templates\customer\_partials\order-detail-return.tpl:179</note>
+      </trans-unit>
+      <trans-unit id="694e8d1f2ee056f98ee488bdc4982d73">
+        <source>Quantity</source>
+        <target>Quantità</target>
+        <note>Context:
+File: D:\wamp\www\prestashop17\jms_fluent3\themes\jms_fluent\templates\customer\_partials\order-detail-return.tpl:198</note>
+      </trans-unit>
+      <trans-unit id="deb10517653c255364175796ace3553f">
+        <source>Product</source>
+        <target>Prodotto</target>
+        <note>Context:
+File: D:\wamp\www\prestashop17\jms_fluent3\themes\jms_fluent\templates\customer\_partials\order-detail-return.tpl:32</note>
+      </trans-unit>
+      <trans-unit id="63d5049791d9d79d86e9a108b0a999ca">
+        <source>Reference</source>
+        <target>Riferimento</target>
+        <note>Context:
+File: D:\wamp\www\prestashop17\jms_fluent3\themes\jms_fluent\templates\customer\_partials\order-detail-return.tpl:174</note>
+      </trans-unit>
+      <trans-unit id="6c957f72dc8cdacc75762f2cbdcdfaf2">
+        <source>Unit price</source>
+        <target>Prezzo unitario</target>
+        <note>Context:
+File: D:\wamp\www\prestashop17\jms_fluent3\themes\jms_fluent\templates\customer\_partials\order-detail-return.tpl:35</note>
+      </trans-unit>
+      <trans-unit id="0eede552438475bdfe820c13f24c9399">
+        <source>Total price</source>
+        <target>Prezzo totale</target>
+        <note>Context:
+File: D:\wamp\www\prestashop17\jms_fluent3\themes\jms_fluent\templates\customer\_partials\order-detail-return.tpl:36</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="D:\wamp\www\prestashop17\jms_fluent3\themes\jms_fluent\templates\catalog\_partials\product-details.tpl" source-language="it-IT" target-language="it-IT" datatype="plaintext">
+    <body>
+      <trans-unit id="011f917f0631fbad003ce998c09714c3">
+        <source>Brand :</source>
+        <target>Brand :</target>
+        <note>Context:
+File: D:\wamp\www\prestashop17\jms_fluent3\themes\jms_fluent\templates\catalog\_partials\product-details.tpl:14</note>
+      </trans-unit>
+      <trans-unit id="ea23e12cae068315b351f8d36d432d76">
+        <source>Reference :</source>
+        <target>Reference :</target>
+        <note>Context:
+File: D:\wamp\www\prestashop17\jms_fluent3\themes\jms_fluent\templates\catalog\_partials\product-details.tpl:23</note>
+      </trans-unit>
+      <trans-unit id="96f62bcaa988526090e007b9095d35d9">
+        <source>In stock :</source>
+        <target>In stock :</target>
+        <note>Context:
+File: D:\wamp\www\prestashop17\jms_fluent3\themes\jms_fluent\templates\catalog\_partials\product-details.tpl:32</note>
+      </trans-unit>
+      <trans-unit id="ea254ced8be4adb6c4a2750e84087da6">
+        <source>Availability date:</source>
+        <target>Disponibile dal:</target>
+        <note>Context:
+File: D:\wamp\www\prestashop17\jms_fluent3\themes\jms_fluent\templates\catalog\_partials\product-details.tpl:41</note>
+      </trans-unit>
+      <trans-unit id="7dcd185f890fd28f69d1ed210292d77f">
+        <source>Data sheet</source>
+        <target>Scheda tecnica</target>
+        <note>Context:
+File: D:\wamp\www\prestashop17\jms_fluent3\themes\jms_fluent\templates\catalog\_partials\product-details.tpl:56</note>
+      </trans-unit>
+      <trans-unit id="4594f39c6dac58760daeb19d79389576">
+        <source>Specific References</source>
+        <target>Riferimenti Specifici</target>
+        <note>Context:
+File: D:\wamp\www\prestashop17\jms_fluent3\themes\jms_fluent\templates\catalog\_partials\product-details.tpl:71</note>
+      </trans-unit>
+      <trans-unit id="9e2941b3c81256fac10392aaca4ccfde">
+        <source>Condition</source>
+        <target>Condizione</target>
+        <note>Context:
+File: D:\wamp\www\prestashop17\jms_fluent3\themes\jms_fluent\templates\catalog\_partials\product-details.tpl:85</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="D:\wamp\www\prestashop17\jms_fluent3\themes\jms_fluent\templates\catalog\_partials\product-discounts.tpl" source-language="it-IT" target-language="it-IT" datatype="plaintext">
+    <body>
+      <trans-unit id="fc21aa6a8b0bceb8570c8c81b6b38307">
+        <source>Volume discounts</source>
+        <target>Sconti sul volume</target>
+        <note>Context:
+File: D:\wamp\www\prestashop17\jms_fluent3\themes\jms_fluent\templates\catalog\_partials\product-discounts.tpl:27</note>
+      </trans-unit>
+      <trans-unit id="861c0c6ef832cd96c5fe152f9d610973">
+        <source>You Save</source>
+        <target>Salva</target>
+        <note>Context:
+File: D:\wamp\www\prestashop17\jms_fluent3\themes\jms_fluent\templates\catalog\_partials\product-discounts.tpl:33</note>
+      </trans-unit>
+      <trans-unit id="64c22a1426c5b8fce46c6314d73dc99e">
+        <source>Up to %discount%</source>
+        <target>Fino a %discount%</target>
+        <note>Context:
+File: D:\wamp\www\prestashop17\jms_fluent3\themes\jms_fluent\templates\catalog\_partials\product-discounts.tpl:41</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="D:\wamp\www\prestashop17\jms_fluent3\themes\jms_fluent\templates\catalog\_partials\product-prices.tpl" source-language="it-IT" target-language="it-IT" datatype="plaintext">
+    <body>
+      <trans-unit id="48fa315ec57b5fea80176d1c5f9f6bbf">
+        <source>(%unit_price%)</source>
+        <target>(%unit_price%)</target>
+        <note>Context:
+File: D:\wamp\www\prestashop17\jms_fluent3\themes\jms_fluent\templates\catalog\_partials\product-prices.tpl:45</note>
+      </trans-unit>
+      <trans-unit id="e532954941a2469e3b3ae35ce44885d6">
+        <source>%price% tax excl.</source>
+        <target>%price% Iva escl.</target>
+        <note>Context:
+File: D:\wamp\www\prestashop17\jms_fluent3\themes\jms_fluent\templates\catalog\_partials\product-prices.tpl:53</note>
+      </trans-unit>
+      <trans-unit id="a72a454b308052ed277f7b69ab307caa">
+        <source>Instead of %price%</source>
+        <target>Invece di %price%</target>
+        <note>Context:
+File: D:\wamp\www\prestashop17\jms_fluent3\themes\jms_fluent\templates\catalog\_partials\product-prices.tpl:59</note>
+      </trans-unit>
+      <trans-unit id="98508b5a9b590896cc627beb46d86b96">
+        <source>Including %amount% for ecotax</source>
+        <target>Inclusi %amount% a titolo di ecotassa</target>
+        <note>Context:
+File: D:\wamp\www\prestashop17\jms_fluent3\themes\jms_fluent\templates\catalog\_partials\product-prices.tpl:65</note>
+      </trans-unit>
+      <trans-unit id="a134618182b99ff9151d7e0b6b92410a">
+        <source>(not impacted by the discount)</source>
+        <target>(non influenzato dallo sconto)</target>
+        <note>Context:
+File: D:\wamp\www\prestashop17\jms_fluent3\themes\jms_fluent\templates\catalog\_partials\product-prices.tpl:67</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="D:\wamp\www\prestashop17\jms_fluent3\themes\jms_fluent\templates\customer\_partials\order-detail-no-return.tpl" source-language="it-IT" target-language="it-IT" datatype="plaintext">
+    <body>
+      <trans-unit id="a3b9d2cd764b05f4be59cba8f03c01e4">
+        <source>Product image</source>
+        <target>Product image</target>
+        <note>Context:
+File: D:\wamp\www\prestashop17\jms_fluent3\themes\jms_fluent\templates\customer\_partials\order-detail-no-return.tpl:29</note>
+      </trans-unit>
+      <trans-unit id="756ef09c244b599288b6b725d1c840b0">
+        <source>Product info</source>
+        <target>Product info</target>
+        <note>Context:
+File: D:\wamp\www\prestashop17\jms_fluent3\themes\jms_fluent\templates\customer\_partials\order-detail-no-return.tpl:30</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="D:\wamp\www\prestashop17\jms_fluent3\themes\jms_fluent\templates\_partials\pagination.tpl" source-language="it-IT" target-language="it-IT" datatype="plaintext">
+    <body>
+      <trans-unit id="fb526aaa0add86e4e124263db50438c8">
+        <source>Showing %from%-%to% of %total% item(s)</source>
+        <target>Visualizzati %from%-%to% su %total% articoli</target>
+        <note>Context:
+File: D:\wamp\www\prestashop17\jms_fluent3\themes\jms_fluent\templates\_partials\pagination.tpl:28</note>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

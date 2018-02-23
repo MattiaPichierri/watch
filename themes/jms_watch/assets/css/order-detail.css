@@ -1,0 +1,54 @@
+#order-detail .page-content.card-block {
+  border: none;
+  box-shadow: none;
+  padding: 0;
+}
+#order-history, #order-infos, #order-detail .addresses .box, .box.hidden-sm-down, 
+.order-items.hidden-md-up.box, #order-detail .box-last, .order-totals.box, #order-detail .order-message-form.box {
+	box-shadow: 2px 2px 11px 0 rgba(0, 0, 0, 0.1);
+	padding:25px 15px;
+	margin-bottom:30px;
+}
+#order-detail .addresses .box {
+	padding:30px 25px; 
+}
+#order-detail .addresses {
+	margin:0 -15px;
+}
+#order-detail td.product-image{
+	max-width:120px;
+}
+#order-detail td.product-image img {
+	width:100%;
+}
+.table > thead > tr > th.order-title {
+	padding:10px 8px;
+	text-transform:uppercase;
+	color:#fff;
+	font-weight:500;
+	font-size:15px;
+}
+#order-detail .order-message-form .form-control-select {
+	-moz-appearance:none;
+	-webkit-appearance:none;
+	width:100%;
+}
+#order-detail .order-message-form .select-box:after {
+	content:"\f0d7";
+	color: #111;
+	font-family: "FontAwesome";
+	font-size: 16px;
+	line-height: 16px;
+	position: absolute;
+	right: 25px;
+	top: calc(50% - 8px);
+}
+#order-detail .order-message-form .form-footer.text-xs-center {
+	text-align:right;
+}
+@media(max-width:320px) {
+	table#order-products, .box-last table {
+		display:block;
+		overflow-x:auto;
+	}
+}

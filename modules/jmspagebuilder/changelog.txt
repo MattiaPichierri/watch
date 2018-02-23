@@ -1,0 +1,89 @@
+Jms PageBuilder 3.1.1 Released 2017-05-15
+------------------------------------------
+Update :
+1 - add categoryproduct addon
+------------------------------------------
+Jms PageBuilder 3.1.0 Released 2017-03-02
+------------------------------------------
+Fix : 
+1 - Check categories exist before foreach in categoryshow,categoryshow1,categorytab,megaproduct,metatab addons.
+2 - content_dir not define in footer tpl
+Update :
+1 - update instangram addon
+------------------------------------------
+Jms PageBuilder 3.0.9 Released 2017-01-17
+------------------------------------------
+Fix : 
+1 - Import Select box blank
+Update :
+1 - Add Instagram addon
+2 - Add Category Show 2 addon use for 4life theme.
+------------------------------------------
+Jms PageBuilder 3.0.8 Released 2017-01-03
+------------------------------------------
+Fix : 
+1 - Fix blank page when enable theme (jmsHelper.php file)
+------------------------------------------
+Jms PageBuilder 3.0.7 Released 2016-12-02
+------------------------------------------
+Update :
+1 - Add ProductHelper Class to working with products + change code of product addons.
+2 - Move SlideProducts function to ProductHelper Class.
+3 - Add some addons for products.
+4 - Add promobar addon.
+5 - addonbase.php change : auto get addonlist from file in folder.
+6 - Add Enable/Disable for Rows/addons.
+Fix : 
+1 - Fix switch language problem 
+2 - Fix "Wrong Total Product" Problem.
+------------------------------------------
+Jms PageBuilder 3.0.6 Released 2016-08-30
+------------------------------------------
+Update :
+1 - add color pick option to product box (add "product-colors" class and data-id-product to product-preview)
+Fix : 
+1 - Fix language id problem in addonbase.php (some server setting has that problem)
+2 - producttab addon topseller get newproduct
+3 - gallery addon sql : hss.`image` intead of hssl.`image`
+------------------------------------------
+Jms PageBuilder 3.0.5 Released 2016-08-26
+------------------------------------------
+Update :
+1 - add promobar addon
+2 - add gallery addon
+Fix : 
+1 - Fix root url for media preview
+------------------------------------------
+Jms PageBuilder 3.0.4 Released 2016-07-29
+------------------------------------------
+Fix : 
+1 - Add addon_tpl_dir for addonhotdeal(addonhotdeal.php)
+2 - Fix root url for media
+------------------------------------------
+Jms PageBuilder 3.0.3 Released 2016-07-27
+------------------------------------------
+Update :
+1 - Change default url for banner from "joommasters.com" to "#"
+Fix : 
+1 - Add countdown script for addonhotdeal(addonhotdeal.tpl)
+2 - Show disabled slide (addonsliderlayer.php)
+3 - url for SSL
+------------------------------------------
+Jms PageBuilder 3.0.2 Released 2016-07-13
+------------------------------------------
+Update : 
+1 - Add jpb_layout option to switch layout for listing page
+2 - add jpb_grid option to switch Grid/List for product Listing + blog Listing
+Fix : 
+1 - Fix pagebuilder not working on prestashop 1.6.0.x (addonbase.php)
+------------------------------------------
+Jms PageBuilder 3.0.1 Released 2016-07-11
+------------------------------------------
+Update : 
+1 - Add Home class for Home Page
+	DB Update : Check again in jmspagebuilder_homepages table if dont exist "home_class" field run following sql in phpmyadmin :
+	ALTER TABLE `ps_jmspagebuilder_homepages` ADD `home_class` VARCHAR(100) NOT NULL AFTER `css_file`;
+Fix:
+2 - Fix addonspace addon (remove html_content in addonspace.tpl file) 
+------------------------------------------
+Jms PageBuilder 3.0.0 Released 2016-07-01

@@ -1,0 +1,92 @@
+/* Block JmsPopup */
+.jms-popup {
+  background: #fff;
+  padding:30px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 700px;
+  overflow: hidden;
+  margin-left: -395px;
+  margin-top: -311.5px;
+  border-top: 3px solid #1f97ff;  
+  border-radius: 0px;
+  color:#333;
+  line-height:30px;
+  max-width:100%;
+  text-align:center;
+}
+.jms-popup input {
+	border:1px solid #ececec;
+	padding:7px 10px;
+	margin-bottom:10px;
+}
+.jms-popup button {
+	border:1px solid #1f97ff;
+	padding:7px 20px;
+	background:#1f97ff;
+	color:#FFF;
+}
+.jms-popup p {
+	line-height:26px;
+}
+.jms-popup-overlay > .jms-popup > h2 {
+	font-weight: bold;
+    margin: 0 0 30px;
+    text-align: center;
+	text-transform:uppercase;
+	font-size:24px;
+}
+
+.jms-popup-overlay > .jms-popup {
+  margin: 0 auto;
+  position: absolute;
+  left: calc(50% - 350px);
+  top: calc(50% - 255px);  
+}
+
+.jms-popup-overlay > .jms-popup img{
+  width: auto;
+  max-width:100%;
+}
+
+.jms-popup-overlay .popup-close {    
+    cursor: pointer;
+    display: block;
+    float: right;
+    height: 15px;    
+    width: 17px;
+	position: absolute;
+    right: 5px;
+    top: 5px;
+}
+.jms-popup-overlay {
+	display: block;	
+	background-color: rgba(0, 0, 0, 0.2);
+	background-image: radial-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.7));    
+	height: 100%;
+    left: 0;
+    opacity: 1;
+    pointer-events: auto;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 99998;
+}
+.dontshow {
+	margin-top:20px;
+}
+.dontshow input,
+.dontshow > div {
+	display:inline-block;
+    height: 30px;
+    line-height: 30px;
+    margin-right: 5px;
+    padding-top: 8px;
+}
+.dontshow label {
+	display:inline-block;
+	font-weight:300;
+	font-size:90%;
+	line-height:30px;
+}

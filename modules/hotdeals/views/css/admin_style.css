@@ -1,0 +1,28 @@
+/**
+ * @package Jms Brands
+ * @version 1.0
+ * @Copyright (C) 2009 - 2014 Joommasters.
+ * @license http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL
+ * @Website: http://www.joommasters.com
+**/
+
+#product{
+	position:relative;
+}
+
+#result_products {
+	position:absolute;
+	top:100%;
+	left:0px;
+	background:#CCC;
+	z-index:2000;	
+	box-shadow:0px 0px 10px;
+}
+#result_products ul {
+	margin:20px;
+	padding:0px;
+}
+#result_products ul li {
+	list-style:none;
+	line-height:25px;
+}

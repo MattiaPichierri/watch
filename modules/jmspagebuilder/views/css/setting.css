@@ -1,0 +1,13 @@
+.skin-box {
+	float:left;
+	margin-right:10px;
+}
+.skin-box  img{		
+	width:32px;
+	height:32px;
+	display:inline-block;	
+	overflow:hidden;
+}
+.skin-box.active img {
+	border:1px solid #000;	
+}

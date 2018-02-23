@@ -1,0 +1,326 @@
+/**
+* 2007-2015 PrestaShop
+*
+* Jms Blog
+*
+*  @author    Joommasters <joommasters@gmail.com>
+*  @copyright 2007-2015 Joommasters
+*  @license   license http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL
+*  @Website: http://www.joommasters.com
+*/
+.widget-tabs .nav-tabs {
+    border-bottom: 0 none;
+    padding-bottom: 15px;
+}
+.widget-tabs .item-post img {
+    float: left;
+    margin-right: 20px;
+    width: 129px;
+}
+.widget-tabs .comment-item, .widget-tabs .item-post {
+    border-bottom: 1px solid #ebebeb;
+    display: inline-block;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    width: 100%;
+}
+.widget-tabs .item-post:last-child, .widget-tabs .comment-item:last-child{
+	border-bottom:0;
+}
+.widget-tabs .item-post:first-child, .widget-tabs .comment-item:first-child{
+	padding-top:0;
+}
+
+.widget-title, .title_block {
+    font-weight:600;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+.widget-tabs h6 {
+    font-size: 15px;
+    line-height: 25px;
+    padding-bottom: 5px;
+    text-transform: capitalize;
+}
+.widget-tabs .nav-tabs > li > a{
+	padding:6px 13px;
+}
+.widget-tabs  .nav-tabs > li.active > a, .widget-tabs  .nav-tabs > li.active > a:focus,
+ .widget-tabs  .nav-tabs > li.active > a:hover{
+	color:#111;
+}
+.widget-tabs .comment-item img {
+    float: left;
+    margin-right: 10px;
+    width: 65px;
+}
+.tab-content .post-created {
+    font-size: 11px;
+    margin-bottom: 0;
+}
+.blog-widget .comment-item {
+	margin-bottom:15px;
+}
+.blog-widget .comment-item .comment-info {
+	float:left;
+	width:calc(100% - 80px);
+	padding-left:10px;
+}
+.blog-widget .comment-item .comment-info h6{
+	color: #111;
+	font-weight: 400;
+	padding: 0;
+	margin-bottom:5px;
+}
+.blog-widget .comment-item .comment-info p {
+	font-weight:300;
+}
+.blog-widget .comment-item img{
+	width:80px;
+	float:left;
+}
+.blog-widget {
+    border-bottom: 1px solid #ebebeb;
+    margin-bottom: 40px;
+    padding-bottom: 22px;
+}
+.blog-widget:last-child{
+	border-bottom:0;
+}
+.blog-widget .post-list .entry-thumb{
+	margin-bottom:10px;
+}
+.blog-widget .entry-title {
+	color: #111;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 20px;
+	text-transform: capitalize;
+	display: block;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	width: 100%;
+}
+.blog-widget .date {
+	color:rgba(17,17,17,0.5);
+	font-size:12px;
+}
+.blog-widget .date .label {
+	font-weight:500;
+	color:rgba(17,17,17,0.6);
+	font-size:12px;
+	padding:0;
+}
+.blog-widget .date .label.view {
+	margin-left:10px;
+}
+.blog-widget .post-list li {
+	margin-bottom:25px;
+}
+.blog-widget .date li{
+	margin-bottom:0;
+}
+.blog-widget .date ul{
+	display:flex;
+}
+.widget-categories li a {
+    display: block;
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 30px;
+    position: relative;
+    text-transform: capitalize;
+}
+.blog-widget .post-list li:last-child {
+	margin-bottom:0;
+}
+.page-heading {
+	border:none;
+	font-size:30px;
+	color:#111;
+}
+.post-img img {
+	width:100%;
+}
+/* Single Categoy Page */
+.cat-post-list .item {
+	margin-bottom: 50px;
+	padding-bottom: 50px;
+}
+.cat-post-list .item:last-child {
+	border-bottom: none;
+	margin-bottom: 0px;
+	padding-bottom: 0px;
+}
+.cat-post-list .item:last-child {
+	margin-bottom:0;
+}
+.cat-post-list .item .post-title, #module-jmsblog-archive .post-title {
+	padding:0;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	text-transform: capitalize;
+	white-space: nowrap;
+	width:100%;
+	display:block;
+	margin-top:20px;
+	margin-bottom:5px;
+	font-size:18px;
+	font-weight:500;
+	line-height:2;
+}
+
+.cat-post-list .item .post-meta {
+    display: flex;
+    margin: 15px 0 0;
+}
+.cat-post-list .item .post-meta li {
+    color: rgba(17, 17, 17, 0.5);
+    font-size: 13px;
+    margin-right: 15px;
+    padding: 0;
+}
+.cat-post-list .item .post-meta a {
+    font-weight: 700;
+}
+.cat-post-list .item .post-meta li span {
+	color:rgba(17,17,17,0.6);
+	font-size:13px;
+}
+.cat-post-list .item .post-meta li:last-child {
+	margin-right:0;
+}
+.blog-readmore {
+	margin-top:10px;
+}
+.post-intro {
+	margin:10px 0;
+}
+/* Single Post Page */
+.single-blog .title{
+	color: #111;
+	font-size: 20px;
+	font-weight: 500;
+	padding: 0;
+	text-transform: uppercase;
+}
+.single-blog .post-meta{
+	display:flex;
+	margin:10px 0;
+	margin-bottom: 30px;
+	font-weight:300;
+}
+.single-blog .post-fulltext {
+	color:rgba(17,17,17,0.85);
+	font-weight:300;	
+}
+.single-blog .post-fulltext h1, .single-blog .post-fulltext h2, .single-blog .post-fulltext h3 {
+	color:#111;
+}
+.single-blog .post-meta li {
+    padding: 0 13px 0 0;
+}
+.single-blog .post-meta a{
+	font-weight:500;
+	font-family:'neue einstellung'
+	
+}
+.single-blog .post-meta li:last-child {
+	margin-right:0;
+}
+.single-blog .post-thumb{
+	display: block;
+	width: 100%;
+	margin-bottom:30px;
+}
+.single-blog .social-sharing {
+	margin-top:30px;
+	margin-bottom:20px;
+}
+.post-comment {
+	padding:15px;
+}
+/* Categories Page */
+.categories-list .blog-category {
+	float:left;
+	padding:0 15px;
+	margin-bottom:50px;
+}
+.post-thumb img{
+	width:100%;
+}
+.cat-post-list .post-thumb a {
+	display: block;
+	width: 100%;
+}
+.categories-list .category-info .post-title{
+	padding:0;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	text-transform: uppercase;
+	white-space: nowrap;
+	width:100%;
+	display:block;
+	margin-top:20px;
+	font-size:16px;
+	font-weight:500;
+}
+.categories-list .category-info .blog-intro {
+	margin-top:20px;
+}
+.categories-list .category-info .blog-intro p {
+	margin-bottom:0;
+	color:rgba(17,17,17,0.75);
+	font-size:14px;
+	line-height:1.5;
+}
+#module-jmsblog-category .page-content.card-block {
+	padding:10px;
+}
+.comment-heading h5{
+	padding:0;
+}
+.comment-heading {
+	padding:15px;
+}
+img.attachment-widget.wp-post-image.img-responsive {
+    width: 50px;
+    float: left;
+    margin-right: 30px;
+    border-radius: 50%;
+}
+h4.heading {
+    font-weight: 500;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+#module-jmsblog-category #main, #module-jmsblog-post #main, #module-jmsblog-categories #main ,
+#module-jmsblog-tag #main, #module-jmsblog-archive #main {
+    padding: 0 15px;
+    width: 100%;
+}
+#module-jmsblog-category  .page-content.card-block, #module-jmsblog-post .page-content.card-block,
+ #module-jmsblog-categories .page-content.card-block ,
+#module-jmsblog-tag .page-content.card-block, #module-jmsblog-archive .page-content.card-block {
+	padding:0;
+	box-shadow:none;
+	border:0;
+	
+}
+#module-jmsblog-archive .page-heading, #module-jmsblog-tags .page-heading{
+	padding-left:15px;
+}
+/*Archive*/
+#module-jmsblog-archive article {
+    padding: 15px;
+
+}
+#module-jmsblog-archive .page-content {
+    padding: 30px 15px;
+}
+#module-jmsblog-archive .post-category a {
+    font-family: "neue einstellung";
+    font-weight: 500;
+}
+/* Tag Page */

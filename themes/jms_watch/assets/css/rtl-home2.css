@@ -1,0 +1,38 @@
+.module_group_h2 .addon-box {
+    float: left;
+}
+.btn-group.module-group-box.open > .dropdown-menu::before {
+    left: 58px;
+}
+.btn-group.open > .dropdown-menu.shoppingcart-box::before {
+    left: 122px;
+}
+.wrapper-banner .box-content {
+    padding-right: 37px;
+    padding-left:0;
+}
+.find-us {
+    float: left;
+}
+.btn-group.open > .dropdown-menu{
+	left:0;
+	right:auto;
+	transform:none;
+}
+@media(max-width: 991px){
+	.module_group_h2 .addon-box {
+		float: left;
+	}
+	.megamenu_h2 {
+		right: 15px;
+	}
+	.module_group_h2 {
+		left: 0;
+		right: auto !important;
+	}
+}
+@media(max-width: 767px){
+.find-us {
+		float: none;
+	}
+}

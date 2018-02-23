@@ -1,0 +1,42 @@
+#authentication .show-pass button{
+	height:40px;
+	font-size:0px;
+	border:none;
+	background:none;
+	min-width:30px;
+	color:rgba(17,17,17,0.45);
+	line-height:40px;
+}#authentication .show-pass button:before {
+	content:"\f06e";
+	font-family:"FontAwesome";
+	font-size:14px;
+}
+#authentication .show-pass {
+	position:absolute;
+	top:0;
+	right:2px;
+	z-index:11;
+	min-width:30px;
+}
+#authentication .forgot-password, #authentication .form-footer, #authentication .no-account {
+	text-align:center;
+}
+#authentication .form-footer {
+	margin-top:15px;
+}
+#authentication .input-group.js-parent-focus{
+	display:block;
+}
+#authentication .form-group.row label {
+	margin-bottom:0;
+	line-height:40px;
+}
+#authentication .forgot-password a, #authentication .no-account a {
+	color:#444;
+}
+#authentication .register-form .custom-radio input{
+	top:9px;
+}
+#authentication .form-control-comment {
+	line-height:40px;
+}

@@ -1,0 +1,75 @@
+.jms-videos iframe {
+	max-width:100%;
+}
+.jms-popup-box {
+    display: none;
+    height: 100%;
+    left: 0;
+    pointer-events: none;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: -1;
+}
+.jms-popup-wrap {
+    border-radius: 0;
+    color: #9a9a9a;
+    display: block;
+    font-size: 13px;
+    left: 50%;
+    opacity: 1;
+    overflow: hidden;
+    padding: 0;
+    pointer-events: auto;
+    position: absolute;
+    top: 0;
+    z-index: 15000001;	
+}
+.jms-popup-wrap .jms-popup-content {
+    background-color: white;
+    border-radius: 0;
+    box-shadow: 0 0 11px rgba(0, 0, 0, 0.4);
+    height: inherit;
+    padding: 35px;
+    pointer-events: auto;
+}
+.popup-active h3 {
+	cursor:pointer;
+}
+.jms-popup-overlay {
+	background-color: rgba(0, 0, 0, 0.4);
+    background-image: radial-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.9));
+    display: none;
+    height: 100%;
+    left: 0;
+    opacity: 0;
+    pointer-events: auto;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 99998;
+}
+.popup-close {
+	font-size:17px;
+	float:right;
+	color:#FFF;
+	cursor:pointer;
+}	
+.pop_up_edit .form_edit{
+	display: block;
+    left: 50%;
+    position: fixed;
+    top: 30%;
+    z-index: 9999;
+}
+.pop_up_edit{
+	background: rgba(0, 0, 0, 0.5) none repeat scroll 0 0;
+    bottom: 0;
+    left: 0;
+    position: fixed;
+    right: 0;
+    top: 0;
+    z-index: 9999999;
+}
+.pop_up_edit .cancel, .cancel_edit{display:none;}
+.pop_up_edit .cancel_edit {display:block;}

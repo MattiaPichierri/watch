@@ -1,0 +1,121 @@
+/* Block JmsPopup */
+.jms-popup {
+   padding: 75px 90px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 700px;
+  overflow: hidden;
+  margin-left: -395px;
+  margin-top: -311.5px;
+  border-radius: 0px;
+  color:#333;
+  line-height:30px;
+  max-width:100%;
+  text-align:center;
+    background:#fff;
+}
+.jms-popup input {
+	border:1px solid #ececec;
+	margin-bottom:20px;
+}
+.jms-popup p {
+	line-height:26px;
+}
+.jms-popup-overlay > .jms-popup > h2 {
+	font-weight: bold;
+    margin: 0 0 30px;
+    text-align: center;
+	text-transform:uppercase;
+	font-size:24px;
+}
+.jms-popup-overlay > .jms-popup {
+  margin: 0 auto;
+  position: absolute;
+  left: calc(50% - 350px);
+  top: calc(50% - 255px);  
+}
+.jms-popup-overlay > .jms-popup img{
+  width: auto;
+  max-width:100%;
+}
+.jms-popup-overlay .popup-close {
+    cursor: pointer;
+    display: block;
+    float: right;
+    height: 15px;
+    position: absolute;
+    right: 7px;
+    top: 7px;
+    width: 17px;
+}
+.jms-popup-overlay {
+	display: block;	
+	background-color: rgba(0, 0, 0, 0.2);
+	background-image: radial-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.7));    
+	height: 100%;
+    left: 0;
+    opacity: 1;
+    pointer-events: auto;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 99998;
+}
+.dontshow {
+	margin-top:20px;
+}
+.dontshow input,
+.dontshow > div {
+	display:inline-block;
+    line-height: 30px;
+    margin-right: 5px;
+    padding-top: 8px;
+}
+.dontshow label {
+	display:inline-block;
+	font-weight:300;
+	font-size:90%;
+	line-height:30px;
+}
+.jms-popup-content .textnews_h1.addon-title {
+    display: none;
+}
+.popup-close {
+    background: rgba(0, 0, 0, 0) url("../../../../assets/img/icon/close.png") no-repeat scroll 54% 50%;
+}
+.jms-popup-content  .block_c_right .form-group{
+	display:block;
+}
+.jms-popup-content  .block_c_right .newsletter-input , .jms-popup-content .newsletter-btn.buttonh1{
+    width: 100%;
+}
+.jms-popup-content .newsletter-btn.buttonh1{
+    background: #111 none repeat scroll 0 0;
+    border-radius: 4px;
+    color: #fff !important;
+    font-size: 14px;
+    height: 55px;
+}
+.textnews_popup.addon-title > h2 {
+    
+    font-weight:500;
+    font-size: 30px;
+}
+.textnews_popup.addon-title > span {
+    display: block;
+    font-size: 16px;
+    margin: 0 auto;
+    width: 76%;
+}
+.jms-popup-content  .block_c_right .form-group {
+    margin-bottom: 33px;
+    margin-top: 40px;
+}
+.jms-popup-content .block_c_right .newsletter-input {
+    border-radius: 4px;
+    color: #434343;
+    font-size: 13px;
+    height: 55px;
+    text-align: center;
+}

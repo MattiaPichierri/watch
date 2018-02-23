@@ -1,0 +1,23 @@
+#manufacturer h1{
+	text-transform:uppercase;
+	color:rgba(17,17,17,0.9);
+	font-size:26px;
+	padding:0;
+	margin-bottom:35px;
+}
+#manufacturer ul.brand-list {
+	border:1px solid #ebebeb;
+	box-shadow:2px 2px 11px 0 rgba(0, 0, 0, 0.1);
+	padding:30px 20px;
+}
+#manufacturer ul.brand-list li {
+	border:1px solid #ebebeb;
+	margin-bottom:20px;
+	padding:10px 15px;
+}
+@media(max-width:767px) {
+	#manufacturer #wrapper>.row{
+		margin-right:0;
+		margin-left:0;
+	}
+}

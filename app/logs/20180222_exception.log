@@ -1,0 +1,7 @@
+*ERROR* 	v1.7.2.4	2018/02/22 - 04:56:47: Table 'prestashop.jms_slides' doesn't exist<br /><br /><pre>DELETE FROM `jms_slides` WHERE `id_slide` = 12</pre> at line 744 in file classes/db/Db.php
+*ERROR* 	v1.7.2.4	2018/02/22 - 05:03:39: Table 'prestashop.jms_slides' doesn't exist<br /><br /><pre>DELETE FROM `jms_slides` WHERE `id_slide` = 12</pre> at line 744 in file classes/db/Db.php
+*ERROR* 	v1.7.2.4	2018/02/22 - 06:39:44: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1<br /><br /><pre>DELETE FROM `jms_jms_slides_lang` WHERE `id_slide` = </pre> at line 744 in file classes/db/Db.php
+*ERROR* 	v1.7.2.4	2018/02/22 - 09:33:08: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '16,17,18 AND hss.id_lang = 1 ORDER BY `name` ASC LIMIT 0,5' at line 4<br /><br /><pre>SELECT hss.name, hss.id_category, hss.link_rewrite
+            FROM jms_category hs
+            LEFT JOIN jms_category_lang hss ON (hs.id_category = hss.id_category)
+            WHERE hs.id_parent = 12,16,17,18 AND hss.id_lang = 1 ORDER BY `name` ASC LIMIT 0,5</pre> at line 744 in file classes/db/Db.php

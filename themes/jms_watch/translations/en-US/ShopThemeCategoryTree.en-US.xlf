@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+  <file original="D:\wamp\www\prestashop17\jms_fluent3\themes\jms_fluent\modules\ps_categorytree\views\templates\hook\ps_categorytree.tpl" source-language="en-US" target-language="en-US" datatype="plaintext">
+    <body>
+      <trans-unit id="af1b98adf7f686b84cd0b443e022b7a0">
+        <source>Categories</source>
+        <target>Categories</target>
+        <note>Context:
+File: D:\wamp\www\prestashop17\jms_fluent3\themes\jms_fluent\modules\ps_categorytree\views\templates\hook\ps_categorytree.tpl:63</note>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

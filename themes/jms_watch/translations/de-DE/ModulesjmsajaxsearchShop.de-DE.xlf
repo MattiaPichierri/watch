@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+  <file original="D:\wamp\www\prestashop17\jms_fluent3\themes\jms_fluent\modules\jmsajaxsearch\views\templates\hook\jmsajaxsearch-left.tpl" source-language="de-DE" target-language="de-DE" datatype="plaintext">
+    <body>
+      <trans-unit id="96b74c49a42ae2c72bada15f266b465c">
+        <source>Search Form</source>
+        <target>Search Form</target>
+        <note>Context:
+File: D:\wamp\www\prestashop17\jms_fluent3\themes\jms_fluent\modules\jmsajaxsearch\views\templates\hook\jmsajaxsearch-left.tpl:11</note>
+      </trans-unit>
+      <trans-unit id="02806d6fa63b4ad0ec77583a0f29fcaa">
+        <source>Search keyword...</source>
+        <target>Search keyword...</target>
+        <note>Context:
+File: D:\wamp\www\prestashop17\jms_fluent3\themes\jms_fluent\modules\jmsajaxsearch\views\templates\hook\jmsajaxsearch-left.tpl:17</note>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

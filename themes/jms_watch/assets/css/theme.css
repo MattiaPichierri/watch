@@ -1,0 +1,9 @@
+.product-line-grid-right .material-icons.touchspin-up, .product-line-grid-right .material-icons.touchspin-down {
+    font-size: 17px;
+}
+ .bootstrap-touchspin .input-group-btn-vertical .touchspin-down::after {
+    content: "";
+}
+ .bootstrap-touchspin .input-group-btn-vertical .touchspin-up::after {
+    content: "";
+}

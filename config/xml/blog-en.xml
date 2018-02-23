@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8" ?><rss version="2.0" xml:base="https://www.prestashop.com/en/blog/feed.xml" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:og="http://ogp.me/ns#" xmlns:article="http://ogp.me/ns/article#" xmlns:book="http://ogp.me/ns/book#" xmlns:profile="http://ogp.me/ns/profile#" xmlns:video="http://ogp.me/ns/video#" xmlns:product="http://ogp.me/ns/product#" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:sioc="http://rdfs.org/sioc/ns#" xmlns:sioct="http://rdfs.org/sioc/types#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+  <channel>
+    <title>Blog Feed</title>
+    <link>https://www.prestashop.com/en/blog/feed.xml</link>
+    <description></description>
+    <language>en</language>
+     <atom:link href="https://www.prestashop.com/en/blog/feed.xml" rel="self" type="application/rss+xml" />
+      <item>
+    <title>4 Ways to Build a Lasting Relationship with Your Customers</title>
+    <link>https://www.prestashop.com/en/blog/4-ways-to-build-a-lasting-relationship-with-your-customers</link>
+    <description>Whether you’re a marketing rookie or a master, you already have one powerful tool at your disposal: your brain.</description>
+     <pubDate>Wed, 21 Feb 2018 10:19:17 +0100</pubDate>
+ <dc:creator>mailchimp</dc:creator>
+ <guid isPermaLink="false">https://www.prestashop.com/en/blog/4-ways-to-build-a-lasting-relationship-with-your-customers</guid>
+  </item>
+  <item>
+    <title>Meet Jimmy, Ambassador of the month | February 2018</title>
+    <link>https://www.prestashop.com/en/blog/ambassador-jimmy-hong-kong</link>
+    <description>Jimmy joined the Ambassador Program in August 2017 and he is our first Ambassador in Hong Kong. We are happy to have him among us, and we thank him for his dedication to PrestaShop.</description>
+     <pubDate>Tue, 20 Feb 2018 17:33:13 +0100</pubDate>
+ <dc:creator>MLNielsen</dc:creator>
+ <guid isPermaLink="false">https://www.prestashop.com/en/blog/ambassador-jimmy-hong-kong</guid>
+  </item>
+  <item>
+    <title>PrestaShop loves you! &amp;lt;3</title>
+    <link>https://www.prestashop.com/en/blog/prestashop-loves-you</link>
+    <description>Obviously. We met in 2007, united by two passions: e-commerce and open source.</description>
+     <pubDate>Tue, 13 Feb 2018 11:49:08 +0100</pubDate>
+ <dc:creator>Anonymous</dc:creator>
+ <guid isPermaLink="false">https://www.prestashop.com/en/blog/prestashop-loves-you</guid>
+  </item>
+  <item>
+    <title>2018 French Finance Law No. 2017-1837 of 12/30/2017</title>
+    <link>https://www.prestashop.com/en/blog/french-finance-law-of-12-30-2017</link>
+    <description>Yes, this does concern e-commerce 
+DOES NOT CONCERN:</description>
+     <pubDate>Mon, 12 Feb 2018 17:05:16 +0100</pubDate>
+ <dc:creator>article88@prestashop.com</dc:creator>
+ <guid isPermaLink="false">https://www.prestashop.com/en/blog/french-finance-law-of-12-30-2017</guid>
+  </item>
+  <item>
+    <title>How to Optimize Your Social Media Payments Strategy</title>
+    <link>https://www.prestashop.com/en/blog/how-to-optimize-your-social-media-payments-strategy</link>
+    <description>If you were to look back 10 years at the early days of social media, today&#039;s most popular platforms would appear quite different.</description>
+     <pubDate>Thu, 08 Feb 2018 11:49:43 +0100</pubDate>
+ <dc:creator>Discover</dc:creator>
+ <guid isPermaLink="false">https://www.prestashop.com/en/blog/how-to-optimize-your-social-media-payments-strategy</guid>
+  </item>
+  <item>
+    <title>Your 2018 E-Commerce Calendar is ready for download!</title>
+    <link>https://www.prestashop.com/en/blog/your-2018-e-commerce-calendar-is-ready-for-download</link>
+    <description>You have the talent and the ideas, the PrestaShop team has a calendar that will support you throughout the year!</description>
+     <pubDate>Tue, 06 Feb 2018 11:20:03 +0100</pubDate>
+ <dc:creator>MHamon</dc:creator>
+ <guid isPermaLink="false">https://www.prestashop.com/en/blog/your-2018-e-commerce-calendar-is-ready-for-download</guid>
+  </item>
+  <item>
+    <title>Meet Jehyson, Ambassador of the month | January 2018</title>
+    <link>https://www.prestashop.com/en/blog/ambassador-jehyson-cali</link>
+    <description>Jehyson is our Ambassador of the month from Cali in Colombia! He is a very active contributor who joined us as Ambassador in September 2017.</description>
+     <pubDate>Wed, 31 Jan 2018 17:03:09 +0100</pubDate>
+ <dc:creator>MLNielsen</dc:creator>
+ <guid isPermaLink="false">https://www.prestashop.com/en/blog/ambassador-jehyson-cali</guid>
+  </item>
+  <item>
+    <title>PrestaShop Loves Its Community</title>
+    <link>https://www.prestashop.com/en/blog/prestashop-loves-its-community</link>
+    <description>
+*/
+/*--&gt;*/
+</description>
+     <pubDate>Thu, 25 Jan 2018 10:16:46 +0100</pubDate>
+ <dc:creator>Anonymous</dc:creator>
+ <guid isPermaLink="false">https://www.prestashop.com/en/blog/prestashop-loves-its-community</guid>
+  </item>
+  <item>
+    <title>What is Marketing Automation, and why, for Turing&amp;#039;s sake, should I use it?</title>
+    <link>https://www.prestashop.com/en/blog/what-is-marketing-automation</link>
+    <description>The Internet has almost completely penetrated our daily lives. As much as a dozen years ago it was still a novelty, to which we approached very carefully.</description>
+     <pubDate>Thu, 11 Jan 2018 14:52:41 +0100</pubDate>
+ <dc:creator>salesmanago</dc:creator>
+ <guid isPermaLink="false">https://www.prestashop.com/en/blog/what-is-marketing-automation</guid>
+  </item>
+  <item>
+    <title>5 Tips to Optimize Your E-commerce Business for Mobile</title>
+    <link>https://www.prestashop.com/en/blog/5-tips-to-optimize-your-e-commerce-business-for-mobile</link>
+    <description>In 2018, there&#039;s one truth all e-commerce retailers should know: if you don&#039;t have a mobile presence, you&#039;re likely on the fast track to irrelevance.</description>
+     <pubDate>Fri, 29 Dec 2017 11:46:31 +0100</pubDate>
+ <dc:creator>Discover</dc:creator>
+ <guid isPermaLink="false">https://www.prestashop.com/en/blog/5-tips-to-optimize-your-e-commerce-business-for-mobile</guid>
+  </item>
+  </channel>
+</rss>

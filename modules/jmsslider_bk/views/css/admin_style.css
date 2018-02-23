@@ -1,0 +1,96 @@
+.area-display .list-title-slides{
+	margin-left: 15px;
+	display: inline-block;
+}
+.wrap-slider{
+	border: 2px solid #00c8d2;
+    display: inline-block;
+    margin-bottom: 30px;
+    overflow: scroll;
+    width: 100%;
+}
+.area-display .btn-info {
+	padding: 5px 10px;
+}
+.layer.active{
+	border: 1px dotted #FF0000 !important;
+}
+.tp-caption.active{
+	border: 1px dotted #FF0000 !important;
+}
+.slide .move-toolbar{
+	position: absolute;
+	top: 0;
+	left: 0;
+	color: #fff !important;
+	background-color: #000;
+	z-index: 9;
+	display: inline-block;
+	padding: 5px;
+}
+
+.tp-caption iframe {
+	position: absolute;
+	top: 0;
+	left: 0;
+	min-width:200px;
+	min-height:120px;
+}
+.tp-caption.layer{	
+	margin: 0;
+	padding: 0;
+}
+#layer_form .panel-footer {
+	position:fixed;
+	right:0px;
+	top:300px;
+	width:52px;
+	padding:0px!important;
+	margin:0px!important;
+	background-color:transparent!important;
+}
+#layer_form .panel-footer .btn i {
+	color:#fff!important;
+	font-size:25px;
+	width:25px;
+	height:25px;
+}	
+#layer_form .panel-footer .btn {
+	border-radius:0px;
+	float:right;
+	box-shadow: 1px 2px 3px #bbb;
+	margin-bottom:4px;
+	padding:6px 12px!important;
+}	
+#slides .panel {
+    border-radius: 0 !important;
+    cursor: move;
+    line-height: 30px;
+    margin-bottom: 10px !important;
+    padding: 7px 50px 7px 20px !important;
+}	
+#slides .panel .btn {
+    border-radius: 0 !important;
+    margin-right: 6px;
+    padding: 4px 7px;
+}
+#addSlide {
+	position:fixed!important;
+	right:0px!important;
+	top:300px!important;
+	box-shadow: 0 2px 3px #999;
+    cursor: pointer;
+    display: inline-block;
+    height: 50px;
+    line-height: 44px;
+    margin: 2px 0;
+    padding: 5px;
+    text-align: center;
+    width: 50px;
+	z-index:1000;
+	border-radius:0px;
+}
+#addSlide i {
+	color:#FFF;
+	font-size:18px;
+}

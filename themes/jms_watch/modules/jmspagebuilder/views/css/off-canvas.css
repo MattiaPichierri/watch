@@ -1,0 +1,87 @@
+#content-wrap {
+	overflow: hidden;
+	width: 100%;
+	height: 100%;
+}
+
+#content-wrap {	
+	-webkit-overflow-scrolling: touch;
+}
+
+/* Menu Button */
+.menu-button {
+	position: fixed;
+	z-index: 1000;
+	margin: 1em;
+	padding: 0;
+	width: 2.5em;
+	height: 2.25em;
+	border: none;
+	text-indent: 2.5em;
+	font-size: 1.5em;
+	color: transparent;
+	background: transparent;
+}
+
+.menu-button::before {
+	position: absolute;
+	top: 0.5em;
+	right: 0.5em;
+	bottom: 0.5em;
+	left: 0.5em;
+	background: linear-gradient(#373a47 20%, transparent 20%, transparent 40%, #373a47 40%, #373a47 60%, transparent 60%, transparent 80%, #373a47 80%);
+	content: '';
+}
+
+.menu-button:hover {
+	opacity: 0.6;
+}
+
+/* Close Button */
+.close-button {
+    background: #0d0d0d none repeat scroll 0 0;
+    border: 0 none;
+    color: #ffffff;
+    font-size: 16px;
+    margin-bottom: 80px;
+    margin-top: 30px;
+    padding: 10px 48px;
+    text-align: left;
+    text-transform: uppercase;
+    width: 100%;
+}
+/* Menu */
+.menu-wrap {
+    background: #000 none repeat scroll 0 0;
+    height: 100%;
+    left: -300px;
+    max-height: 700px;
+    overflow-y: auto;
+    position: fixed;
+    top: 0;
+    transition: left 0.4s cubic-bezier(0.7, 0, 0.3, 1) 0s;
+    width: 300px;
+    z-index: 3001;
+}
+#off-canvas-menu {
+	background:#000;
+}
+/* Shown menu */
+.show-menu .menu-wrap {
+	transition: left 0.4s;
+	-webkit-transition-timing-function: cubic-bezier(0.7,0,0.3,1);
+	transition-timing-function: cubic-bezier(0.7,0,0.3,1);
+	box-shadow: 0 2px 3px rgba(0, 0, 0, 0.1);
+	left: 0;
+	top:0;
+}
+
+.show-menu .content::before {
+	opacity: 1;
+	-webkit-transition: opacity 0.8s;
+	transition: opacity 0.8s;
+	-webkit-transition-timing-function: cubic-bezier(0.7,0,0.3,1);
+	transition-timing-function: cubic-bezier(0.7,0,0.3,1);
+	-webkit-transform: translate3d(0,0,0);
+	transform: translate3d(0,0,0);
+}

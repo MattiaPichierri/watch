@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+  <file original="D:\wamp\www\prestashop17\jms_fluent3\themes\jms_fluent\modules\jmsajaxsearch\views\templates\hook\jmsajaxsearch.tpl" source-language="fr-FR" target-language="fr-FR" datatype="plaintext">
+    <body>
+      <trans-unit id="d5f66ab852c4c3c24b2c3880a3e0d616">
+        <source>Search everything...</source>
+        <target>Search everything...</target>
+        <note>Context:
+File: D:\wamp\www\prestashop17\jms_fluent3\themes\jms_fluent\modules\jmsajaxsearch\views\templates\hook\jmsajaxsearch.tpl:35</note>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

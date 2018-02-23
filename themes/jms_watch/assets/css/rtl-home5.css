@@ -1,0 +1,60 @@
+.headertop_right .addon-box{
+	float:left;
+}
+.headertop_right .addon-box:first-child {
+    padding-right: 20px;
+}
+.headertop_right .addon-box:first-child {
+    padding-left: 0;
+    padding-right: 20px;
+}
+
+.owl-dots {
+    left: 0;
+    right:auto;
+}
+.inputNew.form-control.newsletter-input{
+	margin-right:0;
+	margin-left:6px;
+}
+.btn-group.open > .dropdown-menu{
+	left:0;
+	right:auto;
+}
+.btn-group.open .dropdown-menu::before {
+    left: 14px;
+    right: auto;
+}
+.headertop_center {
+    left: auto;
+    right: 15px;
+}
+.headertop_right {
+    left: 15px;
+    right: auto;
+}
+.banner_left .wrapper-banner .box-content{
+	padding-left:0;
+	padding-right:50px;
+}
+.headertop_right {
+    padding-left: 15px;
+}
+.testimonial-info {
+    border-left: 0 none;
+    border-right: 1px solid #ebebeb;
+    padding-left: 0;
+    padding-right: 60px;
+}
+.info_people {
+    padding-left: 60px;
+    padding-right: 16px;
+}
+@media (max-width: 481px){
+	#ajax_search{
+		top:-18px !important;
+	}
+	#cart_block .shoppingcart-box{
+		top:12px;
+	}
+}

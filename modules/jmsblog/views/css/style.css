@@ -1,0 +1,81 @@
+/**
+* 2007-2015 PrestaShop
+*
+* Jms Blog
+*
+*  @author    Joommasters <joommasters@gmail.com>
+*  @copyright 2007-2015 Joommasters
+*  @license   license http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL
+*  @Website: http://www.joommasters.com
+*/
+.widget-tabs .nav-tabs {
+    border-bottom: 0 none;
+    padding-bottom: 20px;
+}
+.widget-tabs .item-post img {
+	float: left;
+    width: 126px;
+    margin-right: 10px;	    
+}
+.widget-tabs .comment-item,
+.widget-tabs .item-post {
+   display: inline-block;
+    margin-bottom: 15px;
+    width: 100%;
+}
+.blog-widget .widget-title {
+	border-bottom: 1px solid #dddddd;
+    color: #333333;
+    font-size: 15px;
+    margin-bottom: 15px;
+    margin-top: 0;
+    padding-bottom: 8px;
+    text-transform: uppercase;
+}
+.widget-tabs h6 {
+	font-size: 13px;
+    line-height: 20px;
+    max-height: 65px;
+    overflow: hidden;
+    padding-bottom: 5px;
+}
+.widget-tabs .post-view {
+	font-size:12px;
+	margin:0px;
+}
+.widget-tabs .comment-item img {
+    float: left;
+    margin-right: 10px;
+    width: 65px;
+}
+.widget-categories li ul {
+	display:none;	
+}
+.widget-categories li a {
+	display:block;
+	line-height:36px;
+	position:relative;
+}
+.widget-categories li a span {	
+	display:block;
+	width:20px;
+	height:20px;
+	top:9px;
+	right:10px;
+	position:absolute;
+}
+.widget-categories li a span.child-icon {
+	background:url('../img/open.png') no-repeat 4px 5px;
+}
+.widget-categories li.open a span.child-icon {
+	background:url('../img/close.png') no-repeat 4px 8px;
+}
+.widget-categories li ul {
+	margin-left:10px;
+}
+.post-view .fa-eye {
+    margin-right: 5px;
+}
+.blog-social-sharing {
+	margin-bottom:30px;
+}

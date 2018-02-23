@@ -1,0 +1,348 @@
+/**
+ * @package Jms Drop Megamenu
+ * @version 1.0
+ * @Copyright (C) 2009 - 2013 Joommasters.
+ * @license http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL
+ * @Website: http://www.joommasters.com
+**/
+
+#jms-toolbar {
+	position:fixed;
+	right:0px;
+	top:30%;
+	width:50px;
+	z-index:1000;
+}
+.jms-tool {	
+    cursor: pointer;
+    display: inline-block;
+    height: 50px;
+    line-height: 44px;
+    margin: 2px 0px;
+    padding: 5px;
+    text-align: center;
+    width: 50px;
+	background: #FFF none repeat scroll 0 0;
+	box-shadow:0 2px 3px #999;
+}
+.jms-tool. {
+}
+.jms-tool i {
+	color: #FFF;
+	font-size:17px;
+}
+a {
+	cursor:pointer;
+}
+.lvl1 {
+	margin-left:25px;
+}
+.lvl2 {
+	margin-left:50px;
+}
+.lvl3 {
+	margin-left:75px;
+}
+.lvl4 {
+	margin-left:100px;
+}
+#menus .panel {
+	padding:7px 50px 7px 20px!important;
+	margin-bottom:10px!important;
+	border-radius:0px!important;
+	line-height:30px;
+	cursor: move;
+}
+#menus .panel .btn {
+	border-radius:0px!important;
+	padding:4px 7px;
+	margin-right:6px;
+}
+a.collapse-expand,
+a.collapse-expand:hover {
+	color:#333;
+	text-decoration:none;
+}
+#menus > div {
+	overflow:hidden;
+}
+.jms-submenu  {
+	transition: all 0.5s ease 0s;
+	-webkit-transition: all 0.5s ease 0s;
+	-moz-transition: all 0.5s ease 0s;
+	-o-transition: all 0.5s ease 0s;
+}
+.collapse-expand-all {
+	margin-right:50px;
+	cursor:pointer;
+}	
+.check-all {
+	margin-right:50px;
+}
+.note i {
+    color: #00aff0;
+    margin-right: 10px;
+}
+
+#jms-megamenu-container {
+	min-height:600px;
+	background:#FFF;	
+	padding:30px;
+}
+.jms-megamenu .nav > li {
+    margin-right: 20px;
+	float:left;
+}	
+.jms-megamenu .nav > li > a  {
+	background-color: #e5e5e5;
+    color: #555555;
+	border: 1px solid #ccc;
+	font-weight:bold;
+	font-size:13px;
+}
+.jms-megamenu .dropdown-menu {
+    background: #f2f2f2 none repeat scroll 0 0;
+    border: 1px solid #aaa;
+    border-radius: 0;
+    box-shadow: 3px 3px 0 #e6e6e6;
+    margin-top: 10px;   
+    padding: 10px;
+    z-index: 99;
+	min-width:200px;
+}
+.jms-megamenu .row+ .row {    
+    padding-top: 10px;
+}
+.jms-megamenu .row .mega-inner {
+    background: white none repeat scroll 0 0;
+    border: 1px dotted #ccc;
+    border-radius: 0;
+	
+}
+.jms-megamenu .mega-inner {
+    padding: 10px;
+}
+.jms-megamenu .mega-nav, .jms-megamenu  .dropdown-menu .mega-nav {
+    list-style: outside none none;
+    margin: 0;
+    padding: 0;
+	min-height:20px;
+}
+.jms-megamenu .mega-nav li {
+	border: 1px dotted #ccc;
+}
+.jms-megamenu .mega-nav li > a, .jms-megamenu .mega-nav li > span {
+    background: #fff none repeat scroll 0 0;    
+    border-radius: 0;
+    color: #999;
+    font-size: 13px;
+    padding: 5px 20px 5px 10px;
+	display:block;
+	line-height:20px;
+	text-decoration:none;
+}
+.jms-megamenu .mega-nav li {
+    margin-bottom: 5px;
+}
+.jms-megamenu .mega-nav li:last-child {
+	margin-bottom:0px;
+}
+.jms-megamenu .mega-nav > div, .jms-megamenu .dropdown-menu .mega-nav > li {
+    list-style: outside none none;
+    margin-left: 0;
+}
+.jms-megamenu  .caret {
+	margin-left:5px;
+}
+.jms-megamenu .mega-nav li.selected > a{
+	color:#333;
+}
+.jms-megamenu .mega-nav li.selected,
+.mega-dropdown-menu.selected,
+.mega-col-nav.selected > .mega-inner {
+	border:1px solid #07b!important;
+}	
+
+.mega-nav .mega > a::after {
+    border-color: transparent transparent transparent #cccccc;
+    border-style: solid;
+    border-width: 5px 0 5px 5px;
+    content: " ";
+    display: block;
+    float: right;
+    height: 0;
+    margin-right: -10px;
+    margin-top: 5px;
+    width: 0;
+}
+.jms-megamenu .mega-nav li.group > a {
+	font-weight:bold;
+}	
+.jms-megamenu .nav [class^="icon-"], 
+.jms-megamenu  .nav [class*=" icon-"], 
+.jms-megamenu  .nav .fa {
+    margin-right: 5px;
+}
+.mega-nav > .mega > .dropdown-menu  {
+	top:0px;
+	left:100%;
+	margin:0px;
+	
+}
+.jms-megamenu .dropdown-menu .dropdown-menu {
+	margin-left:10px;
+}
+.mega-nav > .mega {
+	position:relative;
+}
+.jms-megamenu .menu-align-justify > .dropdown-menu {
+    left: 0;
+    margin-left: 0;
+    top: auto;
+}
+.jms-megamenu .menu-align-left > .dropdown-menu {
+    left: 0;
+}
+.jms-megamenu .menu-align-right > .dropdown-menu {
+    left: auto;
+    right: 0;
+}
+.jms-megamenu .menu-align-center > .dropdown-menu {
+  left: 50%;
+  transform: translate(-50%);
+  -webkit-transform: translate(-50%);
+  -moz-transform: translate(-50%);
+  -ms-transform: translate(-50%);
+  -o-transform: translate(-50%);
+}
+.jms-megamenu .mega-nav > .mega.menu-align-left > .dropdown-menu {
+  left: 100%;
+}
+.jms-megamenu .mega-nav > .mega.menu-align-right > .dropdown-menu {
+  left: auto;
+  right: 100%;
+}
+.jms-megamenu .menu-align-justify {
+  position: static;
+}
+.jms-megamenu .menu-align-justify > .dropdown-menu {
+  left: 0;
+  margin-left: 0;
+  top: auto;
+}
+.menu-config,
+.jms-config {
+    box-sizing: border-box;    
+    height: 135px;
+    padding: 30px;
+	border:1px solid #ccc;
+	background:#FFF;
+	margin-bottom:50px;
+}
+.menu-config ul,
+.jms-config  ul {
+    float: left;
+    margin-right: 30px;
+	padding:0px;
+}
+.menu-config li,
+.jms-config  li {    
+    list-style: outside none none;
+    margin: 0;
+    padding: 0;
+}
+.menu-config li > label,
+.jms-config li > label {
+    color: #999999;
+    display: block;
+    font-size: 11px;
+	font-weight:normal;
+}
+.menu-config .btn,
+.jms-config .btn {
+    background-color: #f2f2f2;
+    background-image: none;
+    border-color: #ccc;
+    border-radius: 0 !important;
+    box-shadow: none;
+    line-height: 22px;
+    outline: medium none !important;
+    position: relative;
+    text-shadow: none;
+	border:1px solid #ccc!important;
+	padding:6px 20px;
+}	
+.jms-config .btn [class^="icon-"], 
+.jms-config .btn [class*=" icon-"] {
+    font-size: 14px;
+    line-height: 1;
+	color:#333;
+}	
+.jms-config .tool-reset {
+	width:90px;
+	background:#fbbb22;
+}	
+.menu-config input,
+.jms-config select,
+.jms-config input {
+	border:1px solid #ccc!important;
+	border-radius:0px!important;
+	height:36px!important;
+}
+#subwidth {
+	width:100px;
+}
+.jms-config .disabled {
+    cursor: default;
+    opacity: 0.3;
+    pointer-events: none;
+}
+.menu-config .prestashop-switch,
+.jms-config .prestashop-switch {
+	margin-top:0px;
+	height:36px;
+	box-shadow:none;
+	border:1px solid #ccc;
+	border-radius:0px;
+}
+.menu-config .prestashop-switch label,
+.jms-config .prestashop-switch label {
+	width:50px;
+	height:36px;
+	line-height:36px;
+}	
+.menu-config .prestashop-switch label {
+	width:70px;
+}
+
+.menu-config .prestashop-switch .slide-button,
+.jms-config .prestashop-switch .slide-button {
+	border:0px!important;
+	border-radius:0px;
+}
+.save-btn {
+	position:fixed;
+	right: 0;
+    top: 35%;
+    width: 50px;
+    z-index: 1000;
+}
+.save-btn a {
+	box-shadow: 0 2px 3px #999;
+    cursor: pointer;
+    display: inline-block;
+    height: 50px;
+    line-height: 44px;
+    margin: 2px 0;
+    padding: 5px;
+    text-align: center;
+    width: 50px;
+}	
+.save-btn a i {
+	font-size:18px;
+}
+#btn-save-config {
+	background:#72c279;
+	text-transform:uppercase;
+	font-weight:bold;
+}

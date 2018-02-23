@@ -1,0 +1,2 @@
+*ERROR* 	v1.7.2.4	2018/02/06 - 06:35:47: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1<br /><br /><pre>DELETE FROM `jms_jms_slides_lang` WHERE `id_slide` = </pre> at line 744 in file classes/db/Db.php
+*ERROR* 	v1.7.2.4	2018/02/06 - 06:36:28: Table 'prestashop.jms_slides' doesn't exist<br /><br /><pre>DELETE FROM `jms_slides` WHERE `id_slide` = 12</pre> at line 744 in file classes/db/Db.php

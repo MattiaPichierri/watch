@@ -1,0 +1,27 @@
+.promobar.promobar-fixed {
+	position: fixed;
+	left: 0;
+	right: 0;
+	width: 100%;
+	z-index: 9999;
+}
+.promobar.top {
+	top: 0;
+}
+.promobar.bottom {
+	bottom: 0;
+}
+.promobar .close {
+	position: absolute;
+	top: calc(50% - 15px);
+	right: 0px;
+	color: rgb(255, 255, 255);
+	font-weight: bold;
+	font-size: 30px;
+	cursor: pointer;
+	text-shadow: none;
+	opacity: 1;
+	width: 30px;
+	height: 30px;
+	display: inline-block;
+}

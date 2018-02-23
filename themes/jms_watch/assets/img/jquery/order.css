@@ -1,0 +1,342 @@
+ .product-name {
+    font-family: "Hind",sans-serif;
+    font-weight:500;
+}
+.panel-default {
+    background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+    border-color: #ddd;
+    border-radius: 0;
+    box-shadow: none;
+}
+.panel-default > .panel-heading {
+    background: rgba(0, 0, 0, 0) none repeat scroll 0 0 !important;
+    border-color: #ddd;
+    color: #333;
+}
+.form-control{
+	background: none;
+}
+.myaccount_lnk_list span {
+    font-size: 20px;
+    margin-right: 10px;
+}
+.product-line-grid-body {
+    text-align: left;
+    padding-left: 50px;
+}
+.product-line-info.small::before {
+    content: ",";
+}
+.product-line-info.small {
+    display: inline-block;
+}
+.product-line-info .unit_cart {
+    color: #414141 !important;
+    font-size: 14px;
+}
+.js-subtotal , .cart-summary-products p{
+    color: #000000;
+    font-family: "Hind", sans-serif;
+    font-size: 16px;
+}
+.checkout.cart-detailed-actions.card-block {
+    float: left;
+    margin-top: 30px;
+}
+.js-cart-line-product-quantity.form-control {
+    background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+    border: none;
+    /*border: 2px solid #e3e3e3;*/
+    font-size: 14px;
+    height: 48px;
+    width: 40px;
+    text-align:center;
+    margin-left: 30px;
+    margin-right: 12px;
+}
+#cart .btn.btn-touchspin.js-touchspin.bootstrap-touchspin-up{
+/*	left:-30px;*/
+}
+.product-line-grid {
+    margin-bottom: 20px;
+}
+.qty {
+    padding: 0;
+    min-width: 116px;
+}
+.product-line-grid .cart_unit{
+	padding:0;
+}
+.product-price {
+    color: #414141 !important;
+    font-family: "Neue Einstellung"; 
+    font-weight:600;
+    font-size: 14px;
+}
+
+#cart .qty .fa.fa-plus, #cart .qty .fa.fa-minus {
+    /*left: 9px;*/
+    line-height: 0;
+    position: absolute;
+}
+.fa-plus {
+    margin-left: -3px;
+    font-size: 0.7em;
+}
+.fa-minus {
+    margin-left: -3px;
+    font-size: 0.7em;
+}
+#cart .btn.btn-touchspin.js-touchspin{
+        border-radius: 50%;
+}
+#cart .btn.btn-touchspin.js-touchspin.bootstrap-touchspin-down{
+}
+#cart .btn.btn-touchspin.js-touchspin.bootstrap-touchspin-up{
+}
+.product-line-grid-right.product-line-actions.col-md-1,  .product-line-grid-right.product-line-actions.col-md-2{
+	padding:0;
+}
+#cart  .value {
+    float: right;
+}
+.address br {
+    margin: 6px 0;
+}
+@media (max-width: 481px) {
+	.text-xs-right {
+		padding: 0;
+	}
+	.product-line-grid-right.product-line-actions {
+		margin-top: 30px;
+	}
+	.qty{
+		width:66.7% !important;
+	}
+}
+ .input-group-btn button {
+    background: #cccccc none repeat scroll 0 0;
+    font-size: 12px !important;
+    height: 39px;
+    letter-spacing: 0;
+    margin-left: 0;
+}
+
+.input-group {
+    display: block;
+    margin-top: -10px;
+}
+.nav.nav-inline.m-y-2 .nav-item {
+    display: inline-block;
+}
+.nav.nav-inline.m-y-2 {
+    margin-left: -15px;
+}
+.checkout.text-xs-center.card-block {
+    text-align: right !important;
+}
+#checkout .tab-pane.active {
+    display: block !important;
+}
+#checkout .tab-pane{
+	display:none !important;
+}
+.nav.nav-inline.m-y-2 .nav-item a {
+    color: #666666;
+	font-weight:600;
+}
+.nav-link.active {
+    color: #000000 !important;
+}
+body#checkout section.checkout-step .custom-radio input[type="radio"] {
+    height: 1.25rem;
+    width: 1.25rem;
+}
+.custom-radio input[type="radio"] {
+    cursor: pointer;
+    opacity: 0;
+}
+.custom-radio input[type="radio"]:checked + span {
+    background-color: #000;
+    border-radius: 50%;
+    display: block;
+    height: 10px;
+    left: 3px;
+    position: absolute;
+    top: 3px;
+    width: 10px;
+}
+.custom-radio {
+    background: #ffffff none repeat scroll 0 0;
+    border: 1px solid #acaaa6;
+    border-radius: 50%;
+    cursor: pointer;
+    display: inline-block;
+    height: 18px;
+    margin-right: 1.25rem;
+    position: relative;
+    vertical-align: middle;
+    width: 18px;
+}
+#checkout .custom-checkbox span {
+    -moz-box-flex: 0;
+    flex: 0 0 15px;
+    margin-top: 0.1875rem;
+}
+.custom-checkbox input[type="checkbox"] + span {
+    border: 1px solid #414141;
+    cursor: pointer;
+    display: inline-block;
+    height: 1.9375rem;
+    margin-right: 3px;
+    vertical-align: middle;
+    width: 1.9375rem;
+}
+.custom-checkbox input[type="checkbox"]:checked + span .checkbox-checked {
+    display: block;
+}
+.custom-checkbox input[type="checkbox"] + span .checkbox-checked {
+    color: #000;
+    display: none;
+    font-size: 2.1rem;
+    margin: -0.25rem -0.125rem;
+}
+.cart-summary-products a {
+    font-family: "Hind";
+    font-size: 16px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+#checkout .custom-checkbox input[type="checkbox"] { 
+    opacity: 0;
+    position: absolute;
+	display:block;
+	height:25px;
+	width:20px;
+}
+#checkout .tab-content section .form-group .col-md-6 label{
+	display:inline;
+}
+#checkout .value {
+    float: right;
+}
+#checkout #notifications {
+    margin-top: 70px;
+}
+.identity a {
+    color: #000000;
+    font-weight: 700;
+}
+.media-body .product-quantity {
+    display: block;
+}
+.edit-address.text-muted.btn-default {
+    margin-right: 10px;
+}
+.add-address {
+    margin-top: 30px;
+}
+.col-md-8 section {
+    margin-bottom: 50px;
+}
+#my-account .links  a {
+    border: 1px solid #f0f0f0;
+    color: #666666;
+    display: block;
+    font-weight: 400;
+    margin: 10px;
+    min-width: 250px;
+    padding: 10px;
+    text-transform: capitalize;
+}
+#my-account  .links   .fa {
+    font-size: 1.92em;
+    left: 0;
+    margin-right: 7px;
+    position: relative;
+    top: 0;
+}
+#my-account .links  a:hover {
+    color: #000000;
+}
+#my-account .page-footer{
+	display:none;
+}
+#delivery-addresses article{
+	margin-bottom:50px;
+}
+.address-footer a {
+    margin: 0 12px 0 0;
+}
+.address-footer .btn-default {
+    padding: 13px 15px;
+}
+#addresses .addresses-footer {
+    margin-left: 15px;
+    margin-top: 30px;
+}
+#authentication .btn-primary:hover {
+    background: #000000 none repeat scroll 0 0;
+    border: 2px solid #000000;
+    color: #ffffff;
+}
+#authentication .btn-primary {
+    background: #ffffff none repeat scroll 0 0;
+    border: 2px solid #000000;
+    color: #000000;
+    opacity: 1;
+    padding: 10px 35px;
+}
+.form-footer .btn-default {
+    /*float: right;*/
+}
+.checkout-step.-current.-reachable.js-current-step .text-muted {
+    float: right;
+	color:#acaaa6;
+}
+.text-muted {
+    float: right;
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 0;
+    text-transform: none;
+}
+.page-footer {
+    margin-top: 40px;
+}
+.page-footer .account-link {
+    padding-right: 80px;
+}
+#checkout-payment-step .custom-radio {
+    margin-top: 7px;
+}
+#checkout .content {
+    padding-left: 50px;
+}
+
+#js-checkout-summary {
+    border: 2px solid #f3f3f3;    
+    padding: 20px;
+}
+
+.media-body {
+    font-size: 14px;
+}
+
+.address {
+    font-size: 16px;
+    line-height: 26px;
+}
+
+.address-alias {
+    font-size: 16px;
+    line-height: 26px;    
+}
+
+.cart-grid {
+    margin-bottom: 40px;
+}
+
+#payment-confirmation {
+    padding-bottom: 50px;
+}

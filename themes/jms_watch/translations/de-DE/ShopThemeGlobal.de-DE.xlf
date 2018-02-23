@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+  <file original="D:\wamp\www\prestashop17\jms_fluent3\themes\jms_fluent\modules\ps_currencyselector\ps_currencyselector.tpl" source-language="de-DE" target-language="de-DE" datatype="plaintext">
+    <body>
+      <trans-unit id="9009aa1a3c90e5ca6754c0b87bcdeafb">
+        <source>Select Currency:</source>
+        <target>Select Currency:</target>
+        <note>Context:
+File: D:\wamp\www\prestashop17\jms_fluent3\themes\jms_fluent\modules\ps_currencyselector\ps_currencyselector.tpl:27</note>
+      </trans-unit>
+      <trans-unit id="77295c7d814e7397c55f64ec06313984">
+        <source>Currency:</source>
+        <target>Währung:</target>
+        <note>Context:
+File: D:\wamp\www\prestashop17\jms_fluent3\themes\jms_fluent\modules\ps_currencyselector\ps_currencyselector.tpl:55</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="D:\wamp\www\prestashop17\jms_fluent3\themes\jms_fluent\modules\ps_languageselector\ps_languageselector.tpl" source-language="de-DE" target-language="de-DE" datatype="plaintext">
+    <body>
+      <trans-unit id="9332845cb238fd3f3dfa8a4f175ff719">
+        <source>Select Language:</source>
+        <target>Select Language:</target>
+        <note>Context:
+File: D:\wamp\www\prestashop17\jms_fluent3\themes\jms_fluent\modules\ps_languageselector\ps_languageselector.tpl:29</note>
+      </trans-unit>
+      <trans-unit id="9ff7d5d8633cca70ceb282dce77e6edf">
+        <source>Languages:</source>
+        <target>Languages:</target>
+        <note>Context:
+File: D:\wamp\www\prestashop17\jms_fluent3\themes\jms_fluent\modules\ps_languageselector\ps_languageselector.tpl:63</note>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

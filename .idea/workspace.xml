@@ -1,0 +1,468 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="f3ff13a7-5e66-4dc8-8b59-b15e4d272d69" name="Default" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_TABLE_DETAILS" value="true" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="jms_fluent" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="product-images-modal.tpl" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/themes/jms_watch/templates/catalog/_partials/product-images-modal.tpl">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="544">
+              <caret line="32" column="8" lean-forward="false" selection-start-line="32" selection-start-column="8" selection-end-line="32" selection-end-column="8" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="product-variants.tpl" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/themes/jms_watch/templates/catalog/_partials/product-variants.tpl">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="272">
+              <caret line="16" column="71" lean-forward="false" selection-start-line="16" selection-start-column="71" selection-end-line="16" selection-end-column="71" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>facet-label</find>
+      <find>search_filters_wrapper</find>
+      <find>filter-box</find>
+      <find>lis</find>
+      <find>list</find>
+      <find>list_footer</find>
+      <find>&lt;i class=&quot;material-icons touchspin-up&quot;&gt;&lt;/i&gt;</find>
+      <find>&lt;i class=&quot;material-icons touchspin-up</find>
+      <find>btn btn-touchspin js-touchspin bootstrap-touchspin-up</find>
+      <find>material-icons touchspin-up</find>
+      <find>row product-detail</find>
+      <find>Accessories</find>
+      <find>Accessoriesproduct-accessories clearfix</find>
+      <find>product-accessories clearfix</find>
+      <find>checkbox-color</find>
+      <find>col-lg-6 col-md-6 col-sm-5 col-xs-6 view-mode left clearfix</find>
+      <find>col-lg-6 col-md-6 col-sm-5 col-xs- view-mode left clearfix</find>
+      <find>col-lg-6 col-md-6 col-sm-5 col-xs-12 view-mode left clearfix</find>
+      <find>&lt;div class=&quot;contact-info&quot;&gt;</find>
+      <find>cat-post-list</find>
+      <find>j</find>
+      <find>jms</find>
+      <find>jms_f</find>
+      <find>jms_flu</find>
+      <find>jms_fluent</find>
+      <find>product-carousel owl-loaded owl-drag owl-carousel owl-theme</find>
+      <find>thumb js-modal-thumb</find>
+      <find>pull-xs-left input-container</find>
+      <find>input-group bootstrap-touchspin</find>
+      <find>input-group-btn-vertical</find>
+    </findStrings>
+    <replaceStrings>
+      <replace />
+    </replaceStrings>
+    <dirStrings>
+      <dir>D:\xampp\htdocs\jms_fluent\themes</dir>
+      <dir>D:\xampp\htdocs\jms_fluent\themes\jms_fluent\modules</dir>
+      <dir>D:\xampp\htdocs\jms_fluent\modules</dir>
+      <dir>D:\xampp\htdocs\jms_fluent</dir>
+      <dir>D:\xampp\htdocs\jms_watch</dir>
+    </dirStrings>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/themes/jms_fluent/assets/css/demo.css" />
+        <option value="$PROJECT_DIR$/themes/jms_fluent/modules/ps_shoppingcart/ps_shoppingcart.tpl" />
+        <option value="$PROJECT_DIR$/themes/jms_fluent/modules/jmsajaxsearch/views/templates/hook/jmsajaxsearch.tpl" />
+        <option value="$PROJECT_DIR$/themes/jms_fluent/assets/css/pe-icon-7-stroke/css/pe-icon-7-stroke.css" />
+        <option value="$PROJECT_DIR$/themes/jms_fluent/templates/_partials/stylesheets.tpl" />
+        <option value="$PROJECT_DIR$/app/cache/prod/smarty/compile/d5/f8/f5/d5f8f570180f74d1dbdd1a1d2af0445e90a6650c.module.ps_customersignin.tpl.php" />
+        <option value="$PROJECT_DIR$/themes/jms_fluent/modules/ps_customersignin/ps_customersignin.tpl" />
+        <option value="$PROJECT_DIR$/themes/jms_fluent/modules/ps_languageselector/ps_languageselector.tpl" />
+        <option value="$PROJECT_DIR$/themes/jms_fluent/templates/catalog/_partials/miniatures/product.tpl" />
+        <option value="$PROJECT_DIR$/themes/jms_fluent/assets/css/home1.css" />
+        <option value="$PROJECT_DIR$/themes/classic/_dev/js/cart.js" />
+        <option value="$PROJECT_DIR$/themes/jms_fluent/_dev/js/product.js" />
+        <option value="$PROJECT_DIR$/themes/jms_fluent/templates/catalog/product-layout-default.tpl" />
+        <option value="$PROJECT_DIR$/themes/jms_fluent/templates/catalog/_partials/facets.tpl" />
+        <option value="$PROJECT_DIR$/themes/jms_fluent/templates/catalog/_partials/products-top.tpl" />
+        <option value="$PROJECT_DIR$/themes/jms_fluent/modules/jmsblog/views/templates/front/category-layout-default.tpl" />
+        <option value="$PROJECT_DIR$/themes/jms_watch/templates/catalog/_partials/product-variants.tpl" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1936" />
+    <option name="height" value="1056" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scratches" />
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jms_watch" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jms_watch" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Console Colors" />
+    <property name="SearchEverywhereHistoryKey" value="special-offer&#9;null&#9;null" />
+    <property name="nodejs_interpreter_path" value="C:/Program Files/nodejs/node" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\xampp\htdocs\jms_fluent\download" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="CodeceptionConfigurationType" factoryName="Codeception">
+      <PhpTestRunnerSettings />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerJest" factoryName="Jest">
+      <node-interpreter value="project" />
+      <working-dir value="" />
+      <envs />
+      <scope-kind value="ALL" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerProtractor" factoryName="Protractor">
+      <config-file value="" />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" path-to-node="project" working-dir="">
+      <method />
+    </configuration>
+    <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
+      <TestRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpBehatConfigurationType" factoryName="Behat">
+      <BehatRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpLocalRunConfigurationType" factoryName="PHP Console">
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpSpecConfigurationType" factoryName="PHPSpec">
+      <PhpTestRunnerSettings />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.npm" factoryName="npm">
+      <command value="run" />
+      <scripts />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="mocha-javascript-test-runner" factoryName="Mocha">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <working-directory />
+      <pass-parent-env>true</pass-parent-env>
+      <envs />
+      <ui />
+      <extra-mocha-options />
+      <test-kind>DIRECTORY</test-kind>
+      <test-directory />
+      <recursive>false</recursive>
+      <method />
+    </configuration>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f3ff13a7-5e66-4dc8-8b59-b15e4d272d69" name="Default" comment="" />
+      <created>1516089673452</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1516089673452</updated>
+      <workItem from="1516089674868" duration="1060000" />
+      <workItem from="1516094848226" duration="737000" />
+      <workItem from="1516096433113" duration="4681000" />
+      <workItem from="1516153359091" duration="1494000" />
+      <workItem from="1516180521331" duration="5241000" />
+      <workItem from="1516239552997" duration="4368000" />
+      <workItem from="1516270589962" duration="213000" />
+      <workItem from="1516270947342" duration="1320000" />
+      <workItem from="1516551423098" duration="209000" />
+      <workItem from="1516592080107" duration="11110000" />
+      <workItem from="1516782894086" duration="603000" />
+      <workItem from="1516789158953" duration="1404000" />
+      <workItem from="1516805875945" duration="704000" />
+      <workItem from="1516853766418" duration="1502000" />
+      <workItem from="1516863562073" duration="95000" />
+      <workItem from="1516872477136" duration="945000" />
+      <workItem from="1516940719237" duration="9803000" />
+      <workItem from="1517195072462" duration="62000" />
+      <workItem from="1517197355578" duration="6436000" />
+      <workItem from="1517307781152" duration="66000" />
+      <workItem from="1517450302780" duration="403000" />
+      <workItem from="1517551643877" duration="1165000" />
+      <workItem from="1517554710714" duration="64000" />
+      <workItem from="1517827042168" duration="279000" />
+      <workItem from="1518151650459" duration="1124000" />
+      <workItem from="1518162869673" duration="636000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="55724000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <layout>
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23454158" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="processedProjectFiles" value="true" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/themes/jms_fluent/assets/css/home1.css" />
+    <entry file="file://$PROJECT_DIR$/themes/jms_fluent/assets/css/demo.css" />
+    <entry file="file://$PROJECT_DIR$/themes/jms_fluent/assets/css/home1.css" />
+    <entry file="file://$PROJECT_DIR$/themes/jms_fluent/assets/css/demo.css" />
+    <entry file="file://$PROJECT_DIR$/themes/jms_fluent/assets/img/logo.png" />
+    <entry file="file://$PROJECT_DIR$/themes/jms_fluent/modules/jmsajaxsearch/views/templates/hook/search-ajax.tpl" />
+    <entry file="file://$PROJECT_DIR$/themes/jms_fluent/modules/jmsajaxsearch/views/templates/hook/jmsajaxsearch-left.tpl" />
+    <entry file="file://$PROJECT_DIR$/themes/jms_fluent/templates/layouts/layout-full-width.tpl" />
+    <entry file="file://$PROJECT_DIR$/themes/jms_fluent/templates/layouts/layout-both-columns.tpl" />
+    <entry file="file://$PROJECT_DIR$/themes/jms_fluent/templates/layouts/layout-content-only.tpl" />
+    <entry file="file://$PROJECT_DIR$/themes/jms_fluent/modules/ps_shoppingcart/ps_shoppingcart.tpl" />
+    <entry file="file://$PROJECT_DIR$/themes/jms_fluent/templates/_partials/stylesheets.tpl" />
+    <entry file="file://$PROJECT_DIR$/themes/jms_fluent/templates/_partials/header.tpl" />
+    <entry file="file://$PROJECT_DIR$/themes/jms_fluent/templates/_partials/head.tpl" />
+    <entry file="file://$PROJECT_DIR$/themes/jms_fluent/assets/css/pe-icon-7-stroke/css/pe-icon-7-stroke.css" />
+    <entry file="file://$PROJECT_DIR$/themes/jms_fluent/modules/jmsajaxsearch/views/templates/hook/jmsajaxsearch.tpl" />
+    <entry file="file://$PROJECT_DIR$/themes/classic/modules/ps_customeraccountlinks/ps_customeraccountlinks.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="27" column="62" lean-forward="false" selection-start-line="27" selection-start-column="62" selection-end-line="27" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/cache/prod/smarty/compile/d5/f8/f5/d5f8f570180f74d1dbdd1a1d2af0445e90a6650c.module.ps_customersignin.tpl.php" />
+    <entry file="file://$PROJECT_DIR$/themes/jms_fluent/modules/ps_languageselector/ps_languageselector.tpl" />
+    <entry file="file://$PROJECT_DIR$/themes/jms_fluent/modules/ps_customersignin/ps_customersignin.tpl" />
+    <entry file="file://$PROJECT_DIR$/themes/jms_fluent/modules/jmspagebuilder/views/templates/hook/addonsocial.tpl" />
+    <entry file="file://$PROJECT_DIR$/themes/jms_fluent/modules/ps_emailsubscription/views/templates/hook/ps_emailsubscription.tpl" />
+    <entry file="file://$PROJECT_DIR$/modules/jmspagebuilder/jmspagebuilder.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="6528">
+          <caret line="393" column="67" lean-forward="false" selection-start-line="393" selection-start-column="67" selection-end-line="393" selection-end-column="67" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/jmsmegamenu/install/install.sql.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="393">
+          <caret line="87" column="129" lean-forward="false" selection-start-line="87" selection-start-column="129" selection-end-line="87" selection-end-column="129" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/jms_fluent/assets/css/cms.css" />
+    <entry file="file://$PROJECT_DIR$/modules/jmspagebuilder/views/templates/hook/addonsocial.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="24" column="9" lean-forward="false" selection-start-line="24" selection-start-column="9" selection-end-line="24" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/classic/templates/catalog/_partials/facets.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="65" column="36" lean-forward="false" selection-start-line="65" selection-start-column="36" selection-end-line="65" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/jms_fluent/templates/catalog/product.tpl" />
+    <entry file="file://$PROJECT_DIR$/themes/jms_fluent/templates/catalog/_partials/product-activation.tpl" />
+    <entry file="file://$PROJECT_DIR$/themes/jms_fluent/templates/catalog/_partials/sort-orders.tpl" />
+    <entry file="file://$PROJECT_DIR$/themes/jms_fluent/modules/ps_facetedsearch/ps_facetedsearch.tpl" />
+    <entry file="file://$PROJECT_DIR$/themes/jms_fluent/assets/css/custom.css" />
+    <entry file="file://$PROJECT_DIR$/themes/jms_fluent/_dev/js/product.js" />
+    <entry file="file://$PROJECT_DIR$/themes/classic/_dev/js/listing.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="605">
+          <caret line="76" column="24" lean-forward="false" selection-start-line="76" selection-start-column="24" selection-end-line="76" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/classic/_dev/js/cart.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="17" column="51" lean-forward="true" selection-start-line="17" selection-start-column="24" selection-end-line="17" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/classic/templates/catalog/product.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2397">
+          <caret line="141" column="0" lean-forward="false" selection-start-line="141" selection-start-column="0" selection-end-line="141" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/jms_fluent/templates/catalog/_partials/product-details.tpl" />
+    <entry file="file://$PROJECT_DIR$/themes/jms_fluent/assets/css/home1.css" />
+    <entry file="file://$PROJECT_DIR$/themes/jms_fluent/templates/catalog/_partials/miniatures/product.tpl" />
+    <entry file="file://$PROJECT_DIR$/themes/jms_fluent/templates/catalog/_partials/facets.tpl" />
+    <entry file="file://$PROJECT_DIR$/themes/jms_fluent/templates/catalog/product-layout-default.tpl" />
+    <entry file="file://$PROJECT_DIR$/themes/jms_fluent/modules/jmsblog/views/templates/front/category-layout-2columns.tpl" />
+    <entry file="file://$PROJECT_DIR$/themes/jms_fluent/templates/catalog/_partials/products-top.tpl" />
+    <entry file="file://$PROJECT_DIR$/themes/jms_fluent/modules/jmsblog/views/templates/front/categories-layout-default.tpl" />
+    <entry file="file://$PROJECT_DIR$/themes/jms_fluent/modules/jmsblog/views/templates/front/category-layout-default.tpl" />
+    <entry file="file://$PROJECT_DIR$/themes/jms_fluent/modules/jmsblog/views/templates/front/category-layout-3columns.tpl" />
+    <entry file="file://$PROJECT_DIR$/vendor/monolog/monolog/src/Monolog/Formatter/FluentdFormatter.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/jms_fluent.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/cache/prod/smarty/compile/f8/2d/dd/f82dddf1f4eb4fa5b1621e3e5a8b47e58f011dec.file.products.tpl.php" />
+    <entry file="file://$PROJECT_DIR$/themes/jms_watch/templates/catalog/_partials/product-images-modal.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="544">
+          <caret line="32" column="8" lean-forward="false" selection-start-line="32" selection-start-column="8" selection-end-line="32" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/jms_watch/templates/catalog/_partials/product-variants.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="71" lean-forward="false" selection-start-line="16" selection-start-column="71" selection-end-line="16" selection-end-column="71" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

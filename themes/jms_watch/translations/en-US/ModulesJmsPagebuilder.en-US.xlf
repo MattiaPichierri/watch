@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+  <file original="D:\wamp\www\prestashop17\jms_fluent3\themes\jms_fluent\modules\jmspagebuilder\views\templates\hook\addonblog.tpl" source-language="en-US" target-language="en-US" datatype="plaintext">
+    <body>
+      <trans-unit id="efeb369cccbd560588a756610865664c">
+        <source>In</source>
+        <target>In</target>
+        <note>Context:
+File: D:\wamp\www\prestashop17\jms_fluent3\themes\jms_fluent\modules\jmspagebuilder\views\templates\hook\addonblog.tpl:68</note>
+      </trans-unit>
+      <trans-unit id="59a14a5786fe7a105d780bb1e1e2b21b">
+        <source>views</source>
+        <target>views</target>
+        <note>Context:
+File: D:\wamp\www\prestashop17\jms_fluent3\themes\jms_fluent\modules\jmspagebuilder\views\templates\hook\addonblog.tpl:86</note>
+      </trans-unit>
+      <trans-unit id="a5d491060952aa8ad5fdee071be752de">
+        <source>comments</source>
+        <target>comments</target>
+        <note>Context:
+File: D:\wamp\www\prestashop17\jms_fluent3\themes\jms_fluent\modules\jmspagebuilder\views\templates\hook\addonblog.tpl:93</note>
+      </trans-unit>
+      <trans-unit id="43340e6cc4e88197d57f8d6d5ea50a46">
+        <source>Read more</source>
+        <target>Read more</target>
+        <note>Context:
+File: D:\wamp\www\prestashop17\jms_fluent3\themes\jms_fluent\modules\jmspagebuilder\views\templates\hook\addonblog.tpl:102</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="D:\wamp\www\prestashop17\jms_fluent3\themes\jms_fluent\modules\jmspagebuilder\views\templates\hook\addonhotdeal.tpl" source-language="en-US" target-language="en-US" datatype="plaintext">
+    <body>
+      <trans-unit id="d9aaf75f685857135f722f31e321ac92">
+        <source>View All Product</source>
+        <target>View All Product</target>
+        <note>Context:
+File: D:\wamp\www\prestashop17\jms_fluent3\themes\jms_fluent\modules\jmspagebuilder\views\templates\hook\addonhotdeal.tpl:97</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="D:\wamp\www\prestashop17\jms_fluent3\themes\jms_fluent\modules\jmspagebuilder\views\templates\hook\addoninstagram.tpl" source-language="en-US" target-language="en-US" datatype="plaintext">
+    <body>
+      <trans-unit id="0e7e6722ad5f6e0bcaab6667e546635d">
+        <source>INSTAGRAM</source>
+        <target>INSTAGRAM</target>
+        <note>Context:
+File: D:\wamp\www\prestashop17\jms_fluent3\themes\jms_fluent\modules\jmspagebuilder\views\templates\hook\addoninstagram.tpl:28</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="D:\wamp\www\prestashop17\jms_fluent3\themes\jms_fluent\modules\jmspagebuilder\views\templates\hook\addoninstagramhome5.tpl" source-language="en-US" target-language="en-US" datatype="plaintext">
+    <body>
+      <trans-unit id="06dde14d22c7e889094002c3d93f9018">
+        <source>Instagram Image</source>
+        <target>Instagram Image</target>
+        <note>Context:
+File: D:\wamp\www\prestashop17\jms_fluent3\themes\jms_fluent\modules\jmspagebuilder\views\templates\hook\addoninstagramhome5.tpl:29</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="D:\wamp\www\prestashop17\jms_fluent3\themes\jms_fluent\modules\jmspagebuilder\views\templates\hook\addonmaplocation.tpl" source-language="en-US" target-language="en-US" datatype="plaintext">
+    <body>
+      <trans-unit id="be9256c578fa1d4e043b8de00a808317">
+        <source>Find our stores</source>
+        <target>Find our stores</target>
+        <note>Context:
+File: D:\wamp\www\prestashop17\jms_fluent3\themes\jms_fluent\modules\jmspagebuilder\views\templates\hook\addonmaplocation.tpl:92</note>
+      </trans-unit>
+      <trans-unit id="c46def90c17d00226139900cdf9abf14">
+        <source>Choose Store Location</source>
+        <target>Choose Store Location</target>
+        <note>Context:
+File: D:\wamp\www\prestashop17\jms_fluent3\themes\jms_fluent\modules\jmspagebuilder\views\templates\hook\addonmaplocation.tpl:94</note>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

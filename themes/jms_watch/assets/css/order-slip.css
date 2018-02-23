@@ -1,0 +1,22 @@
+#order-slip .page-header {
+	border-bottom:0;
+	text-align:center;
+}
+#order-slip .page-header h1{
+	text-transform:uppercase;
+	color:rgba(17,17,17,0.9);
+	font-size:26px;
+	padding:0;
+}
+#order-slip .card.card-block {
+	padding:30px 20px;
+	border:1px solid #ebebeb;
+	box-shadow:2px 2px 11px 0 rgba(0, 0, 0, 0.1);
+	overflow-x:auto;
+}
+@media(max-width:767px) {
+	#order-slip #wrapper>.row{
+		margin-right:0;
+		margin-left:0;
+	}
+}

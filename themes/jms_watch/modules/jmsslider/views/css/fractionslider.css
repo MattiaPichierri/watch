@@ -1,0 +1,132 @@
+.fraction-slider{
+	position:relative;
+	width:100%; height:100%;
+	overflow:visible;
+}
+
+.fraction-slider .slide{
+	display:none; width:100%; height:100%;
+	position:absolute;
+	z-index:500;
+}
+
+.fraction-slider .active-slide {
+	z-index:999;
+}
+
+.fraction-slider .fs_obj{
+	display:block; display:none;
+	position:absolute;
+	top:0px; left:100%;
+	z-index:700;
+}
+
+.fraction-slider .fs_fixed_obj{
+	z-index:600;
+	left:0;
+}
+
+.fraction-slider .fs_obj *{
+	display:inline-block;
+	position:relative;
+	top:0px; left:0px;
+}
+
+.fs_loader{
+	width:100%; height:400px;
+	box-shadow: 0 1px 1px #b5b5b5;
+	background:url(../img/fraction/fs.spinner.gif) center center no-repeat transparent;
+}
+
+/** CONTROLS **/
+
+.fraction-slider .prev, .fraction-slider .next {
+    color: #222222 !important;
+    display: none;
+    height: 13px;
+    letter-spacing: 0.15em;
+    position: absolute;
+    text-align: center;
+    text-transform: uppercase;
+    width: 27px;
+    z-index: 999;
+}
+.fraction-slider .numbnext{
+	display: none !important;
+	right:50px !important;
+	top:48% !important;
+	left: unset !important;
+	opacity: 1 !important;
+	width:104px;
+	line-height: 87px;
+	text-align: center;
+	transition: none;
+	letter-spacing: 0.15em;
+}
+.fraction-slider .numbprev{
+	display: none !important;
+	left:50px !important;
+	top:48% !important;
+	opacity: 1 !important;
+	width:104px;
+	line-height: 87px;
+	text-align: center;
+	letter-spacing: 0.15em;
+}
+.fraction-slider .prev{
+	left:-50px; top:48%;
+	background:url(../img/fraction/prev.png) no-repeat center center;
+}
+.fraction-slider .next{
+	right:-50px; top:48%;
+	background:url(../img/fraction/next.png) no-repeat center center;
+	
+}
+.fraction-slider .prev:hover{
+	background:url(../img/fraction/left.png) no-repeat center center;
+}
+.fraction-slider .next:hover{
+	background:url(../img/fraction/right.png) no-repeat center center;
+}
+.slider_h6:hover .prev, .slider_h6:hover .numbprev,
+.slider_h6:hover .next, .slider_h6:hover .numbnext{
+	display:block !important;
+}
+
+/** PAGER **/
+
+.fs-pager-wrapper {
+    bottom: 13px;
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    z-index: 999;
+}
+.fs-pager-wrapper a, .fs-custom-pager-wrapper a{
+    margin: 0 28px 0 0;
+	font-family: "Neue Einstellung";
+    font-weight:600;
+	font-size:16px;
+    opacity:0.5;
+	position:relative;
+}
+.fs-pager-wrapper a.active {
+	opacity:1;
+	position:relative;
+}
+.fs-pager-wrapper a.active::before {
+    border: 1px solid #000;
+    content: " ";
+    display: inline-block;
+    left: -12px;
+    padding-right: 10px;
+    position: relative;
+    vertical-align: super;
+    width: 21px;
+}
+@media (max-width: 991px){
+.fraction-slider:hover .prev, .fraction-slider:hover .numbprev,
+.fraction-slider:hover .next, .fraction-slider:hover .numbnext{
+	display:none !important;
+}
+}

@@ -1,0 +1,635 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+  <file original="D:\wamp\www\prestashop17\jms_fluent3\themes\jms_fluent\modules\ps_contactinfo\nav.tpl" source-language="en-US" target-language="en-US" datatype="plaintext">
+    <body>
+      <trans-unit id="02d4482d332e1aef3437cd61c9bcc624">
+        <source>Contact us</source>
+        <target>Contact us</target>
+        <note>Context:
+File: D:\wamp\www\prestashop17\jms_fluent3\themes\jms_fluent\modules\ps_contactinfo\nav.tpl:39</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="D:\wamp\www\prestashop17\jms_fluent3\themes\jms_fluent\modules\jmspagebuilder\views\templates\hook\addonblogfooter.tpl" source-language="en-US" target-language="en-US" datatype="plaintext">
+    <body>
+      <trans-unit id="59a14a5786fe7a105d780bb1e1e2b21b">
+        <source>views</source>
+        <target>views</target>
+        <note>Context:
+File: D:\wamp\www\prestashop17\jms_fluent3\themes\jms_fluent\modules\jmspagebuilder\views\templates\hook\addonblogfooter.tpl:68</note>
+      </trans-unit>
+      <trans-unit id="a5d491060952aa8ad5fdee071be752de">
+        <source>comments</source>
+        <target>comments</target>
+        <note>Context:
+File: D:\wamp\www\prestashop17\jms_fluent3\themes\jms_fluent\modules\jmspagebuilder\views\templates\hook\addonblogfooter.tpl:76</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="D:\wamp\www\prestashop17\jms_fluent3\themes\jms_fluent\modules\jmspagebuilder\views\templates\hook\addoncontactinfo.tpl" source-language="en-US" target-language="en-US" datatype="plaintext">
+    <body>
+      <trans-unit id="00a79e00f1fe0634deb4c83a6bf4a6f0">
+        <source>Tel: </source>
+        <target>Tel: </target>
+        <note>Context:
+File: D:\wamp\www\prestashop17\jms_fluent3\themes\jms_fluent\modules\jmspagebuilder\views\templates\hook\addoncontactinfo.tpl:36</note>
+      </trans-unit>
+      <trans-unit id="3e948df59db3b59a6aa90d8b99f2e620">
+        <source>Email: </source>
+        <target>Email: </target>
+        <note>Context:
+File: D:\wamp\www\prestashop17\jms_fluent3\themes\jms_fluent\modules\jmspagebuilder\views\templates\hook\addoncontactinfo.tpl:37</note>
+      </trans-unit>
+      <trans-unit id="47c62d87dee1168e3163f8ad1058314f">
+        <source>Open: </source>
+        <target>Open: </target>
+        <note>Context:
+File: D:\wamp\www\prestashop17\jms_fluent3\themes\jms_fluent\modules\jmspagebuilder\views\templates\hook\addoncontactinfo.tpl:38</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="D:\wamp\www\prestashop17\jms_fluent3\themes\jms_fluent\modules\jmspagebuilder\views\templates\hook\addonpopupadvertising.tpl" source-language="en-US" target-language="en-US" datatype="plaintext">
+    <body>
+      <trans-unit id="3dd8284174fd39492e93832425665b19">
+        <source>Dont show this box again</source>
+        <target>Dont show this box again</target>
+        <note>Context:
+File: D:\wamp\www\prestashop17\jms_fluent3\themes\jms_fluent\modules\jmspagebuilder\views\templates\hook\addonpopupadvertising.tpl:40</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="D:\wamp\www\prestashop17\jms_fluent3\themes\jms_fluent\modules\jmspagebuilder\views\templates\hook\addonproducttab.tpl" source-language="en-US" target-language="en-US" datatype="plaintext">
+    <body>
+      <trans-unit id="15422d54ec0d47000dc86a9820a5237e">
+        <source>Featured</source>
+        <target>Featured</target>
+        <note>Context:
+File: D:\wamp\www\prestashop17\jms_fluent3\themes\jms_fluent\modules\jmspagebuilder\views\templates\hook\addonproducttab.tpl:49</note>
+      </trans-unit>
+      <trans-unit id="cd118d21c3b0b4762c6e0063661e6e45">
+        <source>Latest</source>
+        <target>Latest</target>
+        <note>Context:
+File: D:\wamp\www\prestashop17\jms_fluent3\themes\jms_fluent\modules\jmspagebuilder\views\templates\hook\addonproducttab.tpl:53</note>
+      </trans-unit>
+      <trans-unit id="22c6735b370cecf293e32dca6c678185">
+        <source>Best Seller</source>
+        <target>Best Seller</target>
+        <note>Context:
+File: D:\wamp\www\prestashop17\jms_fluent3\themes\jms_fluent\modules\jmspagebuilder\views\templates\hook\addonproducttab.tpl:57</note>
+      </trans-unit>
+      <trans-unit id="b4c2b550635fe54fd29f2b64dfaca55d">
+        <source>Special</source>
+        <target>Special</target>
+        <note>Context:
+File: D:\wamp\www\prestashop17\jms_fluent3\themes\jms_fluent\modules\jmspagebuilder\views\templates\hook\addonproducttab.tpl:61</note>
+      </trans-unit>
+      <trans-unit id="b57a43365a05fba262ddc6240d2f733b">
+        <source>Sale Off</source>
+        <target>Sale Off</target>
+        <note>Context:
+File: D:\wamp\www\prestashop17\jms_fluent3\themes\jms_fluent\modules\jmspagebuilder\views\templates\hook\addonproducttab.tpl:65</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="D:\wamp\www\prestashop17\jms_fluent3\themes\jms_fluent\modules\jmswishlist\views\templates\front\view.tpl" source-language="en-US" target-language="en-US" datatype="plaintext">
+    <body>
+      <trans-unit id="4b7d496eedb665d0b5f589f2f874e7cb">
+        <source>Product detail</source>
+        <target>Product detail</target>
+        <note>Context:
+File: D:\wamp\www\prestashop17\jms_fluent3\themes\jms_fluent\modules\jmswishlist\views\templates\front\view.tpl:56</note>
+      </trans-unit>
+      <trans-unit id="694e8d1f2ee056f98ee488bdc4982d73">
+        <source>Quantity</source>
+        <target>Quantity</target>
+        <note>Context:
+File: D:\wamp\www\prestashop17\jms_fluent3\themes\jms_fluent\modules\jmswishlist\views\templates\front\view.tpl:58</note>
+      </trans-unit>
+      <trans-unit id="502996d9790340c5fd7b86a5b93b1c9f">
+        <source>Priority</source>
+        <target>Priority</target>
+        <note>Context:
+File: D:\wamp\www\prestashop17\jms_fluent3\themes\jms_fluent\modules\jmswishlist\views\templates\front\view.tpl:60</note>
+      </trans-unit>
+      <trans-unit id="4351cfebe4b61d8aa5efa1d020710005">
+        <source>View</source>
+        <target>View</target>
+        <note>Context:
+File: D:\wamp\www\prestashop17\jms_fluent3\themes\jms_fluent\modules\jmswishlist\views\templates\front\view.tpl:65</note>
+      </trans-unit>
+      <trans-unit id="641254d77e7a473aa5910574f3f9453c">
+        <source>Wishlist</source>
+        <target>Wishlist</target>
+        <note>Context:
+File: D:\wamp\www\prestashop17\jms_fluent3\themes\jms_fluent\modules\jmswishlist\views\templates\front\view.tpl:27</note>
+      </trans-unit>
+      <trans-unit id="315356f4c2ed70df345ffc01021f7f56">
+        <source>Other wishlists of %1s %2s:</source>
+        <target>Other wishlists of %1s %2s:</target>
+        <note>Context:
+File: D:\wamp\www\prestashop17\jms_fluent3\themes\jms_fluent\modules\jmswishlist\views\templates\front\view.tpl:30</note>
+      </trans-unit>
+      <trans-unit id="2d0f6b8300be19cf35e89e66f0677f95">
+        <source>Add to cart</source>
+        <target>Add to cart</target>
+        <note>Context:
+File: D:\wamp\www\prestashop17\jms_fluent3\themes\jms_fluent\modules\jmswishlist\views\templates\front\view.tpl:79</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="D:\wamp\www\prestashop17\jms_fluent3\themes\jms_fluent\modules\jmswishlist\jmswishlist-ajax.tpl" source-language="en-US" target-language="en-US" datatype="plaintext">
+    <body>
+      <trans-unit id="d037160cfb1fa5520563302d3a32630a">
+        <source>You must create a wishlist before adding products</source>
+        <target>You must create a wishlist before adding products</target>
+        <note>Context:
+File: D:\wamp\www\prestashop17\jms_fluent3\themes\jms_fluent\modules\jmswishlist\jmswishlist-ajax.tpl:44</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="D:\wamp\www\prestashop17\jms_fluent3\themes\jms_fluent\modules\jmswishlist\views\templates\front\managewishlist.tpl" source-language="en-US" target-language="en-US" datatype="plaintext">
+    <body>
+      <trans-unit id="09dc02ecbb078868a3a86dded030076d">
+        <source>No products</source>
+        <target>No products</target>
+        <note>Context:
+File: D:\wamp\www\prestashop17\jms_fluent3\themes\jms_fluent\modules\jmswishlist\views\templates\front\managewishlist.tpl:173</note>
+      </trans-unit>
+      <trans-unit id="f78674b9c6b19504756230c57f6aec38">
+        <source>Close this wishlist</source>
+        <target>Close this wishlist</target>
+        <note>Context:
+File: D:\wamp\www\prestashop17\jms_fluent3\themes\jms_fluent\modules\jmswishlist\views\templates\front\managewishlist.tpl:115</note>
+      </trans-unit>
+      <trans-unit id="0ac1aeb2429db494dd42ad2dc219ca7e">
+        <source>Hide products</source>
+        <target>Hide products</target>
+        <note>Context:
+File: D:\wamp\www\prestashop17\jms_fluent3\themes\jms_fluent\modules\jmswishlist\views\templates\front\managewishlist.tpl:38</note>
+      </trans-unit>
+      <trans-unit id="0de9d09a36e820f9da7e87ab3678dd12">
+        <source>Show products</source>
+        <target>Show products</target>
+        <note>Context:
+File: D:\wamp\www\prestashop17\jms_fluent3\themes\jms_fluent\modules\jmswishlist\views\templates\front\managewishlist.tpl:39</note>
+      </trans-unit>
+      <trans-unit id="fec1ea0ef1fbf423779b008e02656612">
+        <source>Hide bought products' info</source>
+        <target>Hide bought products' info</target>
+        <note>Context:
+File: D:\wamp\www\prestashop17\jms_fluent3\themes\jms_fluent\modules\jmswishlist\views\templates\front\managewishlist.tpl:38</note>
+      </trans-unit>
+      <trans-unit id="5f19267fc018cd182ef65e2c3d0ab35e">
+        <source>Show bought products' info</source>
+        <target>Show bought products' info</target>
+        <note>Context:
+File: D:\wamp\www\prestashop17\jms_fluent3\themes\jms_fluent\modules\jmswishlist\views\templates\front\managewishlist.tpl:39</note>
+      </trans-unit>
+      <trans-unit id="8725214cdd9f9af24e914b5da135793d">
+        <source>Permalink</source>
+        <target>Permalink</target>
+        <note>Context:
+File: D:\wamp\www\prestashop17\jms_fluent3\themes\jms_fluent\modules\jmswishlist\views\templates\front\managewishlist.tpl:43</note>
+      </trans-unit>
+      <trans-unit id="30820a1bf6a285e45cda2beda3d7738d">
+        <source>Send this wishlist</source>
+        <target>Send this wishlist</target>
+        <note>Context:
+File: D:\wamp\www\prestashop17\jms_fluent3\themes\jms_fluent\modules\jmswishlist\views\templates\front\managewishlist.tpl:46</note>
+      </trans-unit>
+      <trans-unit id="655d20c1ca69519ca647684edbb2db35">
+        <source>High</source>
+        <target>High</target>
+        <note>Context:
+File: D:\wamp\www\prestashop17\jms_fluent3\themes\jms_fluent\modules\jmswishlist\views\templates\front\managewishlist.tpl:73</note>
+      </trans-unit>
+      <trans-unit id="87f8a6ab85c9ced3702b4ea641ad4bb5">
+        <source>Medium</source>
+        <target>Medium</target>
+        <note>Context:
+File: D:\wamp\www\prestashop17\jms_fluent3\themes\jms_fluent\modules\jmswishlist\views\templates\front\managewishlist.tpl:74</note>
+      </trans-unit>
+      <trans-unit id="28d0edd045e05cf5af64e35ae0c4c6ef">
+        <source>Low</source>
+        <target>Low</target>
+        <note>Context:
+File: D:\wamp\www\prestashop17\jms_fluent3\themes\jms_fluent\modules\jmswishlist\views\templates\front\managewishlist.tpl:75</note>
+      </trans-unit>
+      <trans-unit id="eea12ef28a1e119ccecaadc58d35b3be">
+        <source><![CDATA[sprintf('Move to %s',$_smarty_tpl->tpl_vars['wishlist']->value['name'])]]></source>
+        <target><![CDATA[sprintf('Move to %s',$_smarty_tpl->tpl_vars['wishlist']->value['name'])]]></target>
+        <note>Context:
+File: D:\wamp\www\prestashop17\jms_fluent3\themes\jms_fluent\modules\jmswishlist\views\templates\front\managewishlist.tpl:88</note>
+      </trans-unit>
+      <trans-unit id="ce8ae9da5b7cd6c3df2929543a9af92d">
+        <source>Email</source>
+        <target>Email</target>
+        <note>Context:
+File: D:\wamp\www\prestashop17\jms_fluent3\themes\jms_fluent\modules\jmswishlist\views\templates\front\managewishlist.tpl:125</note>
+      </trans-unit>
+      <trans-unit id="94966d90747b97d1f0f206c98a8b1ac3">
+        <source>Send</source>
+        <target>Send</target>
+        <note>Context:
+File: D:\wamp\www\prestashop17\jms_fluent3\themes\jms_fluent\modules\jmswishlist\views\templates\front\managewishlist.tpl:130</note>
+      </trans-unit>
+      <trans-unit id="19f823c6453c2b1ffd09cb715214813d">
+        <source>Required field</source>
+        <target>Required field</target>
+        <note>Context:
+File: D:\wamp\www\prestashop17\jms_fluent3\themes\jms_fluent\modules\jmswishlist\views\templates\front\managewishlist.tpl:133</note>
+      </trans-unit>
+      <trans-unit id="deb10517653c255364175796ace3553f">
+        <source>Product</source>
+        <target>Product</target>
+        <note>Context:
+File: D:\wamp\www\prestashop17\jms_fluent3\themes\jms_fluent\modules\jmswishlist\views\templates\front\managewishlist.tpl:141</note>
+      </trans-unit>
+      <trans-unit id="3384622e86410fd01fa318fedc6a98ce">
+        <source>Offered by</source>
+        <target>Offered by</target>
+        <note>Context:
+File: D:\wamp\www\prestashop17\jms_fluent3\themes\jms_fluent\modules\jmswishlist\views\templates\front\managewishlist.tpl:143</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="D:\wamp\www\prestashop17\jms_fluent3\themes\jms_fluent\modules\jmswishlist\views\templates\front\mywishlist.tpl" source-language="en-US" target-language="en-US" datatype="plaintext">
+    <body>
+      <trans-unit id="c9cc8cce247e49bae79f15173ce97354">
+        <source>Save</source>
+        <target>Save</target>
+        <note>Context:
+File: D:\wamp\www\prestashop17\jms_fluent3\themes\jms_fluent\modules\jmswishlist\views\templates\front\mywishlist.tpl:51</note>
+      </trans-unit>
+      <trans-unit id="f2a6c498fb90ee345d997f888fce3b18">
+        <source>Delete</source>
+        <target>Delete</target>
+        <note>Context:
+File: D:\wamp\www\prestashop17\jms_fluent3\themes\jms_fluent\modules\jmswishlist\views\templates\front\mywishlist.tpl:66</note>
+      </trans-unit>
+      <trans-unit id="d95cf4ab2cbf1dfb63f066b50558b07d">
+        <source>My account</source>
+        <target>My account</target>
+        <note>Context:
+File: D:\wamp\www\prestashop17\jms_fluent3\themes\jms_fluent\modules\jmswishlist\views\templates\front\mywishlist.tpl:29</note>
+      </trans-unit>
+      <trans-unit id="49ee3087348e8d44e1feda1917443987">
+        <source>Name</source>
+        <target>Name</target>
+        <note>Context:
+File: D:\wamp\www\prestashop17\jms_fluent3\themes\jms_fluent\modules\jmswishlist\views\templates\front\mywishlist.tpl:60</note>
+      </trans-unit>
+      <trans-unit id="03ab340b3f99e03cff9e84314ead38c0">
+        <source>Qty</source>
+        <target>Qty</target>
+        <note>Context:
+File: D:\wamp\www\prestashop17\jms_fluent3\themes\jms_fluent\modules\jmswishlist\views\templates\front\mywishlist.tpl:61</note>
+      </trans-unit>
+      <trans-unit id="5e729042e30967c9d6f65c6eab73e2fe">
+        <source>Viewed</source>
+        <target>Viewed</target>
+        <note>Context:
+File: D:\wamp\www\prestashop17\jms_fluent3\themes\jms_fluent\modules\jmswishlist\views\templates\front\mywishlist.tpl:62</note>
+      </trans-unit>
+      <trans-unit id="0eceeb45861f9585dd7a97a3e36f85c6">
+        <source>Created</source>
+        <target>Created</target>
+        <note>Context:
+File: D:\wamp\www\prestashop17\jms_fluent3\themes\jms_fluent\modules\jmswishlist\views\templates\front\mywishlist.tpl:63</note>
+      </trans-unit>
+      <trans-unit id="45284ef16392f85ff424b2ef36ab5948">
+        <source>Direct Link</source>
+        <target>Direct Link</target>
+        <note>Context:
+File: D:\wamp\www\prestashop17\jms_fluent3\themes\jms_fluent\modules\jmswishlist\views\templates\front\mywishlist.tpl:64</note>
+      </trans-unit>
+      <trans-unit id="7a1920d61156abc05a60135aefe8bc67">
+        <source>Default</source>
+        <target>Default</target>
+        <note>Context:
+File: D:\wamp\www\prestashop17\jms_fluent3\themes\jms_fluent\modules\jmswishlist\views\templates\front\mywishlist.tpl:65</note>
+      </trans-unit>
+      <trans-unit id="0b3db27bc15f682e92ff250ebb167d4b">
+        <source>Back to Your Account</source>
+        <target>Back to Your Account</target>
+        <note>Context:
+File: D:\wamp\www\prestashop17\jms_fluent3\themes\jms_fluent\modules\jmswishlist\views\templates\front\mywishlist.tpl:117</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="D:\wamp\www\prestashop17\jms_fluent3\themes\jms_fluent\templates\customer\order-detail.tpl" source-language="en-US" target-language="en-US" datatype="plaintext">
+    <body>
+      <trans-unit id="44749712dbec183e983dcd78a7736c41">
+        <source>Date</source>
+        <target>Date</target>
+        <note>Context:
+File: D:\wamp\www\prestashop17\jms_fluent3\themes\jms_fluent\templates\customer\order-detail.tpl:188</note>
+      </trans-unit>
+      <trans-unit id="ec53a8c4f07baed5d8825072c89799be">
+        <source>Status</source>
+        <target>Status</target>
+        <note>Context:
+File: D:\wamp\www\prestashop17\jms_fluent3\themes\jms_fluent\templates\customer\order-detail.tpl:89</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="D:\wamp\www\prestashop17\jms_fluent3\themes\jms_fluent\modules\jmswishlist\views\templates\hook\my-account.tpl" source-language="en-US" target-language="en-US" datatype="plaintext">
+    <body>
+      <trans-unit id="7ec9cceb94985909c6994e95c31c1aa8">
+        <source>My wishlists</source>
+        <target>My wishlists</target>
+        <note>Context:
+File: D:\wamp\www\prestashop17\jms_fluent3\themes\jms_fluent\modules\jmswishlist\views\templates\hook\my-account.tpl:27</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="D:\wamp\www\prestashop17\jms_fluent3\themes\jms_fluent\templates\customer\_partials\my-account-links.tpl" source-language="en-US" target-language="en-US" datatype="plaintext">
+    <body>
+      <trans-unit id="8cf04a9734132302f96da8e113e80ce5">
+        <source>Home</source>
+        <target>Home</target>
+        <note>Context:
+File: D:\wamp\www\prestashop17\jms_fluent3\themes\jms_fluent\templates\customer\_partials\my-account-links.tpl:31</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="D:\wamp\www\prestashop17\jms_fluent3\themes\jms_fluent\modules\ps_contactinfo\ps_contactinfo.tpl" source-language="en-US" target-language="en-US" datatype="plaintext">
+    <body>
+      <trans-unit id="c6359db4a43cb7267a84b389229fd073">
+        <source>Call us: [1]%phone%[/1]</source>
+        <target>Call us: [1]%phone%[/1]</target>
+        <note>Context:
+File: D:\wamp\www\prestashop17\jms_fluent3\themes\jms_fluent\modules\ps_contactinfo\ps_contactinfo.tpl:33</note>
+      </trans-unit>
+      <trans-unit id="3aea774cdcd8f2c45549f10758a71323">
+        <source>Store information</source>
+        <target>Store information</target>
+        <note>Context:
+File: D:\wamp\www\prestashop17\jms_fluent3\themes\jms_fluent\modules\ps_contactinfo\ps_contactinfo.tpl:71</note>
+      </trans-unit>
+      <trans-unit id="da6eb684bd77243a780629a180c9d19b">
+        <source>Fax: [1]%fax%[/1]</source>
+        <target>Fax: [1]%fax%[/1]</target>
+        <note>Context:
+File: D:\wamp\www\prestashop17\jms_fluent3\themes\jms_fluent\modules\ps_contactinfo\ps_contactinfo.tpl:45</note>
+      </trans-unit>
+      <trans-unit id="077d21d48dae9586405c0d264f6d32e7">
+        <source>Email us: [1]%email%[/1]</source>
+        <target>Email us: [1]%email%[/1]</target>
+        <note>Context:
+File: D:\wamp\www\prestashop17\jms_fluent3\themes\jms_fluent\modules\ps_contactinfo\ps_contactinfo.tpl:58</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="D:\wamp\www\prestashop17\jms_fluent3\themes\jms_fluent\modules\ps_contactinfo\ps_contactinfo-rich.tpl" source-language="en-US" target-language="en-US" datatype="plaintext">
+    <body>
+      <trans-unit id="1300caaefd15b839f37952dc7cc75d82">
+        <source>Call us:</source>
+        <target>Call us:</target>
+        <note>Context:
+File: D:\wamp\www\prestashop17\jms_fluent3\themes\jms_fluent\modules\ps_contactinfo\ps_contactinfo-rich.tpl:36</note>
+      </trans-unit>
+      <trans-unit id="0e2fb5b02182fd28b9b96e86ed27838f">
+        <source>Fax:</source>
+        <target>Fax:</target>
+        <note>Context:
+File: D:\wamp\www\prestashop17\jms_fluent3\themes\jms_fluent\modules\ps_contactinfo\ps_contactinfo-rich.tpl:46</note>
+      </trans-unit>
+      <trans-unit id="7b3c308ad5117610d3ff17f4b6950c54">
+        <source>Email Contact</source>
+        <target>Email Contact</target>
+        <note>Context:
+File: D:\wamp\www\prestashop17\jms_fluent3\themes\jms_fluent\modules\ps_contactinfo\ps_contactinfo-rich.tpl:54</note>
+      </trans-unit>
+      <trans-unit id="a0bfe0853cf82bdf5dcb9b0bac76c357">
+        <source>Email us:</source>
+        <target>Email us:</target>
+        <note>Context:
+File: D:\wamp\www\prestashop17\jms_fluent3\themes\jms_fluent\modules\ps_contactinfo\ps_contactinfo-rich.tpl:56</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="D:\wamp\www\prestashop17\jms_fluent3\themes\jms_fluent\modules\ps_emailsubscription\views\templates\hook\ps_emailsubscription.tpl" source-language="en-US" target-language="en-US" datatype="plaintext">
+    <body>
+      <trans-unit id="624d34c407341e48607c4913917a5d10">
+        <source>follow us</source>
+        <target>follow us</target>
+        <note>Context:
+File: D:\wamp\www\prestashop17\jms_fluent3\themes\jms_fluent\modules\ps_emailsubscription\views\templates\hook\ps_emailsubscription.tpl:54</note>
+      </trans-unit>
+      <trans-unit id="acf7693e18a60efaef13b175f151fe38">
+        <source>Subscribe now to get 15 percent off on any product</source>
+        <target>Subscribe now to get 15 percent off on any product</target>
+        <note>Context:
+File: D:\wamp\www\prestashop17\jms_fluent3\themes\jms_fluent\modules\ps_emailsubscription\views\templates\hook\ps_emailsubscription.tpl:65</note>
+      </trans-unit>
+      <trans-unit id="017814647f39ec0ea940bd50c5e70345">
+        <source>Fluent Minimalist Sign Up Newsletter</source>
+        <target>Fluent Minimalist Sign Up Newsletter</target>
+        <note>Context:
+File: D:\wamp\www\prestashop17\jms_fluent3\themes\jms_fluent\modules\ps_emailsubscription\views\templates\hook\ps_emailsubscription.tpl:59</note>
+      </trans-unit>
+      <trans-unit id="765e3c1c34187f36c96874ac8efd44e6">
+        <source>Subscribe and take 15 percent off on any product</source>
+        <target>Subscribe and take 15 percent off on any product</target>
+        <note>Context:
+File: D:\wamp\www\prestashop17\jms_fluent3\themes\jms_fluent\modules\ps_emailsubscription\views\templates\hook\ps_emailsubscription.tpl:60</note>
+      </trans-unit>
+      <trans-unit id="0e842d34725af0b2fe40ad463efd39e1">
+        <source>Get Our Latest Update In Your Email</source>
+        <target>Get Our Latest Update In Your Email</target>
+        <note>Context:
+File: D:\wamp\www\prestashop17\jms_fluent3\themes\jms_fluent\modules\ps_emailsubscription\views\templates\hook\ps_emailsubscription.tpl:64</note>
+      </trans-unit>
+      <trans-unit id="f9b03cfeff49fbd0a24d081885035454">
+        <source>Sign Up Our Newsletter</source>
+        <target>Sign Up Our Newsletter</target>
+        <note>Context:
+File: D:\wamp\www\prestashop17\jms_fluent3\themes\jms_fluent\modules\ps_emailsubscription\views\templates\hook\ps_emailsubscription.tpl:71</note>
+      </trans-unit>
+      <trans-unit id="d81c2a5c19c98a19d27c8f8b8e3a0982">
+        <source>For receive and never miss the latest products, news, events, promotion and many more</source>
+        <target>For receive and never miss the latest products, news, events, promotion and many more</target>
+        <note>Context:
+File: D:\wamp\www\prestashop17\jms_fluent3\themes\jms_fluent\modules\ps_emailsubscription\views\templates\hook\ps_emailsubscription.tpl:74</note>
+      </trans-unit>
+      <trans-unit id="b26917587d98330d93f87808fc9d7267">
+        <source>Subscribe</source>
+        <target>Subscribe</target>
+        <note>Context:
+File: D:\wamp\www\prestashop17\jms_fluent3\themes\jms_fluent\modules\ps_emailsubscription\views\templates\hook\ps_emailsubscription.tpl:91</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="D:\wamp\www\prestashop17\jms_fluent3\themes\jms_fluent\modules\ps_shoppingcart\ps_shoppingcart.tpl" source-language="en-US" target-language="en-US" datatype="plaintext">
+    <body>
+      <trans-unit id="377e99e7404b414341a9621f7fb3f906">
+        <source>Check out</source>
+        <target>Check out</target>
+        <note>Context:
+File: D:\wamp\www\prestashop17\jms_fluent3\themes\jms_fluent\modules\ps_shoppingcart\ps_shoppingcart.tpl:29</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="D:\wamp\www\prestashop17\jms_fluent3\themes\jms_fluent\templates\catalog\_partials\active_filters.tpl" source-language="en-US" target-language="en-US" datatype="plaintext">
+    <body>
+      <trans-unit id="2143f8cb66482342b35208bdc3fd949c">
+        <source>Active filters</source>
+        <target>Active filters</target>
+        <note>Context:
+File: D:\wamp\www\prestashop17\jms_fluent3\themes\jms_fluent\templates\catalog\_partials\active_filters.tpl:27</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="D:\wamp\www\prestashop17\jms_fluent3\themes\jms_fluent\templates\catalog\_partials\facets.tpl" source-language="en-US" target-language="en-US" datatype="plaintext">
+    <body>
+      <trans-unit id="7a1c5301da6b1ce9e4345bd501397045">
+        <source>(no filter)</source>
+        <target>(no filter)</target>
+        <note>Context:
+File: D:\wamp\www\prestashop17\jms_fluent3\themes\jms_fluent\templates\catalog\_partials\facets.tpl:100</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="D:\wamp\www\prestashop17\jms_fluent3\themes\jms_fluent\templates\catalog\_partials\miniatures\product.tpl" source-language="en-US" target-language="en-US" datatype="plaintext">
+    <body>
+      <trans-unit id="f2cd171bd42220283b7a595c3ff2aaaf">
+        <source>Sale</source>
+        <target>Sale</target>
+        <note>Context:
+File: D:\wamp\www\prestashop17\jms_fluent3\themes\jms_fluent\templates\catalog\_partials\miniatures\product.tpl:49</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="D:\wamp\www\prestashop17\jms_fluent3\themes\jms_fluent\templates\catalog\_partials\sort-orders.tpl" source-language="en-US" target-language="en-US" datatype="plaintext">
+    <body>
+      <trans-unit id="6f9d01a14011f05fffe48559583fc609">
+        <source>Sort by:</source>
+        <target>Sort by:</target>
+        <note>Context:
+File: D:\wamp\www\prestashop17\jms_fluent3\themes\jms_fluent\templates\catalog\_partials\sort-orders.tpl:26</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="D:\wamp\www\prestashop17\jms_fluent3\themes\jms_fluent\templates\checkout\_partials\footer.tpl" source-language="en-US" target-language="en-US" datatype="plaintext">
+    <body>
+      <trans-unit id="9fcba387b581ec9abcbff15e62317da5">
+        <source>Ecommerce software by</source>
+        <target>Ecommerce software by</target>
+        <note>Context:
+File: D:\wamp\www\prestashop17\jms_fluent3\themes\jms_fluent\templates\checkout\_partials\footer.tpl:25</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="D:\wamp\www\prestashop17\jms_fluent3\themes\jms_fluent\templates\checkout\_partials\header.tpl" source-language="en-US" target-language="en-US" datatype="plaintext">
+    <body>
+      <trans-unit id="96d6f2e7e1f705ab5e59c84a6dc009b2">
+        <source>logo</source>
+        <target>logo</target>
+        <note>Context:
+File: D:\wamp\www\prestashop17\jms_fluent3\themes\jms_fluent\templates\checkout\_partials\header.tpl:31</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="D:\wamp\www\prestashop17\jms_fluent3\themes\jms_fluent\templates\cms\category.tpl" source-language="en-US" target-language="en-US" datatype="plaintext">
+    <body>
+      <trans-unit id="6c5c05a5b907385c60c3baa4087ea1a1">
+        <source>List of sub categories in %name%:</source>
+        <target>List of sub categories in %name%:</target>
+        <note>Context:
+File: D:\wamp\www\prestashop17\jms_fluent3\themes\jms_fluent\templates\cms\category.tpl:34</note>
+      </trans-unit>
+      <trans-unit id="51af726259b3283f6b53613165f95697">
+        <source>List of pages in %name%:</source>
+        <target>List of pages in %name%:</target>
+        <note>Context:
+File: D:\wamp\www\prestashop17\jms_fluent3\themes\jms_fluent\templates\cms\category.tpl:45</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="D:\wamp\www\prestashop17\jms_fluent3\themes\jms_fluent\templates\cms\sitemap.tpl" source-language="en-US" target-language="en-US" datatype="plaintext">
+    <body>
+      <trans-unit id="5813ce0ec7196c492c97596718f71969">
+        <source>Sitemap</source>
+        <target>Sitemap</target>
+        <note>Context:
+File: D:\wamp\www\prestashop17\jms_fluent3\themes\jms_fluent\templates\cms\sitemap.tpl:28</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="D:\wamp\www\prestashop17\jms_fluent3\themes\jms_fluent\templates\cms\stores.tpl" source-language="en-US" target-language="en-US" datatype="plaintext">
+    <body>
+      <trans-unit id="34c869c542dee932ef8cd96d2f91cae6">
+        <source>Our stores</source>
+        <target>Our stores</target>
+        <note>Context:
+File: D:\wamp\www\prestashop17\jms_fluent3\themes\jms_fluent\templates\cms\stores.tpl:28</note>
+      </trans-unit>
+      <trans-unit id="adc4f9f9cccaa450c10977d50da58d8d">
+        <source>About and Contact</source>
+        <target>About and Contact</target>
+        <note>Context:
+File: D:\wamp\www\prestashop17\jms_fluent3\themes\jms_fluent\templates\cms\stores.tpl:44</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="D:\wamp\www\prestashop17\jms_fluent3\themes\jms_fluent\templates\errors\maintenance.tpl" source-language="en-US" target-language="en-US" datatype="plaintext">
+    <body>
+      <trans-unit id="27b4383b976d6be981598d457cc7e62d">
+        <source>We'll be back soon.</source>
+        <target>We'll be back soon.</target>
+        <note>Context:
+File: D:\wamp\www\prestashop17\jms_fluent3\themes\jms_fluent\templates\errors\maintenance.tpl:36</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="D:\wamp\www\prestashop17\jms_fluent3\themes\jms_fluent\templates\errors\not-found.tpl" source-language="en-US" target-language="en-US" datatype="plaintext">
+    <body>
+      <trans-unit id="4f4adcbf8c6f66dcfc8a3282ac2bf10a">
+        <source>404</source>
+        <target>404</target>
+        <note>Context:
+File: D:\wamp\www\prestashop17\jms_fluent3\themes\jms_fluent\templates\errors\not-found.tpl:26</note>
+      </trans-unit>
+      <trans-unit id="e65046f081f5859841852560e8672452">
+        <source>page not found</source>
+        <target>page not found</target>
+        <note>Context:
+File: D:\wamp\www\prestashop17\jms_fluent3\themes\jms_fluent\templates\errors\not-found.tpl:27</note>
+      </trans-unit>
+      <trans-unit id="519ee4cd58a2b719f7113965cc949d24">
+        <source>Search again what you are looking for</source>
+        <target>Search again what you are looking for</target>
+        <note>Context:
+File: D:\wamp\www\prestashop17\jms_fluent3\themes\jms_fluent\templates\errors\not-found.tpl:28</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="D:\wamp\www\prestashop17\jms_fluent3\themes\jms_fluent\templates\errors\restricted-country.tpl" source-language="en-US" target-language="en-US" datatype="plaintext">
+    <body>
+      <trans-unit id="6351030f724f6f42fd11ec9aa6ee8c76">
+        <source>403 Forbidden</source>
+        <target>403 Forbidden</target>
+        <note>Context:
+File: D:\wamp\www\prestashop17\jms_fluent3\themes\jms_fluent\templates\errors\restricted-country.tpl:43</note>
+      </trans-unit>
+      <trans-unit id="cf8092a0be7b972d6cee3db90bfaf923">
+        <source>You cannot access this store from your country. We apologize for the inconvenience.</source>
+        <target>You cannot access this store from your country. We apologize for the inconvenience.</target>
+        <note>Context:
+File: D:\wamp\www\prestashop17\jms_fluent3\themes\jms_fluent\templates\errors\restricted-country.tpl:44</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="D:\wamp\www\prestashop17\jms_fluent3\themes\jms_fluent\templates\layouts\layout-both-columns.tpl" source-language="en-US" target-language="en-US" datatype="plaintext">
+    <body>
+      <trans-unit id="b61541208db7fa7dba42c85224405911">
+        <source>Menu</source>
+        <target>Menu</target>
+        <note>Context:
+File: D:\wamp\www\prestashop17\jms_fluent3\themes\jms_fluent\templates\layouts\layout-both-columns.tpl:38</note>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

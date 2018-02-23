@@ -1,0 +1,68 @@
+#off-canvas-menu-toggle span {
+	color: #ffffff;
+    display: none;
+    font-size: 32px;
+    line-height: 95px;
+}
+.off-canvas-menu-open #off-canvas-menu-toggle {
+    display: none;
+}
+#off-canvas-menu .nav > li {
+	float:left;
+	width:100%;
+	border-bottom:1px dotted #e0e0e0;
+}
+#off-canvas-menu .jms-megamenu {
+	box-shadow: none;
+	text-align: left;
+}
+#off-canvas-menu .open > .dropdown-menu {
+	position:static;
+	box-shadow:none;
+	border:0px;
+	width:100%;
+}
+#off-canvas-menu .dropdown-menu >  li > a {
+	line-height:35px;
+	padding:3px 30px;
+}
+#off-canvas-menu li a {
+    display: block;
+    font-weight: 400;
+	text-transform:uppercase;
+	border-radius:0px;
+}
+#off-canvas-menu #jms-megamenu > li > a {
+	text-transform:uppercase;	
+}
+.responsive #off-canvas-menu-title {
+    background: none repeat scroll 0 0 #fff;
+    border-bottom: 1px solid #E7E7E7;
+    display: block;
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 1.23em;
+    line-height: 46px;
+    padding-left: 15px;
+    font-weight:bold;
+}
+.responsive #off-canvas-menu-close {
+    color: #1c2833;
+    cursor: pointer;
+    float: right;
+    font-size: 20px;
+    padding: 12px 12px 0 0;
+}
+
+#off-canvas-menu img{
+	max-width:100%;
+	margin-bottom:10px;
+}
+#off-canvas-menu li > a em {
+	float:right;
+	font-size:15px;
+	width:20px;
+	height:20px;
+	line-height:20px;
+	margin-top:5px;
+	text-align:center;
+}

@@ -1,0 +1,250 @@
+#setting-overlay {
+	background: none repeat scroll 0 0 #ccc;
+    bottom: 0;
+    left: 0;
+    opacity: 0;
+    position: fixed;
+    right: 0;
+    top: 0;
+    z-index: -1;
+}
+.overlay-animate {
+	opacity: 0.7!important;	
+	z-index: 2999!important;
+}
+#jmstools {
+	font-family: "Raleway", sans-serif;
+	position:fixed;
+	left:-270px;
+	top:140px;
+	font-weight:bold;
+	color:#FFF;
+	line-height:30px;	
+	cursor:pointer;    
+	width:310px;	
+	z-index:10001; 
+	font-size:12px;	
+}
+#jmstools-arrow {
+	display:block;
+	width:40px;
+	height:40px;
+	text-align:center;	
+	background:#333;
+}
+#jmstools-arrow  i {
+	font-size:18px;
+	line-height:40px;
+	color:#FFF;
+}
+#jmstools-content {
+	width:270px;
+	background:#f0f0f2;		
+    padding:20px;
+    color:#000;
+    line-height:30px;	
+	overflow:auto;
+}
+select#jmsskin {
+	width:auto;
+	max-width:110px;
+	font-weight:normal;
+	font-size:12px;
+}
+#jmstools-content select {	
+	line-height:38px;
+	height:38px;
+	border:1px solid #e2e2e2;
+	width:100%;
+	color:#8c8c8c;
+	font-weight:300;
+}
+#jmstools label {
+	color:#595959;	
+	font-size:13px;
+	display:block;
+	clear:both;
+	min-width:100px;
+	float:left;
+	font-weight:500;
+	margin-top:10px;
+	width:100%;
+}
+#jmswidth {
+	width:70px;
+	font-size:11px;
+	display:inline-block;
+}
+#jmstools-content .row-fluid {
+	padding:5px 0px;
+}
+.pixel_unit {
+	display:inline-block;
+	margin-left:5px;
+}
+.skin-box  img{		
+	width:32px;
+	height:32px;
+	display:inline-block;
+	margin-right:5px;
+	overflow:hidden;
+	margin-bottom:5px;
+}
+.skin-box.active img {
+	border:1px solid #000;	
+}
+#jmstools .panel {
+	box-shadow:0 1px 1px rgba(0, 0, 0, 0.05);
+	border:1px solid #DDD;
+	margin-bottom:5px;
+}
+#jmstools .panel-heading {
+	background-color:whitesmoke;
+	padding:0px;
+	border:none;
+}
+#jmstools .form-group {
+	margin-bottom:10px;
+}
+#jmstools .panel-heading a {
+	display:block;
+	padding:0px 10px;
+	color:#000;
+	line-height:26px;
+	height:26px;
+}
+#jmstools .panel-primary > .panel-heading {
+	background-color:whitesmoke;
+	border:none;
+}
+#jmstools .panel-primary > .panel-heading + .panel-collapse .panel-body {
+	border-top-color:#DDD;
+	padding:10px;
+}
+#jmstools  .panel-group .panel-heading + .panel-collapse > .panel-body {
+	padding:10px;
+} 
+#jmstools .panel-collapse label {
+	float:left;
+	min-width:98px;
+}
+#jmstools .panel-collapse .color {
+	float:left;
+	line-height:20px;
+}
+#jmstools .panel-collapse input[type="text"],
+#jmstools .panel-collapse select {
+	border: 1px solid #e2e2e2;
+    border-radius: 0px;    
+    font-size: 11px;
+    height: 26px;
+    margin: 0 5px 0 0;
+    padding: 6px;    
+    width: 65px;	
+	float:left;
+}
+#jmstools .panel-collapse .color {
+	color:#FFF;
+	text-transform: uppercase;
+}
+#jmstools .panel-collapse select {
+	color:#000;
+}
+#jmstools .panel-collapse .clear-btn {
+	height: 26px;
+	border: 1px solid #e2e2e2;
+    border-radius: 0px;	
+	float:left;
+	padding:0px 8px;
+	font-size:10px;
+	font-weight:bold;
+	text-transform:uppercase;
+	line-height:24px;
+	color:#000;
+}
+#jmstools .info {
+	float:right;	
+	text-align:center;
+	position:relative;
+}
+#jmstools .info .info-content {
+	display:none;
+	position:absolute;
+	top:30px;
+	right:0px;
+	padding:10px;
+	background:#FFF;
+	border-radius:0px;
+	border:1px solid #333;
+	width:230px;
+	line-height:15px;
+	font-weight:400;
+}
+#jmstools .info .info-content:before {
+	border-bottom: 5px solid #333;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+	content: "";
+    right: 5px;	
+    position: absolute;
+    top: -5px;
+	
+}
+#jmstools .info  i {
+	border:1px solid #CDCDCD;
+	border-radius:50%;
+	width:22px;
+	height:22px;
+	line-height:22px;
+}
+.img-box {
+	display:inline-block;
+	cursor:pointer;
+	border:1px solid #CDCDCD;
+	width:25px;
+	height:25px;
+	border-radius:0;	
+	display:inline-block;
+	margin-right:5px;
+	overflow:hidden;
+}
+
+.img-box.active {
+	border:1px solid red;	
+}
+.img-box img {
+	z-index:-1;
+	width:100%;
+	height:100%;
+	vertical-align:top;
+}
+.imgs-box {
+	clear:both;
+}
+#jmstools .btn-action {
+	padding-top:10px;
+	text-align:right;
+}
+#jmstools .btn-action .btn {	
+	margin-right: 5px;
+    height: 36px;
+    line-height: 35px;
+    padding: 0px 30px;
+    color: #000;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 11px;
+	min-width:80px;
+	border:1px solid #000;
+	float: left;
+}
+#jmstools .btn-action .btn:hover {
+	background:#000;
+	color: #FFF;
+}
+.form-content label {
+	float:left;
+}
+.form-content input{
+	float:left;
+}
