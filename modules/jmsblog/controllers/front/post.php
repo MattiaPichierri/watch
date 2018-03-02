@@ -29,6 +29,7 @@ class JmsblogPostModuleFrontController extends ModuleFrontController
         $module_instance = new JmsBlog();
         JmsBlogHelper::updateViews($post_id);
         $post       = $this->getPost($post_id);
+        //print_r($post);exit;
         $cerrors = array ();
         $msg = (int)Tools::getValue('msg', 0);
         if (Tools::getValue('action') == 'submitComment') {

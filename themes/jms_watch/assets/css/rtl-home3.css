@@ -1,11 +1,17 @@
-.header_top {
-    padding: 35px 70px 35px 47px;
-}
 .headertop_right .addon-box{
 	float:left;
 }
 .headertop_right .addon-box:first-child{
 	margin-left:0;
+}
+.header-right .addon-box{
+    float: left;
+}
+.header-right #cart_block .ajax_cart_quantity{
+    right: 15px;
+}
+.header-right .addon-box:first-child{
+    margin-right: 27px;
 }
 .top_menu_second {
     float: left;
@@ -22,7 +28,6 @@
     transform: translateX(0px);
 }
 #open-button::before {
-    left: 30px;
     top: 49px !important;
 }
 .home_3 .jms-megamenu .mega-nav .mega > a::after {
@@ -34,11 +39,6 @@
 }
 .home_3 .jms-megamenu .mega-nav li > a:hover {
     padding-right:0px;
-	padding-left:35px;
-}
-.home_3 .mega-col-nav.col-sm-3 {
-    padding-left: 40px;
-    padding-right: 0px !important;
 }
 .home_3 .jms-megamenu .nav > .item-fullwidth .mega-nav li > a:hover {
     padding-left: 15px;
@@ -60,10 +60,14 @@
 .text_menu {
     padding: 8px 51px 8px 0;
 }
-#cart_block .shoppingcart-box {
-    left: 0 !important;
+.header_top #cart_block .dropdown-menu.shoppingcart-box {
+    left: -118px !important;
     right: auto;
-    top: 69px;
+    top: 66px;
+}
+.header_top.nav-fix #cart_block .dropdown-menu.shoppingcart-box {
+    left: -118px !important;
+    right:auto !important;
 }
 .menu-wrap {
     left: -300px !important;
@@ -74,9 +78,6 @@
     left: 0 !important;
     right: auto !important;
 	transition: left 0.4s cubic-bezier(0.7, 0, 0.3, 1) 0s !important;
-}
-.news_content .form-group .newsletter-input{
-	border-radius:0 4px 4px 0;
 }
 .newsletter-btn.buttonh2{
 	 transform: rotate(180deg);
@@ -104,24 +105,181 @@ footer .blog-item .img-responsive {
 	text-align:left;
 }
 @media(max-width: 1199px){
-	#ajax_search{
-		top:-7px !important;
-	}
-	.header_top {
-		padding: 35px 15px 35px 58px;
-	}
+    .header-right .searchbox::after{
+        left: -23px;
+    }
+    .header_top .btn-group.open .dropdown-menu::before{
+        right: auto;
+    }
+    .header-right span.search-frm{
+        margin-right: 0;
+    }
 }
-@media(max-width: 767px){
+@media (max-width: 991px){
+    #open-button::before{
+        background-position: right !important;
+    }
+}
+@media (max-width: 768px){
+    .header_top .header-right #search_result{
+        top: 66px;
+    }
+    .header-right #ajax_search{
+        top: 20px;
+    }
+    .header-right .searchbox::after{
+        top: 15px;
+    }
+    .header-right #cart_block.open .shoppingcart-box{
+        top: 46px;
+    }
+}
+@media (max-width: 767px){
    .foooter_bottom_right p{
-	text-align:right;
+    	text-align:right;
+    }
 }
+@media (max-width: 630px){
+    .header_top .header-right .searchbox::after{
+        right: auto;
+    }
+    #header .header-right .btn-group.cart-preview .dropdown-menu.shoppingcart-box::before{
+        left: 87px;
+    }
+    .header-right #cart_block.open .dropdown-menu.shoppingcart-box{
+        left: -98px !important;
+    }
+    .header-right #cart_block .ajax_cart_quantity{
+        right: auto;
+    }
+    .header-right .addon-box:first-child{
+        margin-right: 15px;
+    }
 }
 @media(max-width: 481px){
-   #open-button::before {
+    .header_top .header-right #search_result{
+        right: 71px !important;
+    }
+    .nav-fix #cart_block .shoppingcart-box{
+        margin-top: 0 !important;
+    }
+    .header-right .btn-group.open .dropdown-menu.shoppingcart-box::before{
+        left: 45px !important;
+        right: auto;
+    }
+    .header_top .header-right #cart_block.open .shoppingcart-box{
+        left: -55px !important;
+        top: 43px;
+    }
+    .layout-column.header-right .addon-box:first-child .dropdown-menu{
+        left: -25px;
+    }
+    .header-right .btn-group.open .dropdown-menu::before{
+        left: 45px;
+    }
+    .header-right .addon-box:first-child{
+        margin-right: 7px;
+    }
+    #open-button::before {
 		top: 46px !important;
 	}
 	#ajax_search {
-		top: 12px !important;
 		right: 121px !important;
 	}
+}
+@media(max-width: 320px){
+    #cart_block .ajax_cart_quantity{
+        left: 0;
+    }
+}
+.header-right #cart_block .shoppingcart-box:before{
+    right: auto;
+    left: 97px;
+}
+.header-right #jms_ajax_search #ajax_search{
+    right:auto;
+    left: -100px;
+}
+.header-right #jms_ajax_search .searchbox:after{
+    right: auto;
+    left: -23px;
+}
+.header-right .addon-box:first-child .dropdown-menu{
+    left: -55px;
+}
+.btn-group.open .dropdown-menu::before{
+    right: auto;
+    left: 48px;
+}
+.title-collection .layout-column{
+    float: none;
+}
+.nav-fix .header-right #cart_block.open .shoppingcart-box{
+    top: 46px;
+}
+.lastest-news .post-info li:not(:first-child) span{
+    position: relative;
+    display: flex;
+    flex-direction: row-reverse;
+}
+.lastest-news .post-meta li:nth-child(3) span i{
+    margin-top: 5px;
+    margin-right: 10px;
+}
+.lastest-news .post-meta li:nth-child(2) span i{
+    margin-top: 5px;
+    margin-right: 10px;
+}
+.header-right #search_result{
+    right: 99px !important;
+    top: 86px;
+}
+.nav-fix .header-right #search_result{
+    top: 66px;
+}
+.header_top .level0 > .menu-item > .nav-child.fullwidth{
+    left: -584px !important;
+}
+.mega-col-nav.col-sm-3:first-child{
+    border-left: 1px solid #ebebeb;
+}
+.mega-col-nav.col-sm-3{
+    padding: 0 20px !important;
+}
+.header_top .level0 > .menu-item.must-see > .nav-child{
+    left: auto !important;
+    right: -400px !important;
+}
+#social_block li{
+    margin-left: 7px;
+    margin-right: 0;
+}
+.footer-mid #newsletter_block_left{
+    float: left;
+}
+.alert.alert-danger{
+  width: 100%;
+  padding-top: 36px;
+  font-size: 13px;
+}
+.menu-item.must-see.menu-align-justify{
+    position: relative;
+}
+@media (max-width: 1366px){
+    .header_top .level0 > .menu-item.must-see > .nav-child{
+        left: auto !important;
+        right: -365px !important;
+    }
+}
+@media (max-width: 1280px){
+    .header_top .level0 > .menu-item.must-see > .nav-child{
+        left: auto !important;
+        right: -291px !important;
+    }
+}
+@media (max-width: 1199px){
+    .header_top .level0 > .menu-item.must-see > .nav-child{
+        left: auto !important;
+        right: -191px !important;
+    }
 }

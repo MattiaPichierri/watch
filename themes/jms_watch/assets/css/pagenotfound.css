@@ -10,11 +10,12 @@
 }
 #search_widget input {
     border: 1px solid #e1e1e1;
-    height: 40px;
+    height: 48px;
     margin-right: -1px;
     padding: 0 5px;
     width: 220px;
     letter-spacing: 3px;
+    padding-left:15px;
 }
 #search_widget form{
 	display:flex;

@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.19, created on 2018-02-22 09:26:32
+<?php /* Smarty version Smarty-3.1.19, created on 2018-02-28 07:28:11
          compiled from "module:ps_currencyselector/ps_currencyselector.tpl" */ ?>
 <?php /*%%SmartyHeaderCode:38415a8e8cc8973446-42647067%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +7,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     'b97756c07f8c7dd53da6530f78f67ddd242f77c9' => 
     array (
       0 => 'module:ps_currencyselector/ps_currencyselector.tpl',
-      1 => 1518495930,
+      1 => 1519786661,
       2 => 'module',
     ),
   ),
@@ -15,6 +15,8 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   'function' => 
   array (
   ),
+  'version' => 'Smarty-3.1.19',
+  'unifunc' => 'content_5a8e8cc899a543_07874904',
   'variables' => 
   array (
     'jpb_homepage' => 0,
@@ -23,13 +25,11 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     'current_currency' => 0,
   ),
   'has_nocache_code' => false,
-  'version' => 'Smarty-3.1.19',
-  'unifunc' => 'content_5a8e8cc899a543_07874904',
 ),false); /*/%%SmartyHeaderCode%%*/?>
 <?php if ($_valid && !is_callable('content_5a8e8cc899a543_07874904')) {function content_5a8e8cc899a543_07874904($_smarty_tpl) {?><!-- begin D:\xampp\htdocs\jms_watch/themes/jms_watch/modules/ps_currencyselector/ps_currencyselector.tpl -->
 <?php if ($_smarty_tpl->tpl_vars['jpb_homepage']->value==1||$_smarty_tpl->tpl_vars['jpb_homepage']->value==6) {?>
 	<div id="_desktop_currency_selector" class="btn-group compact-hidden currency-info">
-		<span class="btn-name"><?php echo smartyTranslate(array('s'=>'Select Currency:','d'=>'Shop.Theme.Global'),$_smarty_tpl);?>
+		<span class="btn-name"><?php echo smartyTranslate(array('s'=>'Select Currency','d'=>'Shop.Theme.Global'),$_smarty_tpl);?>
 </span>
 		<ul class="curentry-list">
 			
@@ -74,7 +74,7 @@ $_smarty_tpl->tpl_vars['currency']->_loop = true;
 <?php } else { ?>
 	
 	<div id="_desktop_currency_selector" class="btn-group compact-hidden currency-info">
-		<span class="btn-name"><?php echo smartyTranslate(array('s'=>'Currency:','d'=>'Shop.Theme.Global'),$_smarty_tpl);?>
+		<span class="btn-name"><?php echo smartyTranslate(array('s'=>'Currency','d'=>'Shop.Theme.Global'),$_smarty_tpl);?>
 </span>	
 		 <ul>
       <?php  $_smarty_tpl->tpl_vars['currency'] = new Smarty_Variable; $_smarty_tpl->tpl_vars['currency']->_loop = false;

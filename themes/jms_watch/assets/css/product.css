@@ -139,7 +139,7 @@
     line-height: 35px;
     position: absolute;
     text-align: center;
-    top: calc(50% - 93px);
+    bottom: 66px;
     width: 35px;
 }
 .arrows.js-arrows i:hover, .scroll-box-arrows i:hover {
@@ -756,11 +756,17 @@ span.Pink{
 }
 /* Responsive */
 @media(max-width:1366px) {
+    .scroll-box-arrows i{
+        bottom: 59px;
+    }
 	.images-container .thumb-box {
 		height: 34.1vw;
 	}
 }
 @media(max-width:1199px){
+    .scroll-box-arrows i{
+        bottom: 59px;
+    }
 	.images-container .product-images > li.thumb-container > .thumb {
 		width: 80px;
 	}
@@ -771,6 +777,9 @@ span.Pink{
     }
 }
 @media(max-width:991px){
+    .page-product .images-container .product-images > li.thumb-container > .thumb{
+        margin-right: 22px;
+    }
 	.share-group {
 		margin-top: 15px;
 	}
@@ -794,6 +803,14 @@ span.Pink{
 	.column_left {
 		padding-left: 0;
 	}
+}
+@media (max-width: 768px) and (min-width: 415px){
+    .page-product .images-container .product-images > li.thumb-container > .thumb{
+        margin-right: 14px;
+    }
+    .scroll-box-arrows i{
+        bottom: 42px;
+    }
 }
 @media(max-width:767px) {
 	.product-accessories .accessories-carousel .owl-stage-outer, .featured-products .propular-carousel .owl-stage-outer {
@@ -841,7 +858,7 @@ span.Pink{
 		height: 92.1vw;
 	}
 	.images-container .product-images > li.thumb-container > .thumb {
-		width: 20.5vw !important;
+		width: 17.5vw !important;
 	}
 	#more_info_block .tabs li a.active{
 		border-bottom:0 !important;
@@ -881,6 +898,11 @@ span.Pink{
     }
 }
 @media(max-width:320px){
+    .scroll-box-arrows i{
+        width: 25px;
+        height: 25px;
+        line-height: 25px;
+    }
 	.images-container .thumb-box {
 		height: 86.1vw;
 		width:54px;
@@ -965,7 +987,7 @@ span.Pink{
 .facet.color .checkbox-color{
     cursor: pointer;
     position: absolute;
-    top: 4px;
+    top: 0;
     left: 0;
     height: 18px;
     width: 18px;
@@ -1024,6 +1046,9 @@ span.Pink{
     }
 }
 @media (max-width: 414px){
+    .scroll-box-arrows i{
+        bottom: 42px;
+    }
     .banner-column .text-large{
         top: 75px;
     }

@@ -68,5 +68,76 @@
 		right: 38% !important;
 	}
 }
-
-
+.newsletter .newsletter-btn.buttonh1{
+	margin-right: 21px;
+}
+.top_group #cart_block .shoppingcart-box{
+	left: -28px !important;
+}
+.top_group .btn-group.open .dropdown-menu::before{
+	left: 12px;
+	right: auto !important;
+}
+.top_group .searchbox #ajax_search{
+	left: -88px;
+	right: auto;
+}
+.top_group .searchbox::after{
+	left: -32px;
+	right: auto !important;
+}
+.box-shadow #cart_block .shoppingcart-box{
+	top: 46px;
+}
+.box-shadow .top_group .searchbox #ajax_search{
+	top: 18px !important;
+}
+.box-shadow .searchbox::after{
+	top: 12px !important;
+}
+.top_menu p::before{
+	background-position: right; 
+}
+.headertop #search_result{
+	right: 88px !important;
+}
+.jms-megamenu .menu-align-justify > .dropdown-menu{
+	right: 371px;
+}
+.product-variants-item.size::after{
+	right: 182px;
+	left: auto;
+}
+.top_group .shopping-cart{
+	background: rgba(0, 0, 0, 0) url(../img/shopping-bag.png) no-repeat 0px 0px;
+}
+.mega-col-nav.col-sm-3:first-child{
+	border-left: 1px solid #ebebeb;
+}
+#cart_block .ajax_cart_quantity{
+	left: -2px;
+}
+@media (max-width: 414px){
+	.top_group #cart_block .shoppingcart-box{
+		right: auto !important;
+	}
+	.headertop .top_group .searchbox::after{
+		left: -32px;
+	}
+}
+@media (max-width: 375px){
+	.top_group .shopping-cart{
+		width: 30px;
+	}
+}
+@media (max-width: 481px){
+	.headertop #search_result{
+		right: 68px !important;
+	}
+	.top_group .searchbox #ajax_search{
+		left: -68px !important;
+	}
+	.top_group .searchbox::after{
+		left: -24px;
+	}
+}

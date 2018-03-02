@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.19, created on 2018-02-22 09:26:32
+<?php /* Smarty version Smarty-3.1.19, created on 2018-02-28 07:28:11
          compiled from "module:ps_languageselector/ps_languageselector.tpl" */ ?>
 <?php /*%%SmartyHeaderCode:319765a8e8cc89407c8-53612535%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +7,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     '1c00f78dace25d509ec3a1f54176b7ae2000accf' => 
     array (
       0 => 'module:ps_languageselector/ps_languageselector.tpl',
-      1 => 1518495960,
+      1 => 1519786727,
       2 => 'module',
     ),
   ),
@@ -15,6 +15,8 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   'function' => 
   array (
   ),
+  'version' => 'Smarty-3.1.19',
+  'unifunc' => 'content_5a8e8cc894c349_18183791',
   'variables' => 
   array (
     'jpb_homepage' => 0,
@@ -24,8 +26,6 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     'urls' => 0,
   ),
   'has_nocache_code' => false,
-  'version' => 'Smarty-3.1.19',
-  'unifunc' => 'content_5a8e8cc894c349_18183791',
 ),false); /*/%%SmartyHeaderCode%%*/?>
 <?php if ($_valid && !is_callable('content_5a8e8cc894c349_18183791')) {function content_5a8e8cc894c349_18183791($_smarty_tpl) {?><!-- begin D:\xampp\htdocs\jms_watch/themes/jms_watch/modules/ps_languageselector/ps_languageselector.tpl -->
 <!-- Block languages module -->
@@ -86,7 +86,7 @@ $_smarty_tpl->tpl_vars['language']->_loop = true;
 <?php if (count($_smarty_tpl->tpl_vars['languages']->value)>1) {?>
 		<div class="btn-group compact-hidden languages-info">
 			<a href="#"  class="btn-xs dropdown-toggle" data-toggle="dropdown">
-				<span class="btn-name"><?php echo smartyTranslate(array('s'=>'Languages:','d'=>'Shop.Theme.Global'),$_smarty_tpl);?>
+				<span class="btn-name"><?php echo smartyTranslate(array('s'=>'Languages','d'=>'Shop.Theme.Global'),$_smarty_tpl);?>
 </span>			
 			</a>
 			<ul>

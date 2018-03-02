@@ -60,7 +60,7 @@
 {if count($languages) > 1}
 		<div class="btn-group compact-hidden languages-info">
 			<a href="#"  class="btn-xs dropdown-toggle" data-toggle="dropdown">
-				<span class="btn-name">{l s='Languages:' d='Shop.Theme.Global'}</span>			
+				<span class="btn-name">{l s='Languages' d='Shop.Theme.Global'}</span>			
 			</a>
 			<ul>
 				{foreach from=$languages key=k item=language name="languages"}

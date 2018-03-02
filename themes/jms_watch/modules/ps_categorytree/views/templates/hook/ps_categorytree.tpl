@@ -24,7 +24,7 @@
 *}
 {function name="categories" nodes=[] depth=0}
   {strip}
-    {if $nodes|count}
+    <!-- {if $nodes|count} -->
       <ul class="category-sub-menu">
         {foreach from=$nodes item=node}
           <li data-depth="{$depth}" class="cat-item">
@@ -53,7 +53,7 @@
           </li>
         {/foreach}
       </ul>
-    {/if}
+    <!-- {/if} -->
   {/strip}
 {/function}
 

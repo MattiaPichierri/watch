@@ -10,9 +10,6 @@
 .top_menu_second .jms-megamenu .mega-nav, .top_menu_second .jms-megamenu .dropdown-menu .mega-nav{
     text-align: center;
 }
-.top_menu_second .jms-megamenu .mega-nav .mega > a::after{
-    display: none;
-}
 .top_menu_second {
     transform: translateX(-370px);
 }
@@ -42,16 +39,19 @@
     width: 100%;
     height: auto;
 }
+.footer_bottom{
+    border-top: 1px solid #ebebeb;
+}
 /*DEMO*/
-    .searchbox #ajax_search{
-        top: 15px !important;
-    }
-    .searchbox::after{
-        top: 8px !important;
-        right: 5px !important;
-    }
+.searchbox #ajax_search{
+    top: 21px !important;
+}
+.searchbox::after{
+    top: 15px !important;
+    right: 5px !important;
+}
 #search_result {
-    top: 65px;
+    top: 69px;
     left: 65px;
 }
 .group-btn a{
@@ -408,7 +408,7 @@
 	}
 	#search_result {
 		left: 56px !important;
-		top: 66px !important;
+		top: 68px !important;
 	}
 	#index.home_1 .owl-theme .owl-controls div.owl-next {
 		right: 38%;
@@ -572,7 +572,7 @@
 }
 .home_1 #cart_block .shoppingcart-box{
     right: -25px;
-    top: 50px;
+    top: 46px;
     margin-top: 0 !important;
 }
 .home_1 .text-small{
@@ -602,6 +602,28 @@
     line-height:2;
     letter-spacing: 0.5px;
 }
+.jms-banner.banner a img{
+    width: 100%;
+}
+.banner-content .content{
+    text-align: center;
+    padding:0 190px;
+}
+@media (max-width: 1800px){
+    .banner-content .content{
+        padding:0 15px;
+    }
+}
+@media (max-width: 1600px) and (min-width: 1367px){
+    .featured-banner .banner-content img{
+        margin-top: 0;
+    }
+}
+@media (max-width: 1460px) and (min-width: 1367px){
+    .featured-banner .banner-content .btn{
+        margin-top: 0;
+    }
+}
 @media (max-width: 1366px){
     .img-content .text-large{
         font-size: 29px !important;
@@ -616,9 +638,6 @@
     }
 }
 @media (max-width: 930px){
-    .featured-banner .banner-content .btn{
-        margin-top: 0;
-    }
     .featured-banner .content h4{
         margin-bottom: 0;
         padding-bottom: 0;
@@ -857,9 +876,6 @@ h1.special-offer-title{
 }
 .new-arrival .addon-box{
     padding:0;
-}
-.group-btn i{
-    margin-left: 19px;
 }
 .group-btn a span{
     background: #fff;
@@ -1198,6 +1214,14 @@ input[type="text"].inputNew:-moz-placeholder {
     .banner-content .content{
         width: 100%;
         padding:0 15px;
+    }
+}
+@media (max-width: 991px) and (min-width: 769px){
+    .btn.btn-viewmore{
+        padding: 10px 25px;
+    }
+    .featured-banner .banner-content .btn{
+        margin-top: 0;
     }
 }
 @media (max-width: 991px) and (min-width: 737px){

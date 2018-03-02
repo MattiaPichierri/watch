@@ -1,3 +1,4 @@
+
 <section class="featured-products clearfix">
 	<div class="addon-title">
 		<h3 class="products-section-title text-uppercase ">

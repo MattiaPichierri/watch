@@ -24,7 +24,7 @@
 *}
 {if $jpb_homepage == 1 || $jpb_homepage == 6}
 	<div id="_desktop_currency_selector" class="btn-group compact-hidden currency-info">
-		<span class="btn-name">{l s='Select Currency:' d='Shop.Theme.Global'}</span>
+		<span class="btn-name">{l s='Select Currency' d='Shop.Theme.Global'}</span>
 		<ul class="curentry-list">
 			
 			{foreach from=$currencies item=currency}
@@ -52,7 +52,7 @@
 {else}
 	
 	<div id="_desktop_currency_selector" class="btn-group compact-hidden currency-info">
-		<span class="btn-name">{l s='Currency:' d='Shop.Theme.Global'}</span>	
+		<span class="btn-name">{l s='Currency' d='Shop.Theme.Global'}</span>	
 		 <ul>
       {foreach from=$currencies item=currency}
         <li {if $currency.current} class="current" {/if}>
