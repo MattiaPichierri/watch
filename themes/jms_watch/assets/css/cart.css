@@ -100,7 +100,7 @@
 	box-shadow:2px 2px 11px 0 rgba(0, 0, 0, 0.1);
 }
 .cart-grid-right .right-box .card.cart-summary {
-	padding:30px;
+	padding: 15px;
 }
 .card.cart-summary .checkout a {
     background: #000 none repeat scroll 0 0;
@@ -177,7 +177,7 @@
 	justify-content:center;
 }
 .cart-grid-right #block-reassurance {
-	padding:20px;
+	padding:15px;
 	clear:both;
 }
 @media(max-width:1199px){
@@ -194,6 +194,9 @@
 	}
 }
 @media(max-width:480px){
+	.promo-input{
+		margin-bottom: 15px;
+	}
 	#cart .js-cart-line-product-quantity.form-control {
 		width: calc(100% - 18px);
 	}

@@ -855,6 +855,9 @@ ul.footer_links li {
     margin-left: 28px;
     margin-right: 0 !important;
 }
+.pagination li:first-child{
+  width: 21px;
+}
 .product-quantity .bootstrap-touchspin-down{
 	left:-40px !important;
 }

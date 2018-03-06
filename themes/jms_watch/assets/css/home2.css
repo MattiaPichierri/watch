@@ -77,11 +77,11 @@
 	color: #dd9965;
 }
 .topheader .level0 > .menu-item.must-see > .nav-child{
-	left: -400px !important;
+	left: -416px !important;
 	text-align: center;
 }
 .topheader .level0 > .item-fullwidth.menu-item > .nav-child{
-	left: -144px !important;
+	left: -110px !important;
 }
 .topheader .level0 > .menu-item > .nav-child{
 	left: -65px;
@@ -271,7 +271,7 @@ h4.post-title > a {
 	top: 47px;
 }
 .topheader.navbar-fixed-top #search_result{
-	top: 54px;
+	top: 65px;
 }
 @media (max-width: 1700px){
 	.jms-megamenu .nav > li
@@ -347,7 +347,7 @@ h4.post-title > a {
 	.megamenu_h2 {
 		left: 15px;
 		position: absolute;
-		top: 21px;
+		top: 19px;
 		width: 44px;
 		padding: 0;
 	}
@@ -379,7 +379,7 @@ h4.post-title > a {
 		top: 40px;
 	}
 	.topheader.navbar-fixed-top #search_result{
-		top: 38px;
+		top: 54px;
 	}
 }
 @media (max-width: 767px){
@@ -407,6 +407,9 @@ h4.post-title > a {
 	}
 }
 @media (max-width: 481px){
+	.topheader #open-button::before{
+		background-position: top left !important;
+	}
 	.topheader .module_group_h2 .btn-group.open .dropdown-menu{
 		top: 31px;
 	}
@@ -422,13 +425,13 @@ h4.post-title > a {
 		margin-right: 15px;
 	}
 	.topheader.navbar-fixed-top #search_result{
-		top: 31px;
+		top: 54px;
 	}
 	.topheader.navbar-fixed-top .search-box .searchbox::after{
-		top: -20px !important;
+		top: -6px !important;
 	}
 	.topheader.navbar-fixed-top .dropdown-menu .searchbox #ajax_search{
-		top: -14px !important;
+		top: 0px !important;
 	}
 	.topheader.navbar-fixed-top #cart_block .shoppingcart-box{
 		top: 4px !important;
@@ -455,7 +458,7 @@ h4.post-title > a {
 		width: 30px;
 	}
 	#open-button::before{
-		background-size: 13px !important;
+		background-size: 15px !important;
 	}
 	.banner_home .right .owl-carousel .owl-item, .banner-men .left .owl-carousel .owl-item{
 		width: 100% !important;
@@ -482,7 +485,7 @@ h4.post-title > a {
 		padding-top: 15px;
 	}
 	.topheader.navbar-fixed-top .megamenu_h2{
-		top: 91px;
+		top: 18px;
 	}
 	.block_content.block_c_right .form-group {
 		min-width: 300px;
@@ -884,7 +887,7 @@ header{
 		height: 16px !important;
 	}
 }
-#open-button::before{
+.page-index #open-button::before{
 	background-position: left !important;
 }
 .module_group_h2 .search-frm, .module_group_h2 .shopping-cart{

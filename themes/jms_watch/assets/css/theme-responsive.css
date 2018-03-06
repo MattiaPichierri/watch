@@ -570,6 +570,7 @@
 		display: inline-block;
 		float: left;
 		margin-right: 5px;
+		margin-bottom: 10px;
 	}
 	#blockcart-modal .btn-cart{
 		font-size: 10px;

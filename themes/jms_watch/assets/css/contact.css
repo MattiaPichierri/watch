@@ -36,8 +36,8 @@
 }
 #contact #wrapper #content-wrapper .contact-form .form-fields .col-md-3.form-control-comment {
 	font-size: 15px;
-	height: 40px;
-	line-height: 40px;
+	height: 50px;
+	line-height: 50px;
 	text-transform: capitalize;
 }
 #contact #wrapper #content-wrapper .contact-form .form-footer input {
@@ -53,6 +53,8 @@
 #contact .form-control.form-control-select {
 	width: 100%;
 	-moz-appearance:none;
+	-webkit-appearance:none;
+  	appearance: none;
 	background:#fff url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAQAAAD9CzEMAAAAPklEQVR4Ae3TwREAEBQD0V/6do4SXPZg7EsBhsQ8IEmSMOsiuEfg3gL3oXC7wK0bd1G4o8X9F4yIkyQfSrIByQBjp7QuND8AAAAASUVORK5CYII=") no-repeat scroll right 0.5rem center / 2.25rem 2.25rem !important;
 	padding-right:30px;
 }

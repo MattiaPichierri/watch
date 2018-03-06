@@ -24,7 +24,7 @@
     width: 100%;
 }
 #cms .page-heading.bottom-indent::after {
-    border-bottom: 2px solid #f61853;
+    /*border-bottom: 2px solid #f61853;*/
     bottom: 10px;
     content: "";
     left: 50%;

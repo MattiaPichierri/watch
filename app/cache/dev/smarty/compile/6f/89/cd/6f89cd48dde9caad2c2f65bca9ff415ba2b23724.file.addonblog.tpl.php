@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.19, created on 2018-02-22 09:36:53
+<?php /* Smarty version Smarty-3.1.19, created on 2018-03-06 04:21:22
          compiled from "D:\xampp\htdocs\jms_watch\themes\jms_watch\modules\jmspagebuilder\views\templates\hook\addonblog.tpl" */ ?>
 <?php /*%%SmartyHeaderCode:220595a8e8f3572a296-03516298%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +7,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     '6f89cd48dde9caad2c2f65bca9ff415ba2b23724' => 
     array (
       0 => 'D:\\xampp\\htdocs\\jms_watch\\themes\\jms_watch\\modules\\jmspagebuilder\\views\\templates\\hook\\addonblog.tpl',
-      1 => 1519187059,
+      1 => 1520310059,
       2 => 'file',
     ),
   ),
@@ -15,6 +15,8 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   'function' => 
   array (
   ),
+  'version' => 'Smarty-3.1.19',
+  'unifunc' => 'content_5a8e8f357f1643_35305051',
   'variables' => 
   array (
     'items_show' => 0,
@@ -40,13 +42,11 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     'show_readmore' => 0,
   ),
   'has_nocache_code' => false,
-  'version' => 'Smarty-3.1.19',
-  'unifunc' => 'content_5a8e8f357f1643_35305051',
 ),false); /*/%%SmartyHeaderCode%%*/?>
 <?php if ($_valid && !is_callable('content_5a8e8f357f1643_35305051')) {function content_5a8e8f357f1643_35305051($_smarty_tpl) {?><?php if (!is_callable('smarty_modifier_replace')) include 'D:\\xampp\\htdocs\\jms_watch\\vendor\\prestashop\\smarty\\plugins\\modifier.replace.php';
 if (!is_callable('smarty_modifier_date_format')) include 'D:\\xampp\\htdocs\\jms_watch\\vendor\\prestashop\\smarty\\plugins\\modifier.date_format.php';
 ?>
-<script type="text/javascript">	
+<script type="text/javascript">
 	var blog_items = 3,
 	    blog_itemsDesktop = <?php if ($_smarty_tpl->tpl_vars['items_show']->value) {?><?php echo htmlspecialchars($_smarty_tpl->smarty->registered_plugins[Smarty::PLUGIN_MODIFIER]['escape'][0][0]->smartyEscape($_smarty_tpl->tpl_vars['items_show']->value,'htmlall','UTF-8'), ENT_QUOTES, 'UTF-8');?>
 <?php } else { ?>3<?php }?>,

@@ -23,7 +23,7 @@
 *  @license    http://opensource.org/licenses/afl-3.0.php  Academic Free License (AFL 3.0)
 *  International Registered Trademark & Property of PrestaShop SA
 *}
-<script type="text/javascript">	
+<script type="text/javascript">
 	var blog_items = 3,
 	    blog_itemsDesktop = {if $items_show}{$items_show|escape:'htmlall':'UTF-8'}{else}3{/if},
 	    blog_itemsDesktopSmall = {if $items_show_md}{$items_show_md|escape:'htmlall':'UTF-8'}{else}2{/if},

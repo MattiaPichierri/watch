@@ -117,6 +117,12 @@
 #cart_block .ajax_cart_quantity{
 	left: -2px;
 }
+.newsletter .right img{
+	float: left;
+}
+.newsletter .alert-danger{
+	background: transparent;
+}
 @media (max-width: 414px){
 	.top_group #cart_block .shoppingcart-box{
 		right: auto !important;
