@@ -47,11 +47,12 @@
 				<ul id="facet_{$_expand_id}" class="{if !$_collapse} in{/if}">
               {foreach from=$facet.filters item="filter"}
                 {if $filter.displayed}
-                  <li {if isset($filter.properties.color)}class="color-style"{/if}>
+                  <li>
                     <label class="facet-label{if $filter.active} active {/if}">
                       {if $facet.multipleSelectionAllowed}
                         <span class="custom-checkbox">
                           <input
+                            id="facet_input_{$_expand_id}_{$filter_key}"
                             data-search-url="{$filter.nextEncodedFacetsURL}"
                             type="checkbox"
                             {if $filter.active } checked {/if}
@@ -70,6 +71,7 @@
                       {else}
                         <span class="custom-checkbox">
                           <input
+                            id="facet_input_{$_expand_id}_{$filter_key}"
                             data-search-url="{$filter.nextEncodedFacetsURL}"
                             type="radio"
                             name="filter {$facet.label}"
@@ -85,7 +87,7 @@
                           >
                         {$filter.label}
 
-						{if $filter.magnitude}
+						            {if $filter.magnitude}
                           <span class="magnitude">({$filter.magnitude})</span>
                         {/if}
 

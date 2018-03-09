@@ -595,7 +595,7 @@ body#checkout section.checkout-step.-reachable.-complete h1 .step-edit{
   margin-left: 0; }
 
 #product_list.products-list-in-row .product-info {
-	padding: 0 35px 0 0;
+	padding: 75px 35px 0 0;
 	text-align: right;
 }
 #product_list.products-list-in-row .item.ajax_block_product .product-box .product-info a.product-name, #product_list.products-list-in-row .item.ajax_block_product .product-box .product-info .content_price {

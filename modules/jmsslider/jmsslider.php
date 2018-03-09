@@ -227,7 +227,7 @@ class Jmsslider extends Module
             $this->redirectAdmin(4);
         } elseif (Tools::isSubmit('delete_id_slide')) {
             $this->deleteSlide((int)Tools::getValue('delete_id_slide'));
-            $this->redirectAdmin(2);
+            $this->redirectAdmin('',2);
         } elseif (Tools::isSubmit('editSlide')) {
             $this->_html.= $this->renderFormSlide();
         } elseif (Tools::isSubmit('addSlide')) {
@@ -452,10 +452,13 @@ class Jmsslider extends Module
 
     public function renderListSlide()
     {
-        $slides = DB::getInstance()->executeS('SELECT * FROM `'._DB_PREFIX_.'jms_slides` `js`
+		$id_shop = $this->context->shop->id;
+        $sql = 'SELECT * FROM `'._DB_PREFIX_.'jms_slides` `js`
         LEFT JOIN `'._DB_PREFIX_.'jms_slides_lang` `jsl` ON `js`.`id_slide` = `jsl`.`id_slide`
         LEFT JOIN `'._DB_PREFIX_.'jms_slides_shop` `jss` ON `js`.`id_slide` = `jss`.`id_slide`
-            ORDER BY `order` ASC');
+		WHERE  `jss`.`id_shop`= "'.(int)$id_shop.'"
+            ORDER BY `order` ASC';
+        $slides = DB::getInstance()->executeS($sql);
         $i=0;
         foreach ($slides as $slide) {
             $slides[$i]['iso_lang'] = Language::getIsoById($slide['id_lang']);
@@ -1167,7 +1170,7 @@ class Jmsslider extends Module
     public function deleteSlide($id_slide)
     {
         $slide = new SlideObject($id_slide);
-        Db::getInstance()->execute('DELETE FROM `'._DB_PREFIX_.'jms_slides_lang` WHERE `id_slide` = '.$slide->id);
+        Db::getInstance()->execute('DELETE FROM `'._DB_PREFIX_.'jms_slides_lang` WHERE `id_slide` = '.(int)$slide->id);
         $slide->delete();
     }
 

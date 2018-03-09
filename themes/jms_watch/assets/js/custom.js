@@ -74,7 +74,7 @@ jQuery(function ($) {
 jQuery(function ($) {
 	"use strict";
 	if($(".customs-carousel-product").length) {
-		  var customsCarouselProduct = $(".customs-carousel-product");
+		var customsCarouselProduct = $(".customs-carousel-product");
 		var rtl = false;
 		if ($("body").hasClass("rtl")) rtl = true;
 		customsCarouselProduct.owlCarousel({

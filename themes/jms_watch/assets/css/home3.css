@@ -9,7 +9,16 @@
 }
 .page-index .jms-row.header_top{
 	position: fixed;
+}
+.jms-row.header_top{
+	position: relative;
 	padding-bottom: 0;
+}
+.jms-row.header_top.nav-fix{
+	position: fixed;
+}
+.breadcrumb{
+	margin-top: 61px;
 }
 .top_menu_second {
     right: 0;
@@ -403,6 +412,9 @@ footer .blog-item {
 	}
 }
 @media (max-width: 481px){
+	.breadcrumb{
+		margin-top: 0;
+	}
 	.btn-group.module-group-box .icongroup::before{
 		width: 15px !important;
 	}
@@ -469,7 +481,7 @@ footer .blog-item {
 .home_3 .jms-megamenu .nav > li > a{
 	line-height: 25px !important;
 	height: auto !important;
-	padding:40px 0;
+	padding:39px 0;
 }
 .header_top .container > .row{
 	background: #fff;
@@ -595,6 +607,7 @@ footer .blog-item {
 .sale-off .text-content p:nth-child(2), .gift-guide .text-content p:nth-child(2){
 	margin:0 auto;
 	width: 70%;
+	margin-bottom: 16px;
 }
 .sale-off .btn-viewmore, .gift-guide .btn-viewmore{
 	background: #000;
@@ -765,7 +778,7 @@ footer .blog-item {
 }
 .service .feature-box{
 	background: #f8f8f8;
-	padding: 39px 0 29px;
+	padding: 43px 0 24px;
 }
 .service .feature-box p{
 	color: #444;
@@ -890,6 +903,7 @@ footer .blog-item {
 }
 .header_top.nav-fix .level0 > .menu-item > .nav-child{
 	top: 67px;
+	left: -222px !important;
 }
 .header_top .level0 > .menu-item > .nav-child.fullwidth{
 	top: 107px;
@@ -901,9 +915,14 @@ footer .blog-item {
 .header-right .btn-group ul li a:hover{
 	color: #dd9965;
 }
-@media (max-width: 1580px){
+@media (max-width: 1580px) and (min-width: 1367px){
 	.header_top .level0 > .menu-item {
-		padding: 0 7px;
+		padding: 0 15px;
+	}
+}
+@media (max-width: 1199px) and (min-width: 992px){
+	.header_top .level0 > .menu-item {
+		padding: 0 10px;
 	}
 }
 @media (max-width: 991px){
@@ -1106,7 +1125,7 @@ footer .blog-item {
 	}
 	.header_top .level0 > .menu-item.must-see > .nav-child{
 		width: 800px !important;
-		left: -287px !important;
+		left: -259px !important;
 	}
 	.jms-row.header_top{
 		padding-top: 30px;
@@ -1132,6 +1151,40 @@ footer .blog-item {
 	.header_top .level0 > .menu-item.must-see > .nav-child{
 		width: 450px !important;
 		left: -96px !important;
+	}
+}
+@media (max-width: 1366px) and (min-width: 1200px){
+	.sale-off .content, .gift-guide .content{
+		padding-left: 103px;
+		padding-right: 103px;
+	}
+	.header_top .layout-column.logo{
+		width: 20%;
+	}
+	.header_top .menu{
+		width: 60%;
+	}
+	.header_top .header-right{
+		width: 20%;
+	}
+	.header_top .level0 > .menu-item{
+		padding: 0 15px;
+	}
+}
+@media (min-width: 1900px){
+	.gift-guide .content img{
+		margin-right: -113px;
+		margin-left: 151px;
+	}
+	.gift-guide .content .text-content{
+		margin-left: 77px;
+	}
+	.sale-off .content img{
+		margin-left: -113px;
+		margin-right: 151px;
+	}
+	.sale-off .content .text-content{
+		margin-right: 77px;
 	}
 }
 .header_top.nav-fix .jms-megamenu .nav > li > a{

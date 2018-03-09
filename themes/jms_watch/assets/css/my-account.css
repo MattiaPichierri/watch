@@ -43,7 +43,7 @@
 	margin-bottom:0;
 }
 .page-my-account #content .links a:hover{
-	color:rgba(17,17,17,0.5);
+	color:#dd9965;
 }
 #block-history table th {
     border-bottom: 1px solid #ebebeb;
@@ -59,4 +59,10 @@
 #form_wishlist .inputTxt {
     border: 1px solid #ebebeb;
     margin-left: 20px;
+}
+.text-xs-right{
+	text-align: right;
+}
+.orders.hidden-md-up .order{
+	margin-bottom: 30px;
 }

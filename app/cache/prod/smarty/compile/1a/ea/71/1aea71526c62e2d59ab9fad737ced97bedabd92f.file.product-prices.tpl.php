@@ -1,6 +1,6 @@
-<?php /* Smarty version Smarty-3.1.19, created on 2018-03-01 07:56:14
+<?php /* Smarty version Smarty-3.1.19, created on 2018-03-09 02:24:41
          compiled from "D:\xampp\htdocs\jms_watch\themes\jms_watch\templates\catalog\_partials\product-prices.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:183325a97b21ec611e0-73837704%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:252685aa1f069ac3d25-74820808%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
@@ -11,7 +11,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '183325a97b21ec611e0-73837704',
+  'nocache_hash' => '252685aa1f069ac3d25-74820808',
   'function' => 
   array (
   ),
@@ -26,9 +26,9 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   ),
   'has_nocache_code' => false,
   'version' => 'Smarty-3.1.19',
-  'unifunc' => 'content_5a97b21ece2074_56767080',
+  'unifunc' => 'content_5aa1f069b39023_65688458',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_5a97b21ece2074_56767080')) {function content_5a97b21ece2074_56767080($_smarty_tpl) {?>
+<?php if ($_valid && !is_callable('content_5aa1f069b39023_65688458')) {function content_5aa1f069b39023_65688458($_smarty_tpl) {?>
 <?php if ($_smarty_tpl->tpl_vars['product']->value['show_price']) {?>
    <div class="product-prices content_price">
 	

@@ -1,6 +1,6 @@
-<?php /* Smarty version Smarty-3.1.19, created on 2018-03-01 04:10:34
+<?php /* Smarty version Smarty-3.1.19, created on 2018-03-09 02:17:23
          compiled from "D:\xampp\htdocs\jms_watch\modules\jmsmegamenu\views\templates\admin\jmsmegamenu_manager\menulist.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:283955a977d3aecd146-80967573%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:310285aa1eeb32ec277-67488610%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
@@ -11,7 +11,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '283955a977d3aecd146-80967573',
+  'nocache_hash' => '310285aa1eeb32ec277-67488610',
   'function' => 
   array (
   ),
@@ -27,9 +27,9 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   ),
   'has_nocache_code' => false,
   'version' => 'Smarty-3.1.19',
-  'unifunc' => 'content_5a977d3af3a760_14964763',
+  'unifunc' => 'content_5aa1eeb333a470_72316283',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_5a977d3af3a760_14964763')) {function content_5a977d3af3a760_14964763($_smarty_tpl) {?>
+<?php if ($_valid && !is_callable('content_5aa1eeb333a470_72316283')) {function content_5aa1eeb333a470_72316283($_smarty_tpl) {?>
 <div class="note row">
 	<p class="col-lg-6 pull-left"><i class="icon-info"></i> Drap &amp; Drop Menu Item to Change Order.</p>
 	<p class="col-lg-6 pull-right"><i class="icon-info"></i>Use Collapse tool to Collapse Menu. It will be easy when change order.</p>	

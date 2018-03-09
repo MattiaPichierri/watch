@@ -312,6 +312,24 @@ footer .blog-item .img-responsive {
     left: 41px;
     right: auto;
 }
+@media (min-width: 1900px){
+    .gift-guide .content img{
+        margin-left: -113px;
+        margin-right: 151px;
+    }
+    .gift-guide .content .text-content{
+        margin-right: 77px;
+        margin-left: 0;
+    }
+    .sale-off .content img{
+        margin-right: -113px;
+        margin-left: 151px;
+    }
+    .sale-off .content .text-content{
+        margin-left: 77px;
+        margin-right: 0;
+    }
+}
 @media (max-width: 1366px){
     .header_top .level0 > .menu-item.must-see > .nav-child{
         left: auto !important;

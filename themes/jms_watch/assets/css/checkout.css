@@ -9,24 +9,18 @@
 	display:flex;
 }
 .content ul li:nth-child(2) span{
-	font-size:0;
+	font-size:20px;
 	position:relative;
 }
-.content ul li:nth-child(2) span:before{
-	content:"";
-	width:1px;
-	height:15px;
-	background:#e1e1e1;
-	position:absolute;
-	top:16px;
-	left:0;
+.content ul li:nth-child(2){
+	margin-top: 4px;
 }
 .content ul li:first-child a{
 	padding-left:0;
 }
 .content ul li a {
     font-family: "Roboto";
-    font-size: 16px;
+    font-size: 15px;
 }
 .tab-content .form-group label{
 	line-height: 40px;
@@ -41,7 +35,7 @@
 .tab-content .form-group .input-group-btn button {
     border-color: transparent;
     border-left: 0;
-    padding: 8px 20px;
+    padding: 11px 20px;
     background: #000;
     color: #fff;
 }
@@ -111,8 +105,8 @@
 #checkout .address-footer a:last-child {
 	margin-right:0px;
 }
-#checkout .address-footer .delete-address, .address-footer .delete-address:hover {
-	background:#f24242;
+#checkout .address-footer .delete-address:hover {
+	background:#dd9965;
 }
 #checkout #delivery-address .form-footer{
 		text-align:right;
@@ -313,7 +307,7 @@ body#checkout section.checkout-step.-current .content .address-alias.h4 {
 body#checkout section.checkout-step.-current .content .address-footer {
 	border-bottom: 1px solid #ebebeb;
 	border-top: 1px solid #ebebeb;
-	padding:7px 0;
+	padding:20px 0;
 	text-align:right;
 }
 body#checkout section.checkout-step.-current .content .add-address {

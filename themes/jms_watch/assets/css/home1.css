@@ -35,7 +35,7 @@
 .featured-banner .banner-content .content{
     margin-top: 4px;
 }
-.jms-banner.banner1 img{
+.feature .jms-banner.banner1 img{
     width: 100%;
     height: auto;
 }
@@ -48,6 +48,12 @@
 }
 .newsletter .right img{
     float: right;
+}
+@media (max-width: 1366px){
+    .menu_hidden #jms-megamenu-container{
+        padding-bottom: 20px;
+        padding-top: 15px;
+    }
 }
 /*DEMO*/
 .searchbox #ajax_search{
@@ -219,7 +225,7 @@
     font-size: 14px;
     height: 52px;
     padding-left: 17px;
-    width: 47.2%;
+    width: 386px;
     letter-spacing: 1px;
 }
 
@@ -302,6 +308,12 @@
     position: static;
 }
 @media (max-width: 1199px){
+    .main-site .breadcrumb{
+        margin-top: 66px;
+    }
+    .feature .layout-column.left{
+        margin-bottom: 30px;
+    }
     .feature .layout-column{
         padding:0 15px;
     }
@@ -310,6 +322,10 @@
 	}
 }
 @media (max-width: 991px){
+    .jms-row.top_menu_second{
+        position: fixed;
+        z-index: 9999;
+    }
 	.top_menu_second .layout-column, .text_menu, .menu_hidden .pe.pe-7s-close {
 		display: none;
 	}
@@ -432,6 +448,9 @@
         align-items: center;
     }
 }
+.breadcrumb{
+    margin-top: 130px;
+}
 .home_1 .top_logo > .addon-box p{
     font-family: 'Old Standard TT';
     font-size: 33px;
@@ -445,8 +464,7 @@
     background: #f8f8f8;
     position: relative;
 }
-.page-index .headertop{
-    background: #f8f8f8;
+.headertop{
     position: fixed;
     top: 0;
     z-index: 9999;
@@ -454,15 +472,24 @@
     display: block;
     transition: .5s all;
 }
-.home_1 .jms-banner.banner1{
+.feature .left .banner1{
+    margin-bottom:0 !important;
+}
+.feature .right-1 .addon-box:nth-child(2) .jms-banner.banner1 {
+    margin-bottom: 0;
+}
+.feature .right-2 .addon-box:nth-child(2) .jms-banner.banner1 {
+    margin-bottom: 0;
+}
+.home_1 .feature .jms-banner.banner1{
     margin-bottom:27px;
 }
 @media (max-width: 1366px) and (min-width: 1200px){
-    .home_1 .jms-banner.banner1{
+    .home_1 .feature .jms-banner.banner1{
         margin-bottom:30px;
     }
 }
-.home_1 .col-lg-6 .addon-box .jms-banner.banner1{
+.home_1 .feature .col-lg-6 .addon-box .jms-banner.banner1{
     opacity: 1;
     display: block;
     width: 100%;
@@ -471,7 +498,7 @@
     backface-visibility: hidden;
     position: relative;
 }
-.home_1 .col-lg-3 .addon-box .jms-banner.banner1{
+.home_1 .feature .col-lg-3 .addon-box .jms-banner.banner1{
     position: relative;
     opacity: 1;
     display: block;
@@ -480,7 +507,7 @@
     transition: .5s ease;
     backface-visibility: hidden;
 }
-.home_1 .addon-box .jms-banner.banner1:hover .img-content{
+.home_1 .feature .addon-box .jms-banner.banner1:hover .img-content{
     opacity: 1;
     top: 0;
     display: flex;
@@ -488,14 +515,14 @@
     height: 100%;
     justify-content: center;
 }
-.home_1 .addon-box .jms-banner.banner1:hover{
+.home_1 .feature .addon-box .jms-banner.banner1:hover{
     opacity: 1;
     background: #575757;
 }
-.home_1 .addon-box .jms-banner.banner1:hover img{
+.home_1 .feature .addon-box .jms-banner.banner1:hover img{
     opacity: 0.5;
 }
-.home_1 .img-content.banner-small-bottom{
+.home_1 .feature .img-content.banner-small-bottom{
     width: 100%;
 }
 .home_1 .img-content{
@@ -684,6 +711,7 @@
     margin-top: 10px;
 }
 .box-shadow{
+    background-color: #fff;
     padding: 20px 0;
     box-shadow: 0px 0px 20px 5px rgba(0,0,0,0.3);
 }
@@ -695,9 +723,10 @@ h1.special-offer-title{
     font: 600 36px "Old Standard TT", serif;
     text-transform: uppercase;
     letter-spacing: 2px;
-    margin-top: 43px;
-    margin-bottom: 67px;
+    margin-top: 80px;
+    margin-bottom: 71px;
     padding-bottom: 0;
+    line-height: 1;
 }
 @media (max-width: 1366px){
     .special-offer img{
@@ -893,7 +922,7 @@ h1.special-offer-title{
     background: #dd9965;
     background-repeat: no-repeat;
     background-position: center;
-    padding: 16px 25px;
+    padding: 17px 25px;
     width: 100px;
     height: auto;
 }

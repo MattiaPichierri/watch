@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+  <file original="D:\xampp\htdocs\jms_watch\themes\jms_watch\modules\ps_bestsellers\views\templates\hook\ps_bestsellers.tpl" source-language="es-ES" target-language="es-ES" datatype="plaintext">
+    <body>
+      <trans-unit id="d7b2933ba512ada478c97fa43dd7ebe6">
+        <source>Best Sellers</source>
+        <target>Los más vendidos</target>
+        <note>Context:
+File: D:\xampp\htdocs\jms_watch\themes\jms_watch\modules\ps_bestsellers\views\templates\hook\ps_bestsellers.tpl:28</note>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>
