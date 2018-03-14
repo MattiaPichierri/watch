@@ -1,6 +1,6 @@
-<?php /* Smarty version Smarty-3.1.19, created on 2018-03-09 01:51:08
+<?php /* Smarty version Smarty-3.1.19, created on 2018-03-13 09:55:42
          compiled from "module:ps_shoppingcart/ps_shoppingcart.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:106825aa1e88ce26d03-30175971%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:190455aa7a01e883198-69522429%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
@@ -11,7 +11,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
       2 => 'module',
     ),
   ),
-  'nocache_hash' => '106825aa1e88ce26d03-30175971',
+  'nocache_hash' => '190455aa7a01e883198-69522429',
   'function' => 
   array (
   ),
@@ -26,9 +26,9 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   ),
   'has_nocache_code' => false,
   'version' => 'Smarty-3.1.19',
-  'unifunc' => 'content_5aa1e88ce4de04_33360984',
+  'unifunc' => 'content_5aa7a01e8aa290_21082276',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_5aa1e88ce4de04_33360984')) {function content_5aa1e88ce4de04_33360984($_smarty_tpl) {?><div class="btn-group compact-hidden blockcart cart-preview <?php if ($_smarty_tpl->tpl_vars['cart']->value['products_count']>0) {?>active<?php } else { ?>inactive<?php }?> dropdown js-dropdown <?php if (isset($_smarty_tpl->tpl_vars['jpb_addtocart']->value)&&$_smarty_tpl->tpl_vars['jpb_addtocart']->value=='ajax_cartbottom') {?>shoppingcart-bottom<?php }?>" id="cart_block" data-refresh-url="<?php echo htmlspecialchars($_smarty_tpl->tpl_vars['refresh_url']->value, ENT_QUOTES, 'UTF-8');?>
+<?php if ($_valid && !is_callable('content_5aa7a01e8aa290_21082276')) {function content_5aa7a01e8aa290_21082276($_smarty_tpl) {?><div class="btn-group compact-hidden blockcart cart-preview <?php if ($_smarty_tpl->tpl_vars['cart']->value['products_count']>0) {?>active<?php } else { ?>inactive<?php }?> dropdown js-dropdown <?php if (isset($_smarty_tpl->tpl_vars['jpb_addtocart']->value)&&$_smarty_tpl->tpl_vars['jpb_addtocart']->value=='ajax_cartbottom') {?>shoppingcart-bottom<?php }?>" id="cart_block" data-refresh-url="<?php echo htmlspecialchars($_smarty_tpl->tpl_vars['refresh_url']->value, ENT_QUOTES, 'UTF-8');?>
 ">
 			<a href="#" class="dropdown-toggle cart-icon" data-toggle="dropdown">			
 				<span class="text-box">

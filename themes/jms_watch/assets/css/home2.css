@@ -17,6 +17,9 @@
 	width: 100%;
 	z-index: 9999;
 }
+.module_group_h2 .btn-group.module-group-box .icongroup::before{
+	top: 10px;
+}
 .topheader{
 	position:relative;
 }
@@ -80,7 +83,7 @@
 	color: #dd9965;
 }
 .topheader .level0 > .menu-item.must-see > .nav-child{
-	left: -401px !important;
+	left: -356px !important;
 	text-align: center;
 }
 .topheader .level0 > .item-fullwidth.menu-item > .nav-child{
@@ -117,7 +120,7 @@
     padding: 28px 0;
 }
 .topheader.navbar-fixed-top #cart_block .shoppingcart-box {
-    top: 27px;
+    top: 26px;
 }
 .btn-group.open .dropdown-menu::before{
 	left:auto;
@@ -263,10 +266,6 @@ h4.post-title > a {
 .textnews_h3{
     display: none;
 }
-.megamenu_h2 .jms-megamenu .mega-nav .mega > a::after{
-	position: unset;
-	padding-left: 15px;
-}
 .megamenu_h2 .mega-col-nav.col-sm-3{
 	padding: 0 20px !important;
 }
@@ -327,6 +326,20 @@ h4.post-title > a {
 	}
 }
 @media (max-width: 991px){
+	.sale-off .jms-banner, .gift-guide .jms-banner{
+		display: block !important;
+	}
+	.sale-off .text-content{
+		margin-left: 0 !important;
+		width: 100% !important;
+	}
+	.gift-guide .text-content{
+		margin-right: 0 !important;
+		width: 100% !important;
+	}
+	.gift-guide .text-content .text-large{
+		margin-top: 30px;
+	}
 	.block_c_right .form-group{
 		display: flex;
 	}
@@ -420,16 +433,16 @@ h4.post-title > a {
 		margin-top: 27px;
 	}
 	#cart_block .shoppingcart-box{
-        margin-top: 15px;
+        margin-top: 0;
     }
 	.topheader #open-button::before{
 		background-position: top left !important;
 	}
 	.topheader .module_group_h2 .btn-group.open .dropdown-menu{
-		top: 31px;
+		top: 31px !important;
 	}
 	.btn-group.module-group-box .icongroup::before{
-		top: 4px;
+		top: 4px !important;
 		background-size: 15px;
 		width: 16px;
 	}
@@ -524,11 +537,12 @@ h4.post-title > a {
 	}
 }
 .sale-off .text-content .text-large{
-	margin-top: 16px;
+	margin-top: 20px;
 }
 .sale-off .text-content p:nth-child(2), .gift-guide .text-content p:nth-child(2){
 	color: #444;
 	letter-spacing: 1.05px;
+	line-height: 1.87;
 }
 .sale-off .btn-viewmore, .gift-guide .btn-viewmore{
 	background: #000;
@@ -542,8 +556,11 @@ h4.post-title > a {
 	border-color: #dd9965;
 }
 .sale-off .jms-banner, .gift-guide .jms-banner{
-	display: inline-flex;
-	width: 100%;
+	text-align: center;
+	display: flex;
+	justify-content: center;
+	background-color: #f8f8f8;
+	padding: 66px 15px;
 }
 .sale-off .content, .gift-guide .content {
 	text-align: center;
@@ -625,21 +642,11 @@ h4.post-title > a {
 .product-preview:hover .content_price{
     opacity: 1;
 }
-.product-miniature:hover .preview, .banner-men .product-miniature:hover .preview{
-    opacity: 0.8;
-    background: #888888;
-}
 .product-miniature:hover .group-btn, .banner-men .product-miniature:hover .group-btn{
    opacity: 1;
 }
 .preview img, .banner-men .preview img{
     transition: 0.5 ease;
-}
-.product-miniature:hover img, .banner-men .product-miniature:hover img{
-    opacity: 0.5;
-}
-.product-miniature:hover .discount-percentage, .banner-men .product-miniature:hover .discount-percentage{
-    opacity: 0.8;
 }
 .product-preview:hover .preview .cart-button{
     display: inline;
@@ -752,6 +759,9 @@ header{
 .gift-guide .text-large{
 	line-height: 2.1;
 }
+.gift-guide .jms-banner a{
+	order: 2;
+}
 .service{
 	margin-bottom: 0 !important;
 }
@@ -817,6 +827,10 @@ header{
 .gift-guide .text-content{
 	width: 35%;
 	margin-right: 118px;
+	margin-top: 10px;
+}
+.gift-guide .text-content p:nth-child(2){
+	margin-bottom: 17px;
 }
 @media (max-width: 1366px){
 	.jms-banner .collection a{
@@ -843,18 +857,11 @@ header{
 	}
 }
 @media (max-width: 768px){
-
 	.sale-off img{
 		padding:15px;
-		margin-bottom: 50px;
 	}
 	.sale-off .content, .gift-guide .content{
 		display: block;
-	}
-	.sale-off .text-content{
-		width: 100%;
-		margin-left: 0;
-		padding: 0 15px;
 	}
 	.gift-guide .text-content{
 		width: 100%;
@@ -870,6 +877,32 @@ header{
 }
 .searchbox #ajax_search{
 	left:163px;
+}
+.banner_home .left .banner1,
+.banner-men .right .banner1{
+	position: relative;
+}
+.banner_home .left .banner1:hover h2,
+.banner-men .right .banner1:hover h2{
+	display: block;
+	color: #dd9965;
+}
+.banner_home .left .banner1 h2,
+.banner-men .right .banner1 h2{
+	font-family: "Roboto", sans-serif;
+	display: none;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	background: #fff;
+	padding: 29px 62px;
+	box-shadow: 0px 0px 7px 0 rgba(0,0,0,0.3);
+	font-size: 18px;
+	font-weight: 600;
+	text-transform: uppercase;
+	letter-spacing: 4.3px;
+	text-align: center;
 }
 .collection{
 	position: relative;
@@ -962,14 +995,6 @@ header{
 .featured_product .layout-column{
 	overflow: hidden;
 }
-@media (max-width: 991px) and (min-width: 767px){
-	.sale-off .text-content{
-		margin-left: 20px;
-	}
-	.gift-guide .text-content{
-		margin-right: 20px;
-	}
-}
 @media (min-width: 768px) and (max-width: 991px){
 	.container{
 		max-width: 991px;
@@ -1023,8 +1048,17 @@ header{
 	color: #dd9965;
 }
 .topheader .module-group-box.open .dropdown-menu{
+	top: 43px;
+}
+.topheader.navbar-fixed-top .module-group-box.open .dropdown-menu{
 	top: 54px;
 }
 .menu-item.menu-align-justify{
 	position: relative;
+}
+.mega-col-nav.img-bottom.img-center{
+	padding: 0px 45px;
+}
+.page-product #footer{
+	margin-top: 42px;
 }

@@ -30,7 +30,20 @@
 #open-button::before {
     top: 49px !important;
 }
+.menu .jms-megamenu .mega-nav .mega > a::before{
+    content: "\f104" !important;
+    font-family: "FontAwesome";
+    padding-right: 15px;
+}
+.jms-megamenu .mega-nav li > a{
+    text-align: right !important;
+}
+.mega-nav > .mega > .dropdown-menu{
+    right: 100% !important;
+    left: auto !important;
+}
 .home_3 .jms-megamenu .mega-nav .mega > a::after {
+    content:"" !important;
     right: 20px;
     left: auto;
      -ms-transform: rotate(0deg); 
@@ -75,8 +88,8 @@
 	transition: left 0.4s cubic-bezier(0.7, 0, 0.3, 1) 0s !important;
 }
 .show-menu .menu-wrap {
-    left: 0 !important;
-    right: auto !important;
+    left: auto !important;
+    right: 0 !important;
 	transition: left 0.4s cubic-bezier(0.7, 0, 0.3, 1) 0s !important;
 }
 .newsletter-btn.buttonh2{
@@ -182,6 +195,9 @@ footer .blog-item .img-responsive {
     }
 }
 @media(max-width: 481px){
+    #cart_block .ajax_cart_quantity{
+        left: 0 !important;
+    }
     #header .header_top.nav-fix #cart_block .dropdown-menu.shoppingcart-box{
         left: -36px !important;
     }
@@ -242,7 +258,7 @@ footer .blog-item .img-responsive {
 }
 .header-right #jms_ajax_search .searchbox:after{
     right: auto;
-    left: -32px;
+    left: -22px;
 }
 .header-right .addon-box:first-child .dropdown-menu{
     left: -55px;
@@ -277,9 +293,6 @@ footer .blog-item .img-responsive {
 .nav-fix .header-right #search_result{
     top: 66px;
 }
-.header_top .level0 > .menu-item > .nav-child.fullwidth{
-    left: -584px !important;
-}
 .mega-col-nav.col-sm-3:first-child{
     border-left: 1px solid #ebebeb;
 }
@@ -288,7 +301,7 @@ footer .blog-item .img-responsive {
 }
 .header_top .level0 > .menu-item.must-see > .nav-child{
     left: auto !important;
-    right: -400px !important;
+    right: -365px !important;
 }
 #social_block li{
     margin-left: 7px;
@@ -311,6 +324,17 @@ footer .blog-item .img-responsive {
 .nav-fix .btn-group.open .dropdown-menu::before{
     left: 41px;
     right: auto;
+}
+.gift-guide .jms-banner .text-content{
+    margin-left: 0;
+    margin-right: 118px;
+}
+.sale-off .jms-banner .text-content{
+    margin-right: 0;
+    margin-left: 118px;
+}
+#category #left-column .banner-column img{
+    width: 100%;
 }
 @media (min-width: 1900px){
     .gift-guide .content img{

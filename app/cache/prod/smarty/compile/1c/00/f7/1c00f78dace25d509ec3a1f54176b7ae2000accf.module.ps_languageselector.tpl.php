@@ -1,20 +1,22 @@
-<?php /* Smarty version Smarty-3.1.19, created on 2018-03-09 01:51:08
+<?php /* Smarty version Smarty-3.1.19, created on 2018-03-14 04:14:46
          compiled from "module:ps_languageselector/ps_languageselector.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:282395aa1e88cd3c707-26674542%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:46545aa7a01e6ecd31-20375743%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
     '1c00f78dace25d509ec3a1f54176b7ae2000accf' => 
     array (
       0 => 'module:ps_languageselector/ps_languageselector.tpl',
-      1 => 1519786727,
+      1 => 1521000882,
       2 => 'module',
     ),
   ),
-  'nocache_hash' => '282395aa1e88cd3c707-26674542',
+  'nocache_hash' => '46545aa7a01e6ecd31-20375743',
   'function' => 
   array (
   ),
+  'version' => 'Smarty-3.1.19',
+  'unifunc' => 'content_5aa7a01e7370c3_96317711',
   'variables' => 
   array (
     'jpb_homepage' => 0,
@@ -24,10 +26,8 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     'urls' => 0,
   ),
   'has_nocache_code' => false,
-  'version' => 'Smarty-3.1.19',
-  'unifunc' => 'content_5aa1e88cd63809_30511238',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_5aa1e88cd63809_30511238')) {function content_5aa1e88cd63809_30511238($_smarty_tpl) {?>
+<?php if ($_valid && !is_callable('content_5aa7a01e7370c3_96317711')) {function content_5aa7a01e7370c3_96317711($_smarty_tpl) {?>
 <!-- Block languages module -->
 <?php if ($_smarty_tpl->tpl_vars['jpb_homepage']->value==1||$_smarty_tpl->tpl_vars['jpb_homepage']->value==6) {?>
 	<?php if (count($_smarty_tpl->tpl_vars['languages']->value)>1) {?>
@@ -100,6 +100,10 @@ $_smarty_tpl->tpl_vars['language']->_loop = true;
 					<li <?php if ($_smarty_tpl->tpl_vars['language']->value['id_lang']==$_smarty_tpl->tpl_vars['current_language']->value['id_lang']) {?> class="current" <?php }?>>
 						<a href="<?php echo $_smarty_tpl->smarty->registered_plugins[Smarty::PLUGIN_FUNCTION]['url'][0][0]->getUrlSmarty(array('entity'=>'language','id'=>$_smarty_tpl->tpl_vars['language']->value['id_lang']),$_smarty_tpl);?>
 " class="dropdown-item">
+							<img alt="<?php echo htmlspecialchars($_smarty_tpl->tpl_vars['language']->value['iso_code'], ENT_QUOTES, 'UTF-8');?>
+" src="<?php echo htmlspecialchars($_smarty_tpl->tpl_vars['urls']->value['base_url'], ENT_QUOTES, 'UTF-8');?>
+img/l/<?php echo htmlspecialchars($_smarty_tpl->tpl_vars['language']->value['id_lang'], ENT_QUOTES, 'UTF-8');?>
+.jpg" width="20" height="14"/>
 							<?php echo htmlspecialchars($_smarty_tpl->tpl_vars['language']->value['name_simple'], ENT_QUOTES, 'UTF-8');?>
 
 						</a>

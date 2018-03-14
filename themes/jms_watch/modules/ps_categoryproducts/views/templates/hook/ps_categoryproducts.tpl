@@ -24,11 +24,7 @@
  *}
 <section class="featured-products clearfix mt-3  addon-title">
   <h3>
-    {if $products|@count == 1}
-      {l s='%s other product in the same category:' sprintf=[$products|@count] d='Shop.Theme.Catalog'}
-    {else}
-      {l s='%s other products in the same category:' sprintf=[$products|@count] d='Shop.Theme.Catalog'}
-    {/if}
+    related products
   </h3>
   <div class="products customs-carousel-product">
       {foreach from=$products item="product"}

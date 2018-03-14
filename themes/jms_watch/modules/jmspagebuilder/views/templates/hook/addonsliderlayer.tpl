@@ -28,7 +28,7 @@
 		<div class="slider" >
 		<div class="fs_loader"></div>
 		{foreach from=$slides item=slide}
-			<div class="slide {$slide.class_suffix|escape:'htmlall':'UTF-8'}" style="background:{$slide.bg_color|escape:'htmlall':'UTF-8'} url({$image_url|escape:'htmlall':'UTF-8'}slides/{$slide.bg_image|escape:'htmlall':'UTF-8'}) no-repeat left top;background-size:cover;" {if $slide.slide_link}onclick="document.location='{$slide.slide_link|escape:'htmlall':'UTF-8'}';"{/if}>
+			<div class="slide {$slide.class_suffix|escape:'htmlall':'UTF-8'}" style="{if $slide.bg_type==1}background-image:{$image_url|escape:'htmlall':'UTF-8'}slides/{$slide.bg_image|escape:'htmlall':'UTF-8'}{else}background-color:{$slide.bg_color|escape:'htmlall':'UTF-8'}{/if};background-size:cover;" {if $slide.slide_link}onclick="document.location='{$slide.slide_link|escape:'htmlall':'UTF-8'}';"{/if}>
 				{foreach from=$slide.layers item=layer}
 					{if $layer.data_type=='text'}
 					<div class="{$layer.data_class_suffix|escape:'htmlall':'UTF-8'} jms-slide-content" 

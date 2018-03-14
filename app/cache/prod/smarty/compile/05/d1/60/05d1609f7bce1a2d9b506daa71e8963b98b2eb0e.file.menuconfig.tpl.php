@@ -1,6 +1,6 @@
-<?php /* Smarty version Smarty-3.1.19, created on 2018-03-09 02:17:22
+<?php /* Smarty version Smarty-3.1.19, created on 2018-03-13 09:57:41
          compiled from "D:\xampp\htdocs\jms_watch\modules\jmsmegamenu\views\templates\admin\jmsmegamenu_manager\menuconfig.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:133195aa1eeb2d25562-29889074%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:208025aa7a09533ab31-00396409%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
@@ -11,7 +11,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '133195aa1eeb2d25562-29889074',
+  'nocache_hash' => '208025aa7a09533ab31-00396409',
   'function' => 
   array (
   ),
@@ -24,9 +24,9 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   ),
   'has_nocache_code' => false,
   'version' => 'Smarty-3.1.19',
-  'unifunc' => 'content_5aa1eeb2d73773_55383911',
+  'unifunc' => 'content_5aa7a0953a42d4_26748459',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_5aa1eeb2d73773_55383911')) {function content_5aa1eeb2d73773_55383911($_smarty_tpl) {?>
+<?php if ($_valid && !is_callable('content_5aa7a0953a42d4_26748459')) {function content_5aa7a0953a42d4_26748459($_smarty_tpl) {?>
 <form action="<?php echo $_smarty_tpl->smarty->registered_plugins[Smarty::PLUGIN_MODIFIER]['escape'][0][0]->smartyEscape($_smarty_tpl->tpl_vars['link']->value->getAdminLink('AdminJmsmegamenuManager'),'html','UTF-8');?>
 &configure=jmsmegamenu" method="post">
 <div class="menu-config">

@@ -1,6 +1,6 @@
-<?php /* Smarty version Smarty-3.1.19, created on 2018-03-09 02:00:08
+<?php /* Smarty version Smarty-3.1.19, created on 2018-03-13 10:01:50
          compiled from "D:\xampp\htdocs\jms_watch\modules\jmsslider\views\templates\hook\listslides.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:67615aa1eaa8dfe430-53302195%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:232775aa7a18e5cf862-61300231%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
@@ -11,7 +11,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '67615aa1eaa8dfe430-53302195',
+  'nocache_hash' => '232775aa7a18e5cf862-61300231',
   'function' => 
   array (
   ),
@@ -24,9 +24,9 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   ),
   'has_nocache_code' => false,
   'version' => 'Smarty-3.1.19',
-  'unifunc' => 'content_5aa1eaa8e4c633_71476183',
+  'unifunc' => 'content_5aa7a18e635178_97049391',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_5aa1eaa8e4c633_71476183')) {function content_5aa1eaa8e4c633_71476183($_smarty_tpl) {?>
+<?php if ($_valid && !is_callable('content_5aa7a18e635178_97049391')) {function content_5aa7a18e635178_97049391($_smarty_tpl) {?>
 <script type="text/javascript">
             $(function() {
                 var $mySlides = $("#slides");

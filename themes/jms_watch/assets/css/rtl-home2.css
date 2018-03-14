@@ -44,12 +44,12 @@
 	left: -10px !important;
 }
 .btn-group.open > .dropdown-menu.shoppingcart-box::before{
-	left: 16px;
+	left: 13px;
 	right: auto !important;
 }
 .search-box .searchbox::after{
 	right: auto;
-	left: 0;
+	left: -8px;
 }
 .searchbox #ajax_search{
 	left: -26px !important;
@@ -57,6 +57,8 @@
 }
 .topheader #open-button::before{
 	background-position: right !important;
+	position: absolute;
+	top: 5px;
 }
 .module_group_h2 .addon-box:nth-child(2){
 	margin-left: 5px;
@@ -68,13 +70,12 @@
 	content: "\f104" !important;
 	font-family: "FontAwesome";
 	padding-right: 15px;
-	position: relative;
 }
 .topheader .level0 > .menu-item > .nav-child{
 	right: -60px;
 }
 .topheader .level0 > .menu-item.must-see > .nav-child{
-	right: -401px;
+	right: -365px;
 }
 .must-see .mega-col-nav.col-sm-3{
 	border-left: 1px solid #ebebeb;
@@ -132,6 +133,16 @@
 	}
 }
 @media (max-width: 481px){
+	.topheader #open-button::before{
+		top: 15px !important;
+	}
+	.navbar-fixed-top #open-button::before{
+		top: 0 !important;
+	}
+	.topheader .module_group_h2 .addon-box:first-child{
+		margin-right: 10px;
+		margin-left: 15px;
+	}
 	.topheader .megamenu_h2{
 		top: 19px;
 	}

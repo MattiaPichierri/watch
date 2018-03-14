@@ -1,13 +1,13 @@
-<?php /* Smarty version Smarty-3.1.19, created on 2018-03-09 01:53:46
+<?php /* Smarty version Smarty-3.1.19, created on 2018-03-13 09:55:44
          compiled from "D:\xampp\htdocs\jms_watch\themes\jms_watch\templates\catalog\_partials\miniatures\product.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:19285aa1e92a1e55e4-90276797%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:127605aa7a020249b43-88351652%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
     '3b004ffac11693c6abe658114ef384e69f5a5448' => 
     array (
       0 => 'D:\\xampp\\htdocs\\jms_watch\\themes\\jms_watch\\templates\\catalog\\_partials\\miniatures\\product.tpl',
-      1 => 1518340219,
+      1 => 1520819185,
       2 => 'file',
     ),
     '46859a7fee33bc5e60435574298859e5feb44c3d' => 
@@ -17,7 +17,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '19285aa1e92a1e55e4-90276797',
+  'nocache_hash' => '127605aa7a020249b43-88351652',
   'function' => 
   array (
   ),
@@ -33,9 +33,9 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   ),
   'has_nocache_code' => false,
   'version' => 'Smarty-3.1.19',
-  'unifunc' => 'content_5aa1e92a2a8ae4_79071399',
+  'unifunc' => 'content_5aa7a02042e1b8_38654857',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_5aa1e92a2a8ae4_79071399')) {function content_5aa1e92a2a8ae4_79071399($_smarty_tpl) {?>
+<?php if ($_valid && !is_callable('content_5aa7a02042e1b8_38654857')) {function content_5aa7a02042e1b8_38654857($_smarty_tpl) {?>
 
 <div class="product-miniature js-product-miniature product-preview item-gutter-<?php echo htmlspecialchars($_smarty_tpl->tpl_vars['jpb_gutterwidth']->value, ENT_QUOTES, 'UTF-8');?>
 " data-id-product="<?php echo htmlspecialchars($_smarty_tpl->tpl_vars['product']->value['id_product'], ENT_QUOTES, 'UTF-8');?>
@@ -87,8 +87,8 @@ $_smarty_tpl->tpl_vars['flag']->_loop = true;
 								<div class="color_to_pick_list">
 									<?php /*  Call merged included template "catalog/_partials/variant-links.tpl" */
 $_tpl_stack[] = $_smarty_tpl;
- $_smarty_tpl = $_smarty_tpl->setupInlineSubTemplate('catalog/_partials/variant-links.tpl', $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, null, array('variants'=>$_smarty_tpl->tpl_vars['product']->value['main_variants']), 0, '19285aa1e92a1e55e4-90276797');
-content_5aa1e92a2337e7_42712271($_smarty_tpl);
+ $_smarty_tpl = $_smarty_tpl->setupInlineSubTemplate('catalog/_partials/variant-links.tpl', $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, null, array('variants'=>$_smarty_tpl->tpl_vars['product']->value['main_variants']), 0, '127605aa7a020249b43-88351652');
+content_5aa7a0202ca9e0_55634927($_smarty_tpl);
 $_smarty_tpl = array_pop($_tpl_stack); 
 /*  End of included template "catalog/_partials/variant-links.tpl" */?>
 								</div>
@@ -173,7 +173,7 @@ $_smarty_tpl = array_pop($_tpl_stack);
 <?php }?>">
 								    <span class="text-addcart"><?php echo smartyTranslate(array('s'=>'Add to cart','d'=>'Shop.Theme.Actions'),$_smarty_tpl);?>
 	</span>		
-								   <span class="text-outofstock"><?php echo smartyTranslate(array('s'=>'Out of stock','d'=>'Shop.Theme.Actions'),$_smarty_tpl);?>
+								    <span class="text-outofstock"><?php echo smartyTranslate(array('s'=>'Out of stock','d'=>'Shop.Theme.Actions'),$_smarty_tpl);?>
 </span>
                                     <span class="fa fa-spin fa-spinner"></span>
 									<span class="pe pe-7s-check"></span>								   
@@ -193,9 +193,9 @@ $_smarty_tpl = array_pop($_tpl_stack);
 		</div>
 		
 </div><?php }} ?>
-<?php /* Smarty version Smarty-3.1.19, created on 2018-03-09 01:53:46
+<?php /* Smarty version Smarty-3.1.19, created on 2018-03-13 09:55:44
          compiled from "D:\xampp\htdocs\jms_watch\themes\jms_watch\templates\catalog\_partials\variant-links.tpl" */ ?>
-<?php if ($_valid && !is_callable('content_5aa1e92a2337e7_42712271')) {function content_5aa1e92a2337e7_42712271($_smarty_tpl) {?><div class="variant-links">
+<?php if ($_valid && !is_callable('content_5aa7a0202ca9e0_55634927')) {function content_5aa7a0202ca9e0_55634927($_smarty_tpl) {?><div class="variant-links">
   <?php  $_smarty_tpl->tpl_vars['variant'] = new Smarty_Variable; $_smarty_tpl->tpl_vars['variant']->_loop = false;
  $_from = $_smarty_tpl->tpl_vars['variants']->value; if (!is_array($_from) && !is_object($_from)) { settype($_from, 'array');}
 foreach ($_from as $_smarty_tpl->tpl_vars['variant']->key => $_smarty_tpl->tpl_vars['variant']->value) {

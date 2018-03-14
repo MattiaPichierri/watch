@@ -6,12 +6,28 @@
     <language>en</language>
      <atom:link href="https://www.prestashop.com/en/blog/feed.xml" rel="self" type="application/rss+xml" />
       <item>
+    <title>Three ways of collecting and displaying ratings and reviews can improve your SEO and Organic Search Ranking.</title>
+    <link>https://www.prestashop.com/en/blog/three-ways-of-collecting-and-displaying-ratings-and-reviews-can-improve-your-seo-and-organic-search-ranking</link>
+    <description>In recent years ratings and reviews have turned into must-haves for every ecommerce business.</description>
+     <pubDate>Thu, 08 Mar 2018 17:11:35 +0100</pubDate>
+ <dc:creator>ekomi</dc:creator>
+ <guid isPermaLink="false">https://www.prestashop.com/en/blog/three-ways-of-collecting-and-displaying-ratings-and-reviews-can-improve-your-seo-and-organic-search-ranking</guid>
+  </item>
+  <item>
     <title>PrestaShop 1.7.3.0 Is Available!</title>
     <link>https://www.prestashop.com/en/blog/prestashop-1-7-3-0-is-available</link>
-    <description>EASIER -  FASTER - INTERNATIONAL</description>
-     <pubDate>Tue, 06 Mar 2018 17:46:41 +0100</pubDate>
+    <description>EASIER - FASTER - INTERNATIONAL</description>
+     <pubDate>Thu, 08 Mar 2018 11:45:14 +0100</pubDate>
  <dc:creator>camille.teissier</dc:creator>
  <guid isPermaLink="false">https://www.prestashop.com/en/blog/prestashop-1-7-3-0-is-available</guid>
+  </item>
+  <item>
+    <title>​​​​​​​Time to bridge the mobile gap!</title>
+    <link>https://www.prestashop.com/en/blog/time-to-bridge-the-mobile-gap</link>
+    <description>Mobile e-commerce traffic is increasing rapidly and is today larger than the PC traffic. But mobile sales are not developing at the same rate.</description>
+     <pubDate>Wed, 07 Mar 2018 19:00:17 +0100</pubDate>
+ <dc:creator>ps_partners</dc:creator>
+ <guid isPermaLink="false">https://www.prestashop.com/en/blog/time-to-bridge-the-mobile-gap</guid>
   </item>
   <item>
     <title>How to partner with influencers to create engaging marketing campaigns.</title>
@@ -69,25 +85,6 @@ DOES NOT CONCERN:</description>
      <pubDate>Tue, 06 Feb 2018 11:20:03 +0100</pubDate>
  <dc:creator>MHamon</dc:creator>
  <guid isPermaLink="false">https://www.prestashop.com/en/blog/your-2018-e-commerce-calendar-is-ready-for-download</guid>
-  </item>
-  <item>
-    <title>Meet Jehyson, Ambassador of the month | January 2018</title>
-    <link>https://www.prestashop.com/en/blog/ambassador-jehyson-cali</link>
-    <description>Jehyson is our Ambassador of the month from Cali in Colombia! He is a very active contributor who joined us as Ambassador in September 2017.</description>
-     <pubDate>Wed, 31 Jan 2018 17:03:09 +0100</pubDate>
- <dc:creator>MLNielsen</dc:creator>
- <guid isPermaLink="false">https://www.prestashop.com/en/blog/ambassador-jehyson-cali</guid>
-  </item>
-  <item>
-    <title>PrestaShop Loves Its Community</title>
-    <link>https://www.prestashop.com/en/blog/prestashop-loves-its-community</link>
-    <description>
-*/
-/*--&gt;*/
-</description>
-     <pubDate>Thu, 25 Jan 2018 10:16:46 +0100</pubDate>
- <dc:creator>Anonymous</dc:creator>
- <guid isPermaLink="false">https://www.prestashop.com/en/blog/prestashop-loves-its-community</guid>
   </item>
   </channel>
 </rss>

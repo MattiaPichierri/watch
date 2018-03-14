@@ -277,13 +277,12 @@ table#cart_summary .cart_quantity_button a.button-plus {
   text-align: right;
 }
 .jms-megamenu .nav > .megamenu-custom .mega-nav li > a::before, .jms-megamenu .mega-nav li > a::before {
-	  left: auto;
+	  left: 0;
 	  position: absolute;
-	  right: 0;
+	  right: auto;
 }
 .jms-megamenu .mega-nav li > a {
-  position: relative;
-  text-align: center; 
+  position: relative; 
 }
 .mega-nav .mega > a::after {
 	content:"\f104" !important;
@@ -1269,4 +1268,10 @@ input, textarea{
 .media-left, .media > .pull-left{
   padding-left: 10px;
   padding-right: 0;
+}
+#cart_block .ajax_cart_quantity{
+  padding-left: 1px;
+}
+#off-canvas-menu li a{
+  text-align: right;
 }

@@ -123,6 +123,15 @@
 .newsletter .alert-danger{
 	background: transparent;
 }
+.feature .owl-carousel .owl-stage .owl-item{
+	margin-left: 0 !important;
+}
+.special-offer{
+	background-position: right !important;
+}
+.special-offer .layout-column{
+	float: left;
+}
 @media (max-width: 414px){
 	.top_group #cart_block .shoppingcart-box{
 		right: auto !important;

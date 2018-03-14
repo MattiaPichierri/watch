@@ -66,7 +66,7 @@
 }
 .home_3 .jms-megamenu .mega-nav li > a {
     padding: 5px 0;
-    text-align: center;
+    text-align: left;
 }
 .home_3 .jms-megamenu .mega-nav li > a:hover {
     padding-left: 0;
@@ -242,7 +242,7 @@
     margin-bottom: 0;
 }
 .footer_bottom .container {
-    padding-top: 22px;
+    padding-top: 20px;
 }
 footer .blog-item {
     margin-bottom: 24px;
@@ -288,17 +288,25 @@ footer .blog-item {
 	}
 }
 @media (max-width: 991px) and (min-width: 769px){
-	.gift-guide .content .text-content{
-		margin-left: 30px;
-	}
-	.sale-off .content .text-content{
-		margin-right: 30px;
-	}
-	.gift-guide .content .text-large, .sale-off .text-large{
-		line-height: normal;
+	.gift-guide .layout-column .jms-banner .text-content,
+	.sale-off .layout-column .jms-banner .text-content{
+		padding: 0 130px;
 	}
 }
 @media (max-width: 991px){
+	.gift-guide .jms-banner, .sale-off .jms-banner{
+		display: block !important;
+	}
+	.gift-guide .layout-column .jms-banner .text-content{
+		width: 100% !important;
+		margin-left: 0;
+		margin-top: 30px;
+	}
+	.sale-off .layout-column .jms-banner .text-content{
+		width: 100% !important;
+		margin-right: 0;
+		margin-top: 30px;
+	}
 	.header_top.nav-fix .layout-column.logo, .header_top.nav-fix .layout-column.header-right{
 		padding:20px 0;
 	}
@@ -390,7 +398,7 @@ footer .blog-item {
 		margin-right: 0;
 	}
 	#cart_block .ajax_cart_quantity{
-		right: -15px;
+		right: -18px;
 	}
 	#header .jms-row.header_top{
 		padding-top: 0;
@@ -412,6 +420,11 @@ footer .blog-item {
 	}
 }
 @media (max-width: 481px){
+	.gift-guide .jms-banner img,
+	.sale-off .jms-banner img{
+		width: 100%;
+		height: auto;
+	}
 	.breadcrumb{
 		margin-top: 0;
 	}
@@ -504,7 +517,7 @@ footer .blog-item {
 	z-index: 9999;
 }
 .layout-column.logo, .layout-column.header-right{
-	padding: 40px 0;  
+	padding: 41px 0 39px;  
 }
 .header-right span.shopping-cart{
 	margin-right: 17px;
@@ -606,7 +619,6 @@ footer .blog-item {
 }
 .sale-off .text-content p:nth-child(2), .gift-guide .text-content p:nth-child(2){
 	margin:0 auto;
-	width: 70%;
 	margin-bottom: 16px;
 }
 .sale-off .btn-viewmore, .gift-guide .btn-viewmore{
@@ -615,6 +627,27 @@ footer .blog-item {
 	transition: .5s ease;
 	border: 2px solid #000;
 	line-height: 7.5;
+}
+.gift-guide .jms-banner,
+.sale-off .jms-banner{
+	display: flex;
+	text-align: center;
+	justify-content: center;
+	padding: 66px 15px;
+	background-color: #f8f8f8;
+}
+.gift-guide .jms-banner .text-content{
+	width: 31%;
+	margin-left: 118px;
+	margin-top: 18px;
+}
+.sale-off .jms-banner .text-content{
+	width: 33%;
+	margin-right: 118px;
+	margin-top: 38px;
+}
+.sale-off .jms-banner a{
+	order: 2;
 }
 .product-preview .group-btn{
 	line-height: 50px;
@@ -663,30 +696,17 @@ footer .blog-item {
     left: 50%;
     display: inline-flex;
 }
-.group-btn a{
-    margin-right:10px;
-}
 .group-btn{
     opacity: 0;
 }
 .product-preview:hover .content_price{
     opacity: 1;
 }
-.product-miniature:hover .preview, .banner-men .product-miniature:hover .preview{
-    opacity: 0.8;
-    background: #888888;
-}
 .product-miniature:hover .group-btn, .banner-men .product-miniature:hover .group-btn{
    opacity: 1;
 }
 .preview img, .banner-men .preview img{
     transition: 0.5 ease;
-}
-.product-miniature:hover img, .banner-men .product-miniature:hover img{
-    opacity: 0.5;
-}
-.product-miniature:hover .discount-percentage, .banner-men .product-miniature:hover .discount-percentage{
-    opacity: 0.8;
 }
 .product-preview:hover .preview .cart-button{
     display: inline;
@@ -880,19 +900,21 @@ footer .blog-item {
 }
 .header_top .languages-info ul li a, .header_top .currency-info ul li a{
 	color:#222;
+	display: inline-flex;
+	align-items: center;
+}
+.languages-info img{
+	margin-right: 7px;
 }
 .header_top .languages-info ul{
 	margin-top: 20px;
 }
 .header_top .jms-megamenu .mega-nav .mega > a::after{
 	content:'\f105' !important;
-	right: 20px !important;
 	left: auto !important;
-	position: unset;
-	padding-left: 15px;
 }
 .header_top .level0 > .menu-item.must-see > .nav-child{
-	left: -244px !important;
+	left: -356px !important;
 }
 .mod-content .banner-content{
 	text-align: left !important;
@@ -901,16 +923,20 @@ footer .blog-item {
 	top: 107px;
 	left: -65px !important;
 }
+.header_top.nav-fix .level0 > .menu-item.must-see > .nav-child{
+	top: 66px;
+	left: -356px !important;
+}
 .header_top.nav-fix .level0 > .menu-item > .nav-child{
 	top: 67px;
-	left: -222px !important;
+	left: -66px !important;
 }
 .header_top .level0 > .menu-item > .nav-child.fullwidth{
 	top: 107px;
-	left: -584px !important;
+	left: -510px !important;
 }
 .header_top.nav-fix .level0 > .menu-item > .nav-child.fullwidth{
-	top: 67px;
+	top: 66px;
 }
 .header-right .btn-group ul li a:hover{
 	color: #dd9965;
@@ -949,7 +975,7 @@ footer .blog-item {
 		padding-top: 30px;
 	}
 	.header_top .menu #open-button::before{
-		top: 47px !important;
+		top: 49px !important;
 	}
 	.header_top .menu{
 		padding:0;
@@ -1002,21 +1028,6 @@ footer .blog-item {
 	.sale-off .content, .gift-guide .content{
 		display: block;
 	}
-	.gift-guide .text-content{
-		margin-left: 0;
-		width: 100%;
-		padding-top:50px;
-		padding: 50px 60px 0 60px;
-	}
-	.sale-off .text-content{
-		margin-right: 0;
-		width: 100%;
-		padding: 0 60px 30px 60px;
-	}
-	.gift-guide img, .sale-off img{
-		width: 100%;
-		height: auto;
-	}
 }
 @media (max-width: 736px){
 	.footer-mid .row{
@@ -1030,6 +1041,9 @@ footer .blog-item {
 	}
 }
 @media (max-width: 481px){
+	.btn-group.module-group-box .icongroup::before{
+		top: 7px !important;
+	}
 	.header_top.nav-fix .header-right .btn-group.open .dropdown-menu.shoppingcart-box::before{
 		right: 31px !important;
 	}
@@ -1120,6 +1134,12 @@ footer .blog-item {
 	}
 }
 @media (max-width: 1366px){
+	.gift-guide .jms-banner .text-content{
+		width: 37%;
+	}
+	.gift-guide .text-large{
+		line-height: normal;
+	}
 	#header .jms-row.header_top .level0 > .menu-item > .nav-child.fullwidth{
 		left: -357px !important;
 	}
@@ -1205,4 +1225,18 @@ footer .blog-item {
 	display: inline-block;
 	background-color: transparent;
 	margin:0; 
+}
+.page-product #footer{
+	margin-top: 42px;
+}
+.footer_bottom .feature-box{
+	display: grid;
+}
+.footer_bottom .feature-box i{
+	font-size: 14px;
+}
+.footer_bottom .feature-box .image{
+	text-align: center;
+	order: 2;
+	padding-top: 22px;
 }

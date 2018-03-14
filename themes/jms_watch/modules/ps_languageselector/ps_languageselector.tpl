@@ -66,6 +66,7 @@
 				{foreach from=$languages key=k item=language name="languages"}
 					<li {if $language.id_lang == $current_language.id_lang} class="current" {/if}>
 						<a href="{url entity='language' id=$language.id_lang}" class="dropdown-item">
+							<img alt="{$language.iso_code}" src="{$urls.base_url}img/l/{$language.id_lang}.jpg" width="20" height="14"/>
 							{$language.name_simple}
 						</a>
 					</li>

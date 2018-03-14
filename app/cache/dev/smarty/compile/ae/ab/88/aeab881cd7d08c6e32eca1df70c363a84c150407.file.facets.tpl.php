@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.19, created on 2018-02-22 09:53:05
+<?php /* Smarty version Smarty-3.1.19, created on 2018-03-12 02:05:12
          compiled from "D:\xampp\htdocs\jms_watch\themes\jms_watch\templates\catalog\_partials\facets.tpl" */ ?>
 <?php /*%%SmartyHeaderCode:86705a8e9301ba4213-36090854%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +7,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     'aeab881cd7d08c6e32eca1df70c363a84c150407' => 
     array (
       0 => 'D:\\xampp\\htdocs\\jms_watch\\themes\\jms_watch\\templates\\catalog\\_partials\\facets.tpl',
-      1 => 1517215834,
+      1 => 1520491240,
       2 => 'file',
     ),
   ),
@@ -15,6 +15,8 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   'function' => 
   array (
   ),
+  'version' => 'Smarty-3.1.19',
+  'unifunc' => 'content_5a8e9301dc3215_66476953',
   'variables' => 
   array (
     'clear_all_link' => 0,
@@ -23,12 +25,11 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     'filter' => 0,
     '_expand_id' => 0,
     '_collapse' => 0,
+    'filter_key' => 0,
     'js_enabled' => 0,
     'sort_order' => 0,
   ),
   'has_nocache_code' => false,
-  'version' => 'Smarty-3.1.19',
-  'unifunc' => 'content_5a8e9301dc3215_66476953',
 ),false); /*/%%SmartyHeaderCode%%*/?>
 <?php if ($_valid && !is_callable('content_5a8e9301dc3215_66476953')) {function content_5a8e9301dc3215_66476953($_smarty_tpl) {?><?php if (!is_callable('smarty_modifier_replace')) include 'D:\\xampp\\htdocs\\jms_watch\\vendor\\prestashop\\smarty\\plugins\\modifier.replace.php';
 ?>
@@ -75,11 +76,14 @@ foreach ($_from as $_smarty_tpl->tpl_vars["filter"]->key => $_smarty_tpl->tpl_va
 $_smarty_tpl->tpl_vars["filter"]->_loop = true;
 ?>
                 <?php if ($_smarty_tpl->tpl_vars['filter']->value['displayed']) {?>
-                  <li <?php if (isset($_smarty_tpl->tpl_vars['filter']->value['properties']['color'])) {?>class="color-style"<?php }?>>
+                  <li>
                     <label class="facet-label<?php if ($_smarty_tpl->tpl_vars['filter']->value['active']) {?> active <?php }?>">
                       <?php if ($_smarty_tpl->tpl_vars['facet']->value['multipleSelectionAllowed']) {?>
                         <span class="custom-checkbox">
                           <input
+                            id="facet_input_<?php echo htmlspecialchars($_smarty_tpl->tpl_vars['_expand_id']->value, ENT_QUOTES, 'UTF-8');?>
+_<?php echo htmlspecialchars($_smarty_tpl->tpl_vars['filter_key']->value, ENT_QUOTES, 'UTF-8');?>
+"
                             data-search-url="<?php echo htmlspecialchars($_smarty_tpl->tpl_vars['filter']->value['nextEncodedFacetsURL'], ENT_QUOTES, 'UTF-8');?>
 "
                             type="checkbox"
@@ -103,6 +107,9 @@ $_smarty_tpl->tpl_vars["filter"]->_loop = true;
                       <?php } else { ?>
                         <span class="custom-checkbox">
                           <input
+                            id="facet_input_<?php echo htmlspecialchars($_smarty_tpl->tpl_vars['_expand_id']->value, ENT_QUOTES, 'UTF-8');?>
+_<?php echo htmlspecialchars($_smarty_tpl->tpl_vars['filter_key']->value, ENT_QUOTES, 'UTF-8');?>
+"
                             data-search-url="<?php echo htmlspecialchars($_smarty_tpl->tpl_vars['filter']->value['nextEncodedFacetsURL'], ENT_QUOTES, 'UTF-8');?>
 "
                             type="radio"
@@ -123,7 +130,7 @@ $_smarty_tpl->tpl_vars["filter"]->_loop = true;
                         <?php echo htmlspecialchars($_smarty_tpl->tpl_vars['filter']->value['label'], ENT_QUOTES, 'UTF-8');?>
 
 
-						<?php if ($_smarty_tpl->tpl_vars['filter']->value['magnitude']) {?>
+						            <?php if ($_smarty_tpl->tpl_vars['filter']->value['magnitude']) {?>
                           <span class="magnitude">(<?php echo htmlspecialchars($_smarty_tpl->tpl_vars['filter']->value['magnitude'], ENT_QUOTES, 'UTF-8');?>
 )</span>
                         <?php }?>

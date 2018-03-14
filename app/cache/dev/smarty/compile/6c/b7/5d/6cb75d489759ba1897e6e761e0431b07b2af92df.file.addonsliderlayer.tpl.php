@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.19, created on 2018-02-22 09:26:43
+<?php /* Smarty version Smarty-3.1.19, created on 2018-03-14 04:45:11
          compiled from "D:\xampp\htdocs\jms_watch\themes\jms_watch\modules\jmspagebuilder\views\templates\hook\addonsliderlayer.tpl" */ ?>
 <?php /*%%SmartyHeaderCode:175665a8e8cd3840161-15069053%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +7,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     '6cb75d489759ba1897e6e761e0431b07b2af92df' => 
     array (
       0 => 'D:\\xampp\\htdocs\\jms_watch\\themes\\jms_watch\\modules\\jmspagebuilder\\views\\templates\\hook\\addonsliderlayer.tpl',
-      1 => 1516090205,
+      1 => 1521002709,
       2 => 'file',
     ),
   ),
@@ -15,6 +15,8 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   'function' => 
   array (
   ),
+  'version' => 'Smarty-3.1.19',
+  'unifunc' => 'content_5a8e8cd38ff7f5_31601205',
   'variables' => 
   array (
     'slides' => 0,
@@ -31,8 +33,6 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     'max_height' => 0,
   ),
   'has_nocache_code' => false,
-  'version' => 'Smarty-3.1.19',
-  'unifunc' => 'content_5a8e8cd38ff7f5_31601205',
 ),false); /*/%%SmartyHeaderCode%%*/?>
 <?php if ($_valid && !is_callable('content_5a8e8cd38ff7f5_31601205')) {function content_5a8e8cd38ff7f5_31601205($_smarty_tpl) {?>
 <div class="jms-slider-wrapper">
@@ -45,10 +45,10 @@ foreach ($_from as $_smarty_tpl->tpl_vars['slide']->key => $_smarty_tpl->tpl_var
 $_smarty_tpl->tpl_vars['slide']->_loop = true;
 ?>
 			<div class="slide <?php echo htmlspecialchars($_smarty_tpl->smarty->registered_plugins[Smarty::PLUGIN_MODIFIER]['escape'][0][0]->smartyEscape($_smarty_tpl->tpl_vars['slide']->value['class_suffix'],'htmlall','UTF-8'), ENT_QUOTES, 'UTF-8');?>
-" style="background:<?php echo htmlspecialchars($_smarty_tpl->smarty->registered_plugins[Smarty::PLUGIN_MODIFIER]['escape'][0][0]->smartyEscape($_smarty_tpl->tpl_vars['slide']->value['bg_color'],'htmlall','UTF-8'), ENT_QUOTES, 'UTF-8');?>
- url(<?php echo htmlspecialchars($_smarty_tpl->smarty->registered_plugins[Smarty::PLUGIN_MODIFIER]['escape'][0][0]->smartyEscape($_smarty_tpl->tpl_vars['image_url']->value,'htmlall','UTF-8'), ENT_QUOTES, 'UTF-8');?>
+" style="<?php if ($_smarty_tpl->tpl_vars['slide']->value['bg_type']==1) {?>background-image:<?php echo htmlspecialchars($_smarty_tpl->smarty->registered_plugins[Smarty::PLUGIN_MODIFIER]['escape'][0][0]->smartyEscape($_smarty_tpl->tpl_vars['image_url']->value,'htmlall','UTF-8'), ENT_QUOTES, 'UTF-8');?>
 slides/<?php echo htmlspecialchars($_smarty_tpl->smarty->registered_plugins[Smarty::PLUGIN_MODIFIER]['escape'][0][0]->smartyEscape($_smarty_tpl->tpl_vars['slide']->value['bg_image'],'htmlall','UTF-8'), ENT_QUOTES, 'UTF-8');?>
-) no-repeat left top;background-size:cover;" <?php if ($_smarty_tpl->tpl_vars['slide']->value['slide_link']) {?>onclick="document.location='<?php echo htmlspecialchars($_smarty_tpl->smarty->registered_plugins[Smarty::PLUGIN_MODIFIER]['escape'][0][0]->smartyEscape($_smarty_tpl->tpl_vars['slide']->value['slide_link'],'htmlall','UTF-8'), ENT_QUOTES, 'UTF-8');?>
+<?php } else { ?>background-color:<?php echo htmlspecialchars($_smarty_tpl->smarty->registered_plugins[Smarty::PLUGIN_MODIFIER]['escape'][0][0]->smartyEscape($_smarty_tpl->tpl_vars['slide']->value['bg_color'],'htmlall','UTF-8'), ENT_QUOTES, 'UTF-8');?>
+<?php }?>;background-size:cover;" <?php if ($_smarty_tpl->tpl_vars['slide']->value['slide_link']) {?>onclick="document.location='<?php echo htmlspecialchars($_smarty_tpl->smarty->registered_plugins[Smarty::PLUGIN_MODIFIER]['escape'][0][0]->smartyEscape($_smarty_tpl->tpl_vars['slide']->value['slide_link'],'htmlall','UTF-8'), ENT_QUOTES, 'UTF-8');?>
 ';"<?php }?>>
 				<?php  $_smarty_tpl->tpl_vars['layer'] = new Smarty_Variable; $_smarty_tpl->tpl_vars['layer']->_loop = false;
  $_from = $_smarty_tpl->tpl_vars['slide']->value['layers']; if (!is_array($_from) && !is_object($_from)) { settype($_from, 'array');}

@@ -56,8 +56,8 @@
 	max-width:none;
 }
 #product .block-categories {
-    margin-bottom: 40px;
-    padding-bottom: 23px;
+    margin-bottom: 62px;
+    padding-bottom: 0px;
 }
 /* product detail -Fix in here */
 #product .pb-left-column {
@@ -387,7 +387,6 @@ span.Pink{
     max-width: unset;
     padding: 0;
     width: 46px;
-    z-index: 10;
 }
 .product-quantity .bootstrap-touchspin-up {
     border-radius: 50%;
@@ -781,6 +780,9 @@ span.Pink{
     }
 }
 @media(max-width:991px){
+    .scroll-box-arrows i{
+        bottom: 50px;
+    }
     .page-product .images-container .product-images > li.thumb-container > .thumb{
         margin-right: 22px;
     }

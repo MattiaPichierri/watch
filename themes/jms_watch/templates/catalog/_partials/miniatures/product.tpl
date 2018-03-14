@@ -115,7 +115,7 @@
                     <div class="product_button">
 							<a {if $product.quantity < 1}disabled{/if} class="ajax-add-to-cart product-btn cart-button btn-effect btn-default {if $product.quantity < 1}disabled{/if}" data-id-product="{$product.id}" data-minimal-quantity="{$product.minimal_quantity}" data-token="{if isset($static_token) && $static_token}{$static_token}{/if}">
 								    <span class="text-addcart">{l s='Add to cart' d='Shop.Theme.Actions'}	</span>		
-								   <span class="text-outofstock">{l s='Out of stock' d='Shop.Theme.Actions'}</span>
+								    <span class="text-outofstock">{l s='Out of stock' d='Shop.Theme.Actions'}</span>
                                     <span class="fa fa-spin fa-spinner"></span>
 									<span class="pe pe-7s-check"></span>								   
 							</a>

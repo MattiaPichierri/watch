@@ -58,3 +58,7 @@ c4bb6f,::1,POST,http://localhost/jms_watch/admin367i0kovu/index.php/module/manag
 52ca3b,::1,GET,http://localhost/jms_watch/admin367i0kovu/index.php/module/catalog/refresh?_token=oxpQZ3lA2N2gAi0wt972hwvoo-RTkIOATx68lRHMfS0,1519639564,,200
 94c5fd,::1,GET,http://localhost/jms_watch/admin367i0kovu/index.php/module/manage?_token=oxpQZ3lA2N2gAi0wt972hwvoo-RTkIOATx68lRHMfS0,1519639567,,200
 327c25,::1,POST,http://localhost/jms_watch/admin367i0kovu/index.php/module/manage/action/configure/jmsslider?_token=oxpQZ3lA2N2gAi0wt972hwvoo-RTkIOATx68lRHMfS0,1519639603,,302
+6fbfbf,::1,GET,http://localhost/jms_watch/admin367i0kovu/index.php/module/catalog?_token=PMyA_mQbWIm4kpqB4IQ_hPQmez9s7ej8JFAXgk4eIcI,1520993372,,200
+97a21a,::1,GET,http://localhost/jms_watch/admin367i0kovu/index.php/module/catalog/refresh?_token=PMyA_mQbWIm4kpqB4IQ_hPQmez9s7ej8JFAXgk4eIcI,1520993379,,200
+144be8,::1,GET,http://localhost/jms_watch/admin367i0kovu/index.php/module/manage?_token=PMyA_mQbWIm4kpqB4IQ_hPQmez9s7ej8JFAXgk4eIcI,1520993381,,200
+46ee49,::1,POST,http://localhost/jms_watch/admin367i0kovu/index.php/module/manage/action/configure/ps_categoryproducts?_token=PMyA_mQbWIm4kpqB4IQ_hPQmez9s7ej8JFAXgk4eIcI,1520993391,,302

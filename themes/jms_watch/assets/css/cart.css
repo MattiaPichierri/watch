@@ -57,7 +57,6 @@
 	width: 20px;
 	position:absolute;
 	right:0;
-	z-index:999;
 }
 .product-line-grid-right span.input-group-btn-vertical button.bootstrap-touchspin-up {
 	top:0;
@@ -111,6 +110,7 @@
     padding: 15px 0;
     width: 100%;
     letter-spacing: 3px;
+    display: block;
 }
 .card.cart-summary .checkout a:hover{
 	  background-color: #dd9965;

@@ -23,29 +23,24 @@
     <favorites_list name="jms_fluent" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="facets.tpl" pinned="false" current-in-tab="true">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="facets.tpl" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/themes/jms_watch/templates/catalog/_partials/facets.tpl">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="584">
-              <caret line="84" column="53" lean-forward="false" selection-start-line="84" selection-start-column="53" selection-end-line="84" selection-end-column="53" />
+            <state relative-caret-position="380">
+              <caret line="24" column="27" lean-forward="false" selection-start-line="24" selection-start-column="27" selection-end-line="24" selection-end-column="27" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="jquery.fractionslider.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/modules/jmsslider/views/js/jquery.fractionslider.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="3315">
+              <caret line="207" column="32" lean-forward="false" selection-start-line="207" selection-start-column="32" selection-end-line="207" selection-end-column="32" />
               <folding>
-                <element signature="n#style#0;n#span#0;n#span#0;n#label#0;n#li#0;n#ul#0;n#div#0;n#section#0;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#span#1;n#span#0;n#label#0;n#li#0;n#ul#0;n#div#0;n#section#0;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#span#2;n#span#0;n#label#0;n#li#0;n#ul#0;n#div#0;n#section#0;n#div#0;n#!!top" expanded="true" />
-                <marker date="1520491240847" expanded="true" signature="1975:5717" ph="..." />
-                <marker date="1520491240847" expanded="true" signature="2126:4566" ph="..." />
-                <marker date="1520491240847" expanded="true" signature="2165:4546" ph="..." />
-                <marker date="1520491240847" expanded="true" signature="4339:4443" ph="..." />
-                <marker date="1520491240847" expanded="true" signature="4639:5705" ph="..." />
-                <marker date="1520491240847" expanded="true" signature="4742:5488" ph="..." />
-                <marker date="1520491240847" expanded="true" signature="4896:5455" ph="..." />
-                <marker date="1520491240847" expanded="true" signature="4937:5433" ph="..." />
-                <marker date="1520491240847" expanded="true" signature="4965:5413" ph="..." />
-                <marker date="1520491240847" expanded="true" signature="5007:5200" ph="..." />
-                <marker date="1520491240847" expanded="true" signature="5310:5379" ph="..." />
-                <marker date="1520491240847" expanded="true" signature="5521:5681" ph="..." />
-                <marker date="1520491240847" expanded="true" signature="5583:5665" ph="..." />
+                <marker date="1521015502503" expanded="true" signature="27887:27926" ph="..." />
               </folding>
             </state>
           </provider>
@@ -55,7 +50,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>search_filters_wrapper</find>
       <find>filter-box</find>
       <find>lis</find>
       <find>list</find>
@@ -85,6 +79,7 @@
       <find>input-group bootstrap-touchspin</find>
       <find>input-group-btn-vertical</find>
       <find>$filter</find>
+      <find>fs-pager-wrapper</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -118,6 +113,7 @@
         <option value="$PROJECT_DIR$/themes/jms_fluent/modules/jmsblog/views/templates/front/category-layout-default.tpl" />
         <option value="$PROJECT_DIR$/themes/jms_watch/templates/catalog/_partials/product-variants.tpl" />
         <option value="$PROJECT_DIR$/themes/jms_watch/templates/catalog/_partials/facets.tpl" />
+        <option value="$PROJECT_DIR$/modules/jmsslider/views/js/jquery.fractionslider.js" />
       </list>
     </option>
   </component>
@@ -150,7 +146,6 @@
     </navigator>
     <panes>
       <pane id="Scratches" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -179,6 +174,7 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -315,11 +311,13 @@
       <workItem from="1518162869673" duration="636000" />
       <workItem from="1520483370102" duration="25000" />
       <workItem from="1520483404786" duration="1967000" />
+      <workItem from="1520933376720" duration="77000" />
+      <workItem from="1521015412558" duration="826000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="57716000" />
+    <option name="totallyTimeSpent" value="58619000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -333,22 +331,22 @@
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22228146" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22654584" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -363,7 +361,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/themes/jms_fluent/assets/css/demo.css" />
     <entry file="file://$PROJECT_DIR$/themes/jms_fluent/assets/img/logo.png" />
     <entry file="file://$PROJECT_DIR$/themes/jms_fluent/modules/jmsajaxsearch/views/templates/hook/search-ajax.tpl" />
     <entry file="file://$PROJECT_DIR$/themes/jms_fluent/modules/jmsajaxsearch/views/templates/hook/jmsajaxsearch-left.tpl" />
@@ -480,7 +477,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="315">
           <caret line="32" column="8" lean-forward="false" selection-start-line="32" selection-start-column="8" selection-end-line="32" selection-end-column="8" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -488,110 +484,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="1432" column="55" lean-forward="true" selection-start-line="1432" selection-start-column="55" selection-end-line="1432" selection-end-column="55" />
-          <folding>
-            <marker date="1508746796000" expanded="true" signature="3700:3745" ph="SELECT COUNT... ${_DB_PREFIX_}product" />
-            <marker date="1508746796000" expanded="true" signature="5470:5525" ph="DROP TABLE I... " />
-            <marker date="1508746796000" expanded="true" signature="5565:5634" ph="DROP TABLE I... " />
-            <marker date="1508746796000" expanded="true" signature="5674:5735" ph="DROP TABLE I... " />
-            <marker date="1508746796000" expanded="true" signature="5775:5849" ph="DROP TABLE I... " />
-            <marker date="1508746796000" expanded="true" signature="5889:5969" ph="DROP TABLE I... " />
-            <marker date="1508746796000" expanded="true" signature="6009:6081" ph="DROP TABLE I... " />
-            <marker date="1508746796000" expanded="true" signature="6121:6199" ph="DROP TABLE I... " />
-            <marker date="1508746796000" expanded="true" signature="6239:6291" ph="DROP TABLE I... " />
-            <marker date="1508746796000" expanded="true" signature="6331:6381" ph="DROP TABLE I... " />
-            <marker date="1508746796000" expanded="true" signature="6421:6476" ph="DROP TABLE I... " />
-            <marker date="1508746796000" expanded="true" signature="6516:6577" ph="DROP TABLE I... " />
-            <marker date="1508746796000" expanded="true" signature="6720:6777" ph="DROP TABLE I... " />
-            <marker date="1508746796000" expanded="true" signature="6821:7233" ph="CREATE TABLE... ${_DB_PREFIX_}layered_price_index" />
-            <marker date="1508746796000" expanded="true" signature="7370:7441" ph="DROP TABLE I... " />
-            <marker date="1508746796000" expanded="true" signature="7484:7713" ph="CREATE TABLE... ${_DB_PREFIX_}layered_indexable_attribute_group" />
-            <marker date="1508746796000" expanded="true" signature="7757:7888" ph="INSERT INTO `${_DB_PREFIX_}layered_indexable_attribute_group`... " />
-            <marker date="1508746796000" expanded="true" signature="7822:7888" ph="SELECT id_at... ${_DB_PREFIX_}attribute_group" />
-            <marker date="1508746796000" expanded="true" signature="7929:8011" ph="DROP TABLE I... " />
-            <marker date="1508746796000" expanded="true" signature="8054:8348" ph="CREATE TABLE... ${_DB_PREFIX_}layered_indexable_attribute_group_lang_value" />
-            <marker date="1508746796000" expanded="true" signature="8412:8488" ph="DROP TABLE I... " />
-            <marker date="1508746796000" expanded="true" signature="8531:8807" ph="CREATE TABLE... ${_DB_PREFIX_}layered_indexable_attribute_lang_value" />
-            <marker date="1508746796000" expanded="true" signature="8869:8932" ph="DROP TABLE I... " />
-            <marker date="1508746796000" expanded="true" signature="8975:9180" ph="CREATE TABLE... ${_DB_PREFIX_}layered_indexable_feature" />
-            <marker date="1508746796000" expanded="true" signature="9225:9332" ph="INSERT INTO `${_DB_PREFIX_}layered_indexable_feature`... " />
-            <marker date="1508746796000" expanded="true" signature="9282:9332" ph="SELECT id_fe... ${_DB_PREFIX_}feature" />
-            <marker date="1508746796000" expanded="true" signature="9373:9447" ph="DROP TABLE I... " />
-            <marker date="1508746796000" expanded="true" signature="9490:9769" ph="CREATE TABLE... ${_DB_PREFIX_}layered_indexable_feature_lang_value" />
-            <marker date="1508746796000" expanded="true" signature="9838:9918" ph="DROP TABLE I... " />
-            <marker date="1508746796000" expanded="true" signature="9961:10249" ph="CREATE TABLE... ${_DB_PREFIX_}layered_indexable_feature_value_lang_value" />
-            <marker date="1508746796000" expanded="true" signature="10409:10472" ph="DROP TABLE I... " />
-            <marker date="1508746796000" expanded="true" signature="10515:10975" ph="CREATE TABLE... ${_DB_PREFIX_}layered_product_attribute" />
-            <marker date="1508746796000" expanded="true" signature="11249:11342" ph="DELETE FROM " />
-            <marker date="1508746796000" expanded="true" signature="11440:11544" ph="DELETE FROM " />
-            <marker date="1508746796000" expanded="true" signature="11643:11839" ph="INSERT INTO ${_DB_PREFIX_}layered_indexable_attribute_group... " />
-            <marker date="1508746796000" expanded="true" signature="12184:12549" ph="INSERT INTO ${_DB_PREFIX_}layered_indexable_attribute_group_lang_value... " />
-            <marker date="1508746796000" expanded="true" signature="12774:12867" ph="DELETE FROM " />
-            <marker date="1508746796000" expanded="true" signature="12965:13069" ph="DELETE FROM " />
-            <marker date="1508746796000" expanded="true" signature="13890:13998" ph="SELECT `inde... ${_DB_PREFIX_}" />
-            <marker date="1508746796000" expanded="true" signature="14214:14354" ph="SELECT `url_... ${_DB_PREFIX_}" />
-            <marker date="1508746796000" expanded="true" signature="15161:15253" ph="DELETE FROM " />
-            <marker date="1508746796000" expanded="true" signature="15628:15975" ph="INSERT INTO ${_DB_PREFIX_}layered_indexable_attribute_lang_value... " />
-            <marker date="1508746796000" expanded="true" signature="16189:16281" ph="DELETE FROM " />
-            <marker date="1508746796000" expanded="true" signature="17085:17216" ph="SELECT `url_... ${_DB_PREFIX_}" />
-            <marker date="1508746796000" expanded="true" signature="18003:18080" ph="DELETE FROM " />
-            <marker date="1508746796000" expanded="true" signature="18170:18258" ph="DELETE FROM " />
-            <marker date="1508746796000" expanded="true" signature="18349:18524" ph="INSERT INTO ${_DB_PREFIX_}layered_indexable_feature... " />
-            <marker date="1508746796000" expanded="true" signature="18869:19210" ph="INSERT INTO ${_DB_PREFIX_}layered_indexable_feature_lang_value... " />
-            <marker date="1508746796000" expanded="true" signature="19420:19497" ph="DELETE FROM " />
-            <marker date="1508746796000" expanded="true" signature="20296:20388" ph="SELECT `inde... ${_DB_PREFIX_}" />
-            <marker date="1508746796000" expanded="true" signature="20596:20720" ph="SELECT `url_... ${_DB_PREFIX_}" />
-            <marker date="1508746796000" expanded="true" signature="21595:21695" ph="DELETE FROM " />
-            <marker date="1508746796000" expanded="true" signature="22074:22433" ph="INSERT INTO ${_DB_PREFIX_}layered_indexable_feature_value_lang_value... " />
-            <marker date="1508746796000" expanded="true" signature="22654:22754" ph="DELETE FROM " />
-            <marker date="1508746796000" expanded="true" signature="23568:23707" ph="SELECT `url_... ${_DB_PREFIX_}" />
-            <marker date="1508746796000" expanded="true" signature="25481:25524" ph="SELECT * FRO... ${_DB_PREFIX_}" />
-            <marker date="1508746796000" expanded="true" signature="26489:26565" ph="DELETE FROM " />
-            <marker date="1508746796000" expanded="true" signature="26651:27427" ph="INSERT INTO `${_DB_PREFIX_}layered_product_attribute`... " />
-            <marker date="1508746796000" expanded="true" signature="26773:27272" ph="SELECT pac.i... ${_DB_PREFIX_}" />
-            <marker date="1508746796000" expanded="true" signature="28245:28470" ph="SELECT count... ${_DB_PREFIX_}" />
-            <marker date="1508746796000" expanded="true" signature="28558:28905" ph="SELECT COUNT... ${_DB_PREFIX_}product" />
-            <marker date="1508746796000" expanded="true" signature="31334:31626" ph="SELECT p.`id... ${_DB_PREFIX_}product" />
-            <marker date="1508746796000" expanded="true" signature="31687:32087" ph="SELECT p.`id... ${_DB_PREFIX_}product" />
-            <marker date="1508746796000" expanded="true" signature="32543:32596" ph="SELECT id_gr... ${_DB_PREFIX_}group_reduction" />
-            <marker date="1508746796000" expanded="true" signature="33116:33224" ph="DELETE FROM " />
-            <marker date="1508746796000" expanded="true" signature="33397:33852" ph="SELECT max(t... ${_DB_PREFIX_}product_shop" />
-            <marker date="1508746796000" expanded="true" signature="34012:34139" ph="SELECT id_sh... ${_DB_PREFIX_}specific_price" />
-            <marker date="1508746796000" expanded="true" signature="38482:38645" ph="INSERT INTO `${_DB_PREFIX_}layered_price_index`... " />
-            <marker date="1508746796000" expanded="true" signature="38646:38699" ph="UPDATE id_pr... " />
-            <marker date="1508746796000" expanded="true" signature="39400:39474" ph="DELETE FROM " />
-            <marker date="1508746796000" expanded="true" signature="39851:39904" ph="SELECT id_ca... ${_DB_PREFIX_}" />
-            <marker date="1508746796000" expanded="true" signature="40894:40974" ph="DELETE FROM " />
-            <marker date="1508746796000" expanded="true" signature="43545:43837" ph="INSERT INTO ${_DB_PREFIX_}layered_filter... " />
-            <marker date="1508746796000" expanded="true" signature="44131:44276" ph="INSERT INTO ${_DB_PREFIX_}layered_filter_shop... " />
-            <marker date="1508746796000" expanded="true" signature="46221:46305" ph="SELECT filte... ${_DB_PREFIX_}" />
-            <marker date="1508746796000" expanded="true" signature="46451:46578" ph="DELETE FROM " />
-            <marker date="1508746796000" expanded="true" signature="47132:47545" ph="SELECT ag.id... ${_DB_PREFIX_}" />
-            <marker date="1508746796000" expanded="true" signature="47630:47934" ph="SELECT fl.id... ${_DB_PREFIX_}" />
-            <marker date="1508746796000" expanded="true" signature="51285:51365" ph="SELECT * FRO... ${_DB_PREFIX_}layered_filter" />
-            <marker date="1508746796000" expanded="true" signature="54047:54113" ph="SELECT * FRO... ${_DB_PREFIX_}" />
-            <marker date="1508746796000" expanded="true" signature="63537:64586" ph="SELECT cp.id... " />
-            <marker date="1508746796000" expanded="true" signature="64864:65491" ph="SELECT cp.id... " />
-            <marker date="1508746796000" expanded="true" signature="65548:65670" ph="ALTER TABLE ${_DB_PREFIX_}cat_filter_restriction... " />
-            <marker date="1508746796000" expanded="true" signature="66380:67028" ph="SELECT p.`id... ${_DB_PREFIX_}product" />
-            <marker date="1508746796000" expanded="true" signature="67157:67518" ph="SELECT p.`id... ${_DB_PREFIX_}product" />
-            <marker date="1508746796000" expanded="true" signature="68269:68382" ph="DELETE FROM " />
-            <marker date="1508746796000" expanded="true" signature="68476:68534" ph="SELECT COUNT... ${_DB_PREFIX_}" />
-            <marker date="1508746796000" expanded="true" signature="75617:75833" ph="SELECT type,... ${_DB_PREFIX_}" />
-            <marker date="1508746796000" expanded="true" signature="76479:77609" ph="SELECT DISTI... ${_DB_PREFIX_}" />
-            <marker date="1508746796000" expanded="true" signature="77707:78132" ph="ALTER TABLE ${_DB_PREFIX_}cat_restriction... " />
-            <marker date="1508746796000" expanded="true" signature="118180:118232" ph="DROP TABLE I... " />
-            <marker date="1508746796000" expanded="true" signature="118275:118980" ph="CREATE TABLE... IF" />
-            <marker date="1508746796000" expanded="true" signature="119064:119380" ph="CREATE TABLE... IF" />
-            <marker date="1508746796000" expanded="true" signature="119425:119705" ph="CREATE TABLE... IF" />
-            <marker date="1508746796000" expanded="true" signature="120688:121468" ph="SELECT a.id_... ${_DB_PREFIX_}" />
-            <marker date="1508746796000" expanded="true" signature="121827:122505" ph="SELECT fv.id... ${_DB_PREFIX_}" />
-            <marker date="1508746796000" expanded="true" signature="122834:124019" ph="SELECT p.id_... ${_DB_PREFIX_}" />
-            <marker date="1508746796000" expanded="true" signature="128400:128681" ph="INSERT INTO ${_DB_PREFIX_}layered_filter... " />
-            <marker date="1508746796000" expanded="true" signature="128781:128856" ph="DELETE FROM " />
-            <marker date="1508746796000" expanded="true" signature="128960:129085" ph="INSERT INTO ${_DB_PREFIX_}layered_filter_shop... " />
-            <marker date="1508746796000" expanded="true" signature="129296:129362" ph="SELECT * FRO... ${_DB_PREFIX_}" />
-            <marker date="1508746796000" expanded="true" signature="129664:129795" ph="INSERT INTO ${_DB_PREFIX_}layered_category... " />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -599,31 +491,23 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="527">
           <caret line="31" column="0" lean-forward="false" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/themes/jms_watch/templates/catalog/_partials/facets.tpl">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="584">
-          <caret line="84" column="53" lean-forward="false" selection-start-line="84" selection-start-column="53" selection-end-line="84" selection-end-column="53" />
+        <state relative-caret-position="380">
+          <caret line="24" column="27" lean-forward="false" selection-start-line="24" selection-start-column="27" selection-end-line="24" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/jmsslider/views/js/jquery.fractionslider.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3315">
+          <caret line="207" column="32" lean-forward="false" selection-start-line="207" selection-start-column="32" selection-end-line="207" selection-end-column="32" />
           <folding>
-            <element signature="n#style#0;n#span#0;n#span#0;n#label#0;n#li#0;n#ul#0;n#div#0;n#section#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#1;n#span#0;n#label#0;n#li#0;n#ul#0;n#div#0;n#section#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#2;n#span#0;n#label#0;n#li#0;n#ul#0;n#div#0;n#section#0;n#div#0;n#!!top" expanded="true" />
-            <marker date="1520491240847" expanded="true" signature="1975:5717" ph="..." />
-            <marker date="1520491240847" expanded="true" signature="2126:4566" ph="..." />
-            <marker date="1520491240847" expanded="true" signature="2165:4546" ph="..." />
-            <marker date="1520491240847" expanded="true" signature="4339:4443" ph="..." />
-            <marker date="1520491240847" expanded="true" signature="4639:5705" ph="..." />
-            <marker date="1520491240847" expanded="true" signature="4742:5488" ph="..." />
-            <marker date="1520491240847" expanded="true" signature="4896:5455" ph="..." />
-            <marker date="1520491240847" expanded="true" signature="4937:5433" ph="..." />
-            <marker date="1520491240847" expanded="true" signature="4965:5413" ph="..." />
-            <marker date="1520491240847" expanded="true" signature="5007:5200" ph="..." />
-            <marker date="1520491240847" expanded="true" signature="5310:5379" ph="..." />
-            <marker date="1520491240847" expanded="true" signature="5521:5681" ph="..." />
-            <marker date="1520491240847" expanded="true" signature="5583:5665" ph="..." />
+            <marker date="1521015502503" expanded="true" signature="27887:27926" ph="..." />
           </folding>
         </state>
       </provider>
