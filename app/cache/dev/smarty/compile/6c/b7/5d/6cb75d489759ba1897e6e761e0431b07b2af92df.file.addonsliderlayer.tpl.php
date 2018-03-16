@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.19, created on 2018-03-14 04:45:11
+<?php /* Smarty version Smarty-3.1.19, created on 2018-03-15 02:06:46
          compiled from "D:\xampp\htdocs\jms_watch\themes\jms_watch\modules\jmspagebuilder\views\templates\hook\addonsliderlayer.tpl" */ ?>
 <?php /*%%SmartyHeaderCode:175665a8e8cd3840161-15069053%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +7,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     '6cb75d489759ba1897e6e761e0431b07b2af92df' => 
     array (
       0 => 'D:\\xampp\\htdocs\\jms_watch\\themes\\jms_watch\\modules\\jmspagebuilder\\views\\templates\\hook\\addonsliderlayer.tpl',
-      1 => 1521002709,
+      1 => 1521013307,
       2 => 'file',
     ),
   ),

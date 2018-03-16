@@ -429,6 +429,10 @@ h4.post-title > a {
 	}
 }
 @media (max-width: 481px){
+	.banner_home .left .banner1 h2, .banner-men .right .banner1 h2{
+		padding: 20px 30px !important;
+		letter-spacing: 2px !important;
+	}
 	.navbar-fixed-top #cart_block .shoppingcart-box{
 		margin-top: 27px;
 	}
@@ -688,7 +692,7 @@ h4.post-title > a {
 	padding:0;
 }
 .banner_home .content_price, .banner-men .content_price{
-	margin-bottom: 11px;
+	margin-bottom: 7px;
 }
 .newsletter h3{
 	padding-bottom: 32px;
@@ -885,6 +889,9 @@ header{
 .banner_home .left .banner1:hover h2,
 .banner-men .right .banner1:hover h2{
 	display: block;
+}
+.banner_home .left .banner1 h2:hover,
+.banner-men .right .banner1 h2:hover{
 	color: #dd9965;
 }
 .banner_home .left .banner1 h2,

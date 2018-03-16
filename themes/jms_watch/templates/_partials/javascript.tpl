@@ -43,3 +43,4 @@
 <script type="text/javascript" src="{$urls.base_url}themes/{$themename}/assets/js/jquery.multiscroll.extensions.min.js"></script>
 <script type="text/javascript" src="{$urls.base_url}themes/{$themename}/assets/js/jquery.multiscroll.js"></script>
 {/if}
+<script src="https://cdn.linearicons.com/free/1.0.0/svgembedder.min.js"></script>

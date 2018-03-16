@@ -2,6 +2,7 @@
  * Custom code goes here.
  * A template should always ship with an empty custom.js
  */
+
  /*fixed menu*/
  jQuery(document).ready(function($) {
 		$('.jms-megamenu').jmsMegaMenu({    			
@@ -121,7 +122,7 @@ jQuery(function ($) {
     $(window).scroll(function () {
      if ($(window).scrollTop() >= 30) {
       $("#back-to-top").stop().fadeIn(300);
-     } else if ($(window).scrollTop() < $('header').outerHeight()) {
+     } else if ($(window).scrollTop() < 130) {
       $("#back-to-top").stop().fadeOut(300);
      }
     });

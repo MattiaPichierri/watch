@@ -108,7 +108,7 @@
 }
 #cart_block .shoppingcart-box {
     left: auto;
-    right: -91px;
+    right: -77px;
     top: 66px;
 }
 .nav-fix #cart_block .shoppingcart-box{
@@ -558,7 +558,17 @@ footer .blog-item {
 	left: -235px !important;
 	top: 66px;
 }
+.header-right #cart_block .shoppingcart-box{
+	right: auto !important;
+	left: -235px !important;
+	top: 66px;
+}
 .nav-fix .header-right #cart_block.open .shoppingcart-box{
+	top: 46px;
+	right: -76px !important;
+	left: auto !important;
+}
+.nav-fix .header-right #cart_block .shoppingcart-box{
 	top: 46px;
 	right: -76px !important;
 	left: auto !important;

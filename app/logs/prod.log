@@ -157,3 +157,8 @@
 [2018-03-08 04:37:47] security.DEBUG: User was reloaded from a user provider. {"username":"admin@admin.com","provider":"PrestaShopBundle\\Security\\Admin\\EmployeeProvider"} []
 [2018-03-08 04:37:54] app.ERROR: Data from PrestaShop Addons is invalid, and cannot fallback on cache.  {"exception":"cURL error 28: Operation timed out after 5007 milliseconds with 256832 bytes received"} []
 [2018-03-08 04:37:59] security.DEBUG: Stored the security token in the session. {"key":"_security_main"} []
+[2018-03-15 07:10:48] request.INFO: Matched route "admin_product_form". {"route_parameters":{"_controller":"PrestaShopBundle\\Controller\\Admin\\ProductController::formAction","_legacy_controller":"AdminProducts","_legacy_param_mapper_class":"PrestaShop\\PrestaShop\\Adapter\\Product\\AdminProductDataProvider","_legacy_param_mapper_method":"mapLegacyParametersProductForm","id":"43","_route":"admin_product_form"},"request_uri":"http://localhost/jms_watch/admin367i0kovu/index.php/product/form/43?_token=UCAgpGVb-P23zI_AhfD7xo0NUWFXVWhTsy7VlEUap-4"} []
+[2018-03-15 07:10:48] security.DEBUG: Read existing security token from the session. {"key":"_security_main"} []
+[2018-03-15 07:10:48] security.DEBUG: User was reloaded from a user provider. {"username":"admin@admin.com","provider":"PrestaShopBundle\\Security\\Admin\\EmployeeProvider"} []
+[2018-03-15 07:10:55] app.ERROR: Data from PrestaShop Addons is invalid, and cannot fallback on cache.  {"exception":"cURL error 28: Operation timed out after 5007 milliseconds with 241976 bytes received"} []
+[2018-03-15 07:10:55] security.DEBUG: Stored the security token in the session. {"key":"_security_main"} []

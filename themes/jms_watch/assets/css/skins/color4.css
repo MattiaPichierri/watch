@@ -1,0 +1,271 @@
+.fs-pager-wrapper a.active {
+  background-color: #e16251;
+}
+/***************** CART COLOR  *************************/
+.card.cart-summary .checkout a:hover{
+    background-color: #e16251;
+}
+.page-cart .btn-shopping:hover{
+  background-color: #e16251;
+}
+/***************** END  *************************/
+
+/***************** Checkout COLOR  *************************/
+.tab-content .form-group .input-group-btn button:hover{
+  background-color: #e16251;
+}
+.pasword-form .show-pass button:hover{
+  background-color: #e16251;
+}
+#checkout .address-footer .delete-address:hover {
+  background-color:#e16251;
+}
+#checkout section#content #js-checkout-summary p a {
+    color: #e16251;
+}
+body#checkout section.checkout-step.-complete .step-title {
+  background-color: #e16251;
+}
+/***************** END  *************************/
+
+/***************** custom COLOR  *************************/
+a:hover, a:focus {
+    color: #e16251; }
+a:active, a:focus {
+    color: #e16251; }
+.btn.active:hover {
+  background-color: #e16251;}
+.btn:active,
+.btn:focus {
+  color: #fff;
+  background-color: #e16251;
+  border-color: #e16251 !important;
+  }
+.btn-primary:hover,
+.btn-default.active:hover,
+.btn.active:hover {
+  background-color: #e16251;
+}
+
+.btn.active,
+.btn:active,
+.btn:focus {
+  color: #fff;
+  background-color: #e16251;
+  border-color: #e16251 !important;
+}
+
+.btn-transparent:hover,
+.btn-default:hover,
+.btn-default:focus,
+.btn-default.active,
+.btn-mega:hover,
+.btn-mega:focus,
+.btn-mega:active {
+  background-color: #e16251;}
+.checkout-info .cart-button > a:hover{
+  background-color: #e16251;
+}
+.product_button a.addToWishlist.btn-default:hover, .product_button a.cart-button.btn-default:hover {
+  background-color: #e16251;
+}
+.pagination .current  a, .pagination .current a:focus, .pagination .active a:hover, .pagination .current  a,
+.pagination .current  a:focus, .pagination .current  span:hover, .pagination li:hover a{
+    color: #e16251;
+}
+.breadcrumb-inner ol li:last-child a{
+  color:#e16251;
+}
+ .top_menu_second .mega-nav .menu-item:hover > a{
+  color: #e16251 !important;
+ }
+ .curentry-list  li.current{
+  border-color: #e16251; }
+  .btn-tertiary:hover{
+  background-color: #e16251;
+}
+.page-category .product-link:hover{
+    color:#e16251;
+}
+.page-category .facet.color ul li:hover .checkbox-color{
+    border-color:#e16251;
+}
+.page-product .add-to-cart:hover{
+    background-color: #e16251;
+}
+.thumb.js-thumb.selected{
+    border-color:#e16251 !important;
+}
+.product-link:hover{
+  color: #e16251;
+}
+.remove-from-cart:hover, .label.product-name:hover{
+  color: #e16251;
+}
+.btn.btn-touchspin:hover{
+  background-color: #e16251;
+}
+.btn-cart:hover{
+  background-color: #e16251;
+}
+.fs-pager-wrapper a.active{
+    background-color: #e16251;
+}
+.btn.btn-touchspin:hover{
+  background-color: #e16251;
+}
+.btn-cart:hover{
+  background-color: #e16251;
+}
+.fs-pager-wrapper a.active{
+    background-color: #e16251;
+}
+.btn-viewmore:hover{
+    border-color:#e16251;
+    background-color: #e16251;
+}
+#footer .list_footer li:hover a{
+    color:#e16251;
+}
+.btn-default:hover{
+  background-color: #e16251;
+}
+.block-categories ul li:hover > a{
+  color: #e16251;
+}
+.block-categories ul li:hover > a > span > i:before{
+  color: #e16251;
+}
+.page-authentication .forgot-password a:hover, .page-authentication .no-account a:hover{
+  color: #e16251 !important;
+}
+#module-jmsblog-category .item-post a:hover h6{
+  color: #e16251;
+}
+#off-canvas-menu .dropdown-menu > li > a:focus, #off-canvas-menu .dropdown-menu > li > a:hover{
+  color: #e16251;
+}
+.close:focus, .close:hover{
+  color: #e16251;
+}
+/***************** END  *************************/
+
+/***************** home1 COLOR  *************************/
+.footer_bottom .addon-box p a {
+  color: #e16251;
+}
+.feature .product_button a.cart-button:hover{
+    color: #e16251;
+    border-color: #e16251;
+}
+.newsletter-btn.buttonh1:hover {
+    background-color: #e16251;
+}
+.home_1 .jms-megamenu ul li:hover > a{
+    color:#e16251 !important;
+}
+.special-offer .offer-content .btn-viewmore:hover{
+    background-color: #e16251;
+    border-color:#e16251;
+}
+.group-btn a span:hover{
+    background-color: #e16251;
+}
+.btn-default.center-block.button-small:hover{
+    background-color: #e16251;
+}
+/***************** END  *************************/
+
+/***************** home2 COLOR  *************************/
+.module_group_h2 .btn-group ul li a:hover{
+  color: #e16251;
+}
+.sale-off .btn-viewmore:hover, .gift-guide .btn-viewmore:hover{
+  background-color: #e16251;
+  border-color: #e16251;
+}
+.group-btn a span:hover{
+    background-color: #e16251;
+}
+.newsletter .newsletter-btn.buttonh2:hover{
+  background-color: #e16251;
+}
+.banner_home .left .banner1 h2:hover,
+.banner-men .right .banner1 h2:hover{
+  color: #e16251;
+}
+.collection a:hover{
+  color: #e16251;
+}
+.nav-child.dropdown-menu li:hover > a{
+  color: #e16251;
+}
+.cart-wrap .description > a:hover{
+  color: #e16251;
+}
+/***************** END  *************************/
+
+/***************** home3 COLOR  *************************/
+.nav-child.dropdown-menu li:hover > a{
+  color: #e16251;
+}
+.header-right .user-info > .account:hover{
+  color: #e16251 !important;
+}
+.sale-off .btn-viewmore:hover, .gift-guide .btn-viewmore:hover{
+  background-color: #e16251;
+  border-color: #e16251;
+}
+.group-btn a span:hover{
+    background-color: #e16251;
+}
+.footer-mid .newsletter-btn.buttonh1:hover{
+  background-color: #e16251;
+}
+.header-right .btn-group ul li a:hover{
+  color: #e16251;
+}
+/***************** END  *************************/
+
+/***************** my account COLOR  *************************/
+.page-my-account #content .links a:hover{
+  color:#e16251;
+}
+/***************** END  *************************/
+
+/***************** order-confirmation COLOR  *************************/
+#order-confirmation .title-block{
+  background-color: #e16251;
+}
+/***************** END  *************************/
+
+/***************** product-list COLOR  *************************/
+#search_filters .facet.size ul li:hover a{
+  border-color:#e16251;
+}
+/***************** END  *************************/
+
+/***************** product COLOR  *************************/
+.product-images > li.thumb-container > .thumb.selected, .product-images > li.thumb-container > .thumb:hover {
+    border-color: #e16251;
+}
+.arrows.js-arrows i:hover, .scroll-box-arrows i:hover {
+    background-color: #e16251;
+}
+#product .input-color:checked + span, #product .input-color:hover + span, #product .input-radio:checked + span, #product .input-radio:hover + span, .quickview .input-color:checked + span, .quickview .input-color:hover + span, .quickview .input-radio:checked + span, .quickview .input-radio:hover + span {
+    border-color: #e16251;
+}
+.banner-column .btn-viewmore:hover{
+    background-color: #e16251;
+}
+.facet.price .search-link:hover{
+    color:#e16251 !important;
+}
+.facet.color .custom-checkbox input:checked + .checkbox-color{
+    border-color:#e16251;
+}
+.facet.size .facet-label.active a{
+    border-color:#e16251 !important;
+}
+/***************** END  *************************/
+

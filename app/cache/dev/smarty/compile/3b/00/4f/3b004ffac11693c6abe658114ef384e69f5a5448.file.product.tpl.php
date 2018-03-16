@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.19, created on 2018-03-12 01:54:31
+<?php /* Smarty version Smarty-3.1.19, created on 2018-03-15 07:49:55
          compiled from "D:\xampp\htdocs\jms_watch\themes\jms_watch\templates\catalog\_partials\miniatures\product.tpl" */ ?>
 <?php /*%%SmartyHeaderCode:32425a8e8cd3db68d5-20216923%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +7,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     '3b004ffac11693c6abe658114ef384e69f5a5448' => 
     array (
       0 => 'D:\\xampp\\htdocs\\jms_watch\\themes\\jms_watch\\templates\\catalog\\_partials\\miniatures\\product.tpl',
-      1 => 1520819185,
+      1 => 1521100192,
       2 => 'file',
     ),
     '46859a7fee33bc5e60435574298859e5feb44c3d' => 
@@ -71,8 +71,7 @@ foreach ($_from as $_smarty_tpl->tpl_vars['flag']->key => $_smarty_tpl->tpl_vars
 $_smarty_tpl->tpl_vars['flag']->_loop = true;
 ?>
 							<?php if ($_smarty_tpl->tpl_vars['flag']->value['label']=='New') {?>
-							<span class="label label-new"><?php echo htmlspecialchars($_smarty_tpl->tpl_vars['flag']->value['label'], ENT_QUOTES, 'UTF-8');?>
-</span>
+							<span class="label label-new">New</span>
 							<?php }?>
 							<?php if ($_smarty_tpl->tpl_vars['flag']->value['label']=='On sale!') {?>
 							<span class="label label-sale"><?php echo smartyTranslate(array('s'=>'Sale','d'=>'Shop.Theme'),$_smarty_tpl);?>
@@ -88,7 +87,7 @@ $_smarty_tpl->tpl_vars['flag']->_loop = true;
 									<?php /*  Call merged included template "catalog/_partials/variant-links.tpl" */
 $_tpl_stack[] = $_smarty_tpl;
  $_smarty_tpl = $_smarty_tpl->setupInlineSubTemplate('catalog/_partials/variant-links.tpl', $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, null, array('variants'=>$_smarty_tpl->tpl_vars['product']->value['main_variants']), 0, '32425a8e8cd3db68d5-20216923');
-content_5aa5ddd72474a4_50358758($_smarty_tpl);
+content_5aaa25a32773f7_08834574($_smarty_tpl);
 $_smarty_tpl = array_pop($_tpl_stack); 
 /*  End of included template "catalog/_partials/variant-links.tpl" */?>
 								</div>
@@ -193,9 +192,9 @@ $_smarty_tpl = array_pop($_tpl_stack);
 		</div>
 		
 </div><?php }} ?>
-<?php /* Smarty version Smarty-3.1.19, created on 2018-03-12 01:54:31
+<?php /* Smarty version Smarty-3.1.19, created on 2018-03-15 07:49:55
          compiled from "D:\xampp\htdocs\jms_watch\themes\jms_watch\templates\catalog\_partials\variant-links.tpl" */ ?>
-<?php if ($_valid && !is_callable('content_5aa5ddd72474a4_50358758')) {function content_5aa5ddd72474a4_50358758($_smarty_tpl) {?><div class="variant-links">
+<?php if ($_valid && !is_callable('content_5aaa25a32773f7_08834574')) {function content_5aaa25a32773f7_08834574($_smarty_tpl) {?><div class="variant-links">
   <?php  $_smarty_tpl->tpl_vars['variant'] = new Smarty_Variable; $_smarty_tpl->tpl_vars['variant']->_loop = false;
  $_from = $_smarty_tpl->tpl_vars['variants']->value; if (!is_array($_from) && !is_object($_from)) { settype($_from, 'array');}
 foreach ($_from as $_smarty_tpl->tpl_vars['variant']->key => $_smarty_tpl->tpl_vars['variant']->value) {

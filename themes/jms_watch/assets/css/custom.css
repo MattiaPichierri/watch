@@ -1082,6 +1082,7 @@ table td[class*="col-"], table table th[class*="col-"] {
 	opacity: 0;
   -webkit-transition: opacity 0.3s ease 0s, visibility 0s ease 0.3s, transform 0.3s ease 0s;
   -o-transition:  opacity 0.3s ease 0s, visibility 0s ease 0.3s, transform 0.3s ease 0s;
+  -moz-transition: opacity 0.3s ease 0s, visibility 0s ease 0.3s, transform 0.3s ease 0s;
   transition:  opacity 0.3s ease 0s, visibility 0s ease 0.3s, transform 0.3s ease 0s;
 }
 .dropdown-menu {
@@ -1091,7 +1092,7 @@ table td[class*="col-"], table table th[class*="col-"] {
   border: none;
   border-radius: 0;
   margin: 0; 
-       transition: all 400ms ease 0s;
+  transition: all 400ms ease 0s;
 	-webkit-transition: all 400ms ease 0s;
 	-moz-transition: all 400ms ease 0s;
 	-ms-transition: all 400ms ease 0s;
@@ -1367,12 +1368,18 @@ ul#order_step li.step_current {
   box-shadow: 0 0 11px rgba(0, 0, 0, 0.12);
   display: block;
   min-width: 353px;
+  -webkit-transform: translateY(0px);
+  -moz-transform: translateY(0px);
+  transform: translateY(0px);
   opacity: 0;
   padding: 35px;
   right: 0;
   left:auto;
   visibility: hidden; 
  }
+.nav-fix #cart_block .shoppingcart-box{
+    transform: translate(0) !important;
+}
 #cart_block.open .shoppingcart-box {
   visibility: visible;
   opacity: 1; 
@@ -1638,11 +1645,17 @@ ul#order_step li.step_current {
       .product-preview .preview .label.label-sale {
         background: #000;
         left: 10px;
-        color:#fff;		}
+        color:#fff;	
+        display: none;	}
       .product-preview .preview .label.label-new {
-        right: 10px;
+        right: left;
         background: #fff;
-        color:#111;		}
+        background: #000;
+        color: #fff;
+        font: 600 13px 'Roboto';
+        padding: 7px 15px;
+        top: 21px;
+        left: 21px;		}
 		.categoryname {
 			display: block;
 			font-weight:400;
@@ -1937,9 +1950,6 @@ ul#order_step li.step_current {
 		.product_list.products-list-in-row .product-info .addToWishlist{
 			display:none;
 		}
-		.product_list.products-list-in-row .product-info .product_button .addToWishlist{
-			display:inline-block;
-		}
 		.product_button a.addToWishlist {
 			background: #fff none repeat scroll 0 0;
 			color: #111;
@@ -1951,7 +1961,7 @@ ul#order_step li.step_current {
 		.product_button a.addToWishlist.btn-default:hover, .product_button a.cart-button.btn-default:hover {
 			background: #dd9965 none repeat scroll 0 0;
 			color: #fff;
-      border-color:transparent;
+			border-color:transparent;
 		}
 		.product-preview .product_button .addToWishlist {
       -webkit-transform: scale(0);
@@ -2206,7 +2216,7 @@ ul#order_step li.step_current {
 	  border-radius:50%;
 }
 .pagination .current  a, .pagination .current a:focus, .pagination .active a:hover, .pagination .current  a,
- .pagination .current  a:focus, .pagination .current  span:hover, .pagination li:hover a{
+.pagination .current  a:focus, .pagination .current  span:hover, .pagination li:hover a{
     color: #dd9965;
 }
 .pagination li  a:focus, .pagination li  span:focus {
@@ -2274,6 +2284,7 @@ ul#order_step li.step_current {
 }
 .product_list.products-list-in-row .product_button, .product_list.products-list-in-row .product-description {
     display: block;
+    width: 100%;
 }
 .products-list-in-row .product-preview:hover .product_button .quick-view.product-btn, .products-list-in-row .product-preview:hover .product_button .addToWishlist.product-btn {
     opacity: 0;
@@ -2358,9 +2369,10 @@ ul#order_step li.step_current {
 
 .product-preview .preview:hover .image_swap .product-img2 {
   animation: 0.5s ease-in 0ms normal none 1 running img2Effect;
-  left: 0;
+  left: 50%;
   opacity: 1;
-  top: 0; }
+  top: 0;
+  transform: translateX(-50%) }
 
 @keyframes img1Effect {
   0% {
@@ -5195,9 +5207,6 @@ footer .blog-carousel {
 .thumb.js-thumb.selected{
     border:1px solid #dd9965 !important;
 }
-.label-new{
-    display: none;
-}
 .label{
   padding:0;
 }
@@ -5388,8 +5397,9 @@ footer .blog-carousel {
 }
 .btn-viewmore:hover{
     border-color:#dd9965;
-    color: #dd9965;
+    color: #fff;
     cursor: pointer;
+    background-color: #dd9965;
 }
 #footer .list_footer li{
     list-style-type: initial;
@@ -6019,11 +6029,133 @@ sup{
 .mega-col-nav .mega-nav .menu-item{
   text-align: left;
 }
-.service img:hover,
-.service_h1 img:hover{
-  transform: scale(1.5);
-  transition: .5s linear;
+.service .image, .service_h1 .image{
+  display: inline-block;
+  position: relative;
 }
+/*.service_h1 .image::after, .service .image::after{
+  content: "";
+  width: calc(100% + 20px);
+  width: -webkit-calc(100% + 20px);
+  width: -moz-calc(100% + 20px);
+  width: -o-calc(100% + 20px);
+  height: calc(100% + 20px);
+  height: -webkit-calc(100% + 20px);
+  height: -moz-calc(100% + 20px);
+  height: -o-calc(100% + 20px);
+  border: 2px dashed #222;
+  border-radius: 50%;
+  position: absolute;
+  left: 0;
+  top: -10px;
+  opacity: 0;
+  margin-left: -10px;
+}*/
+.service .image:hover img,
+.service_h1 .image:hover img{
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+  -webkit-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+  -webkit-animation-name: bounce;
+  animation-name: bounce;
+  -webkit-transform-origin: center bottom;
+  transform-origin: center bottom;
+}
+@-webkit-keyframes bounce {
+  from,
+  20%,
+  53%,
+  80%,
+  to {
+    -webkit-animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+    animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+
+  40%,
+  43% {
+    -webkit-animation-timing-function: cubic-bezier(0.755, 0.05, 0.855, 0.06);
+    animation-timing-function: cubic-bezier(0.755, 0.05, 0.855, 0.06);
+    -webkit-transform: translate3d(0, -30px, 0);
+    transform: translate3d(0, -30px, 0);
+  }
+
+  70% {
+    -webkit-animation-timing-function: cubic-bezier(0.755, 0.05, 0.855, 0.06);
+    animation-timing-function: cubic-bezier(0.755, 0.05, 0.855, 0.06);
+    -webkit-transform: translate3d(0, -15px, 0);
+    transform: translate3d(0, -15px, 0);
+  }
+
+  90% {
+    -webkit-transform: translate3d(0, -4px, 0);
+    transform: translate3d(0, -4px, 0);
+  }
+}
+
+@keyframes bounce {
+  from,
+  20%,
+  53%,
+  80%,
+  to {
+    -webkit-animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+    animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+
+  40%,
+  43% {
+    -webkit-animation-timing-function: cubic-bezier(0.755, 0.05, 0.855, 0.06);
+    animation-timing-function: cubic-bezier(0.755, 0.05, 0.855, 0.06);
+    -webkit-transform: translate3d(0, -30px, 0);
+    transform: translate3d(0, -30px, 0);
+  }
+
+  70% {
+    -webkit-animation-timing-function: cubic-bezier(0.755, 0.05, 0.855, 0.06);
+    animation-timing-function: cubic-bezier(0.755, 0.05, 0.855, 0.06);
+    -webkit-transform: translate3d(0, -15px, 0);
+    transform: translate3d(0, -15px, 0);
+  }
+
+  90% {
+    -webkit-transform: translate3d(0, -4px, 0);
+    transform: translate3d(0, -4px, 0);
+  }
+}
+
+.service .image:hover::after,
+.service_h1 .image:hover::after{
+  opacity: 1;
+  -webkit-animation: spinAround  3s linear infinite;
+  -moz-animation: spinAround  3s linear infinite;
+  animation: spinAround  3s linear infinite;
+}
+@-webkit-keyframes spinAround {
+  from {
+    -webkit-transform: rotate(0deg); }
+  to {
+    -webkit-transform: rotate(360deg); } }
+
+@-moz-keyframes spinAround {
+  from {
+    -moz-transform: rotate(0deg); }
+  to {
+    -moz-transform: rotate(360deg); } }
+
+@keyframes spinAround {
+  from {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg); }
+  to {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg); } }
 .jms-megamenu .mega-nav .mega > a::after{
   right: 0 !important;
   margin-right:0 !important;
@@ -6133,4 +6265,7 @@ sup{
   padding-left: 30px;
   padding-right: 30px;
   border-right: 1px solid #ebebeb;
+}
+.page-product .featured-products{
+  overflow: hidden;
 }

@@ -43,7 +43,7 @@
 						{block name='product_flags'}
 						{foreach from=$product.flags item=flag}
 							{if $flag.label == 'New'}
-							<span class="label label-new">{$flag.label}</span>
+							<span class="label label-new">New</span>
 							{/if}
 							{if $flag.label == 'On sale!'}
 							<span class="label label-sale">{l s='Sale' d='Shop.Theme'}</span>

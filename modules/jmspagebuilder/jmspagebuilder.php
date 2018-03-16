@@ -334,10 +334,6 @@ class JmsPageBuilder extends Module
             $this->context->controller->registerStylesheet('jmspb-home-rtl', '/assets/css/rtl.css', ['media' => 'all', 'priority' => 1000]);
 			$this->context->controller->registerStylesheet('jmspb-rtl-page', '/assets/css/rtl-'.$homepage['css_file'], ['media' => 'all', 'priority' => 1000]);
         }
-        if ($jpb_skin) {
-            $this->context->controller->registerStylesheet('jmspb-skin', '/assets/css/skins/'.$jpb_skin.'.css', ['media' => 'all', 'priority' => 1000]);
-			$this->context->controller->registerStylesheet('jmspb-skin-page', '/assets/css/skins/'.$jpb_skin.'-'.$homepage['css_file'], ['media' => 'all', 'priority' => 1000]);
-        }
 
         if ((int)configuration::get('JPB_MOBILEMENU')) {
             $this->context->controller->registerJavascript('jmspb-off-canvas-js', 'modules/'.$this->name.'/views/js/off-canvas.js', ['position' => 'bottom', 'priority' => 200]);
@@ -348,7 +344,13 @@ class JmsPageBuilder extends Module
         if ((int)Configuration::get('JPB_SETTINGPANEL')) {
             $this->context->controller->registerStylesheet('jmspb-settingpanel-css', 'modules/'.$this->name.'/views/css/settingpanel.css', ['media' => 'all', 'priority' => 3]);
             $this->context->controller->addJS($this->_path.'views/js/settingpanel.js');
-        }        
+        }
+
+        if ($jpb_skin) {
+            $this->context->controller->registerStylesheet('jmspb-skin', '/assets/css/skins/'.$jpb_skin.'.css', ['media' => 'all', 'priority' => 1000]);
+            $this->context->controller->registerStylesheet('jmspb-skin-page', '/assets/css/skins/'.$jpb_skin.'-'.$homepage['css_file'], ['media' => 'all', 'priority' => 1000]);
+        }
+            
 		$sidebar = '';
         if (Tools::isSubmit('sidebar') && (Tools::getValue('sidebar')) != '') {
             $sidebar = Tools::getValue('sidebar');
